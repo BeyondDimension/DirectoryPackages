@@ -575,4 +575,8 @@
 		<PackageVersion Include="IndexRange" Version="1.0.0" />
 		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	</ItemGroup>
+	<!-- Gtk# -->
+	<ItemGroup>
+		<PackageVersion Include="GtkSharp" Version="3.24.24.38" />
+	</ItemGroup>
 </Project>
