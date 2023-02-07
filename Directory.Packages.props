@@ -212,7 +212,7 @@
 	<!-- System Reactive 5 exclude winforms & wpf -->
 	<ItemGroup>
 		<!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
-		<PackageVersion Include="System.Reactive" Version="5.255.255.255" />
+		<PackageVersion Include="System.Reactive" Version="5.0.1-gd53a04fa44" />
 	</ItemGroup>
 	<!-- ReactiveUI -->
 	<ItemGroup>
@@ -324,6 +324,7 @@
 		<PackageVersion Include="PInvoke.IPHlpApi" Version="0.7.124" />
 		<PackageVersion Include="PInvoke.AdvApi32" Version="0.7.124" />
 		<PackageVersion Include="PInvoke.Kernel32" Version="0.7.124" />
+		<PackageVersion Include="PInvoke.User32" Version="0.7.124" />
 		<PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="3.4.12" />
 	</ItemGroup>
 	<!-- OCR -->
@@ -568,5 +569,10 @@
 	<!-- ArchiSteamFarm Library -->
 	<ItemGroup>
 		<PackageVersion Include="ArchiSteamFarm.Library" Version="$(Version_ArchiSteamFarm_Library)" />
+	</ItemGroup>
+	<!-- Compat -->
+	<ItemGroup>
+		<PackageVersion Include="IndexRange" Version="1.0.0" />
+		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	</ItemGroup>
 </Project>
