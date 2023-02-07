@@ -315,6 +315,10 @@
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.58" />
 	</ItemGroup>
+	<!-- Edge WebView2 NativeAssets -->
+	<ItemGroup>
+		<PackageVersion Include="WebView2.NativeAssets.Win32" Version="1.0.1518.46" />
+	</ItemGroup>
 	<!-- SourceLink -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
