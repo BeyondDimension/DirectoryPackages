@@ -1,8 +1,8 @@
 <Project>
 	<PropertyGroup>
 		<!-- BD Common -->
-		<Version_BDCommon>1.23.10130.11830</Version_BDCommon>
-		<Version_BDSteamClient>1.23.10130.11830</Version_BDSteamClient>
+		<Version_BDCommon>1.23.10207.11121</Version_BDCommon>
+		<Version_BDSteamClient>1.23.10207.11121</Version_BDSteamClient>
 		<Version_BDNotifyIcon>1.1.0</Version_BDNotifyIcon>
 		<!-- RxUI -->
 		<Version_ReactiveUI>18.4.1</Version_ReactiveUI>
