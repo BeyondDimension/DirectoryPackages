@@ -504,11 +504,11 @@
 	</ItemGroup>
 	<!-- Avalonia JumpLists -->
 	<ItemGroup>
-		<PackageVersion Include="JumpLists.Win32.Avalonia" Version="1.0.0" />
+		<PackageVersion Include="JumpLists.Win32.Avalonia" Version="1.23.10209.11223" />
 	</ItemGroup>
 	<!-- Avalonia WebView2 -->
 	<ItemGroup>
-		<PackageVersion Include="WebView2.Avalonia" Version="1.0.1264.42-preview.220713.10" />
+		<PackageVersion Include="WebView2.Avalonia" Version="1.0.1518.46-preview.230207.17" />
 	</ItemGroup>
 	<!-- V2Ray Android -->
 	<ItemGroup>
@@ -582,5 +582,9 @@
 	<!-- Gtk# -->
 	<ItemGroup>
 		<PackageVersion Include="GtkSharp" Version="3.24.24.38" />
+	</ItemGroup>
+	<!-- WinAuth -->
+	<ItemGroup>
+		<PackageVersion Include="WinAuth.Library" Version="3.623.20209.21649" />
 	</ItemGroup>
 </Project>
