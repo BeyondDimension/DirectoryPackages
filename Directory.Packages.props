@@ -4,6 +4,7 @@
 		<Version_BDCommon>1.23.10210.11800</Version_BDCommon>
 		<Version_BDSteamClient>1.23.10209.11223</Version_BDSteamClient>
 		<Version_BDNotifyIcon>1.23.10209.11223</Version_BDNotifyIcon>
+		<Version_BDWTTSSDK>1.23.10214.11101</Version_BDWTTSSDK>
 		<!-- RxUI -->
 		<Version_ReactiveUI>18.4.1</Version_ReactiveUI>
 		<!-- Avalonia HarfBuzzSharp SkiaSharp -->
@@ -62,6 +63,16 @@
 		<PackageVersion Include="BD.Common.Primitives" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClient)" />
+	</ItemGroup>
+	<!-- BD WTTS SDK -->
+	<ItemGroup>
+		<PackageVersion Include="BD.WTTS.MicroServices.ClientSDK" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
 	</ItemGroup>
 	<!-- Visual Studio Publish Docker Container -->
 	<ItemGroup>
@@ -597,5 +608,9 @@
 	<!-- IdentityModel -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.26.1" />
+	</ItemGroup>
+	<!-- SteamKit2 -->
+	<ItemGroup>
+		<PackageVersion Include="SteamKit2" Version="2.4.1" />
 	</ItemGroup>
 </Project>
