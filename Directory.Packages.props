@@ -312,6 +312,7 @@
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
+		<PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
 		<PackageVersion Include="System.Management" Version="7.0.0" />
 		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
 		<PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
