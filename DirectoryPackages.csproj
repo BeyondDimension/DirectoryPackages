@@ -1,0 +1,633 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-android;net7.0-ios;net7.0-macos;net7.0-maccatalyst;net7.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('osx'))">$(TargetFrameworks);net7.0-android;net7.0-ios;net7.0-macos;net7.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('linux'))">$(TargetFrameworks)</TargetFrameworks>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'macos'">10.15</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<ApplicationManifest Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">app.manifest</ApplicationManifest>
+		<RuntimeIdentifiers Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">win10-x64</RuntimeIdentifiers>
+		<UseWinUI Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">true</UseWinUI>
+		<ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows' OR $([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" />
+	</ItemGroup>
+
+	<!-- BD Common -->
+	<ItemGroup>
+		<PackageReference Include="BD.Common.Mvvm" />
+		<PackageReference Include="BD.Common.Mvvm.ReactiveUI" />
+		<PackageReference Include="BD.Common.Navigation" />
+		<PackageReference Include="BD.Common.Security" />
+		<PackageReference Include="BD.Common.Toast" />
+		<PackageReference Include="BD.Common.Essentials.Preferences.DBreeze" />
+		<PackageReference Include="BD.Common.Essentials.Preferences.SQLite" />
+		<PackageReference Include="BD.Common.Essentials.Maui" />
+		<PackageReference Include="BD.Common.Essentials.Xamarin" />
+		<PackageReference Include="BD.Common.Essentials" />
+		<PackageReference Include="BD.Common.Essentials.Primitives" />
+		<PackageReference Include="BD.Common.Essentials.Utils" />
+		<PackageReference Include="BD.Common.Pinyin" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="BD.Common.Pinyin.CFStringTransform" />
+		<PackageReference Include="BD.Common.Pinyin.ChnCharInfo" />
+		<PackageReference Include="BD.Common.Pinyin.TinyPinyin" />
+		<PackageReference Include="BD.Common.Repositories" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.Repositories.EFCore" />
+		<PackageReference Include="BD.Common.Repositories.SQLitePCL" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.SmsSender" />
+		<PackageReference Include="BD.Common.Settings" />
+		<PackageReference Include="BD.Common.Settings.V3" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.AspNetCore" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.AspNetCore.Identity" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.AspNetCore.Identity.BackManage" />
+		<!--<PackageReference Include="BD.Common.AspNetCore.Blazor.BackManage" />-->
+		<PackageReference Include="BD.Common" />
+		<PackageReference Include="BD.Common.Area" />
+		<PackageReference Include="BD.Common.BirthDate" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="BD.Common.EFCore" />
+		<PackageReference Include="BD.Common.ModelValidator" />
+		<PackageReference Include="BD.Common.PhoneNumber" />
+		<PackageReference Include="BD.Common.Primitives" />
+		<PackageReference Include="BD.Common.Primitives.ApiResponse" />
+		<PackageReference Include="BD.SteamClient.Models" />
+	</ItemGroup>
+	<!-- BD WTTS SDK -->
+	<ItemGroup>
+		<PackageReference Include="BD.WTTS.MicroServices.ClientSDK" />
+		<PackageReference Include="BD.WTTS.MicroServices.Primitives" />
+		<PackageReference Include="BD.WTTS.MicroServices.Primitives.Resources" />
+		<PackageReference Include="BD.WTTS.MicroServices.Primitives.ViewModels" />
+		<PackageReference Include="BD.WTTS.Primitives" />
+		<PackageReference Include="BD.WTTS.Primitives.Resources" />
+		<PackageReference Include="BD.WTTS.Primitives.ViewModels" />
+	</ItemGroup>
+	<!-- Visual Studio Publish Docker Container -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" />
+	</ItemGroup>
+	<!-- Algorithm -->
+	<ItemGroup>
+		<PackageReference Include="Crc32.NET" />
+		<PackageReference Include="gfoidl.Base64" />
+	</ItemGroup>
+	<!-- AutoMapper -->
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" />
+		<PackageReference Include="AutoMapper.Collection" />
+		<PackageReference Include="AutoMapper.Collection.EntityFrameworkCore" />
+		<PackageReference Include="AutoMapper.Extensions.ExpressionMapping" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+	</ItemGroup>
+	<!-- Quartz JobSchedule -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Quartz.AspNetCore" />
+	</ItemGroup>
+	<!-- Code Style -->
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" />
+	</ItemGroup>
+	<!-- Swagger OpenAPI Documentation -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" />
+	</ItemGroup>
+	<!-- Swagger OpenAPI Documentation AspNetCore 2x Compat -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore" />
+		<PackageReference Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Annotations" />
+		<PackageReference Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Newtonsoft" />
+	</ItemGroup>-->
+	<!-- NLog -->
+	<ItemGroup>
+		<PackageReference Include="NLog" />
+		<PackageReference Include="NLog.Extensions.Logging" />
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''" Include="NLog.Web.AspNetCore" />
+	</ItemGroup>
+	<!-- EFCore Extensions -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="EFCore.BulkExtensions" />
+	</ItemGroup>
+	<!-- AntDesign -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="AntDesign" />
+		<PackageReference Include="AntDesign.Charts" />
+		<PackageReference Include="AntDesign.ProLayout" />
+	</ItemGroup>-->
+	<!-- Blazor -->
+	<!--
+	<ItemGroup>
+		-->
+	<!--<PackageReference Include="Blazored.LocalStorage" />-->
+	<!--
+		<PackageReference Include="Blazor.QRCode" />
+	</ItemGroup>-->
+	<!-- UnitTest(MS) -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit) -->
+	<ItemGroup>
+		<PackageReference Include="NUnit" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit3TestAdapter) -->
+	<ItemGroup>
+		<PackageReference Include="NUnit3TestAdapter" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit Analyzers) -->
+	<ItemGroup>
+		<PackageReference Include="NUnit.Analyzers" />
+	</ItemGroup>
+	<!-- CSV / Excel -->
+	<ItemGroup>
+		<PackageReference Include="CsvHelper" />
+	</ItemGroup>
+	<!-- Html Parser(AngleSharp) -->
+	<ItemGroup>
+		<PackageReference Include="AngleSharp" />
+	</ItemGroup>
+	<!-- Html Parser(HtmlAgilityPack) -->
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" />
+	</ItemGroup>
+	<!-- Serialize MessagePack -->
+	<ItemGroup>
+		<PackageReference Include="MessagePack" />
+	</ItemGroup>
+	<!-- Serialize MemoryPack -->
+	<ItemGroup>
+		<PackageReference Include="MemoryPack" />
+	</ItemGroup>
+	<!-- Serialize NJson -->
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" />
+	</ItemGroup>
+	<!-- Serialize NJson & AspNetCore -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+	</ItemGroup>
+	<!-- Serialize Protobuf -->
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" />
+	</ItemGroup>
+	<!-- Serialize Protobuf Tools -->
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf.Tools" />
+	</ItemGroup>
+	<!-- Resilience & Transient Fault Handling -->
+	<ItemGroup>
+		<PackageReference Include="Polly" />
+	</ItemGroup>
+	<!-- QrCode -->
+	<ItemGroup>
+		<PackageReference Include="Net.Codecrete.QrCodeGenerator" />
+	</ItemGroup>
+	<!-- Nito.* -->
+	<ItemGroup>
+		<PackageReference Include="Nito.Comparers" />
+		<!--<PackageReference Include="Nito.Disposables" />-->
+		<PackageReference Include="Nito.AsyncEx.Coordination" />
+	</ItemGroup>
+	<!-- SQLite PCL -->
+	<ItemGroup>
+		<PackageReference Include="sqlite-net-pcl" />
+	</ItemGroup>
+	<!-- SQLite PCL RAW -->
+	<ItemGroup>
+		<PackageReference Include="SQLitePCLRaw.bundle_green" />
+	</ItemGroup>
+	<!-- DBreeze(key value store embedded) -->
+	<ItemGroup>
+		<PackageReference Include="DBreeze" />
+	</ItemGroup>
+	<!-- Xamarin -->
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Essentials" />
+	</ItemGroup>
+	<!-- Xamarin.Forms -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="Xamarin.Forms" />
+		<PackageReference Include="Xamarin.Forms.Visual.Material" />
+		<PackageReference Include="Xam.Plugins.Forms.ImageCircle" />
+	</ItemGroup>-->
+	<!-- System Reactive 5 exclude winforms & wpf -->
+	<ItemGroup>
+		<!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
+		<PackageReference Include="System.Reactive" />
+	</ItemGroup>
+	<!-- ReactiveUI -->
+	<ItemGroup>
+		<PackageReference Include="ReactiveUI" />
+		<PackageReference Include="ReactiveUI.Fody" />
+		<!--<PackageReference Include="ReactiveUI.XamForms" />-->
+		<PackageReference Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" Include="ReactiveUI.AndroidX" />
+		<PackageReference Include="ReactiveUI.Maui" />
+	</ItemGroup>
+	<!-- Pinyin(TinyPinyin.Net) -->
+	<ItemGroup>
+		<PackageReference Include="TinyPinyin.Net" />
+	</ItemGroup>
+	<!-- Pinyin(XAB.TinyPinyin) -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+		<PackageReference Include="XAB.TinyPinyin" />
+	</ItemGroup>
+	<!-- .NET Compat(OperatingSystem2) -->
+	<ItemGroup>
+		<PackageReference Include="OperatingSystem2" />
+	</ItemGroup>
+	<!-- .NET Compat(Madness) -->
+	<ItemGroup>
+		<PackageReference Include="JustArchiNET.Madness" />
+	</ItemGroup>
+	<!-- AspNetCore 7 OpenId/OAuth -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="AspNet.Security.OpenId.Steam" />
+		<PackageReference Include="AspNet.Security.OAuth.QQ" />
+		<PackageReference Include="AspNet.Security.OAuth.Apple" />
+	</ItemGroup>
+	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="OpenIddict.Core" />
+		<PackageReference Include="OpenIddict.Quartz" />
+		<PackageReference Include="OpenIddict.AspNetCore" />
+		<PackageReference Include="OpenIddict.EntityFrameworkCore" />
+	</ItemGroup>
+	<!-- MicrosoftAccount -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" />
+	</ItemGroup>
+	<!-- OpenIdConnect -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" />
+	</ItemGroup>
+	<!-- Microsoft.Extensions.* 7.0 -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+		<PackageReference Include="Microsoft.Extensions.Http" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" />
+		<PackageReference Include="Microsoft.Extensions.Logging" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" />
+		<PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" />
+		<PackageReference Include="Microsoft.Extensions.Caching.SqlServer" />
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+		<PackageReference Include="Microsoft.Extensions.Primitives" />
+	</ItemGroup>
+	<!-- AspNetCore 7.0 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+		<!--<PackageReference Include="Microsoft.AspNetCore.Components.Web" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" />-->
+	</ItemGroup>
+	<!-- EFCore 7.0 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+	</ItemGroup>
+	<!-- EFCore 7.0 PostgreSQL -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+	</ItemGroup>
+	<!-- EFCore Z Plus -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Z.EntityFramework.Plus.EFCore" />
+	</ItemGroup>
+	<!-- BCL 7.0 -->
+	<ItemGroup>
+		<PackageReference Include="System.Management" />
+		<PackageReference Include="System.Diagnostics.PerformanceCounter" />
+		<PackageReference Include="System.Text.Encoding.CodePages" />
+		<PackageReference Include="System.Text.Encodings.Web" />
+		<PackageReference Include="System.Text.Json" />
+		<PackageReference Include="System.Net.Http.Json" />
+		<PackageReference Include="System.Net.Http.WinHttpHandler" />
+		<PackageReference Include="System.Security.Cryptography.ProtectedData" />
+		<PackageReference Include="System.Security.Cryptography.Xml" />
+		<PackageReference Include="System.Drawing.Common" />
+		<PackageReference Include="System.Security.Principal.Windows" />
+		<PackageReference Include="System.Buffers" />
+		<PackageReference Include="System.Memory" />
+		<PackageReference Include="System.Threading.Tasks.Extensions" />
+		<PackageReference Include="System.Diagnostics.Tracing" />
+		<PackageReference Include="System.ComponentModel.TypeConverter" />
+	</ItemGroup>
+	<!-- Edge WebView2 -->
+	<!--
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" />
+	</ItemGroup>-->
+	<!-- Edge WebView2 NativeAssets -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="WebView2.NativeAssets.Win32" />
+	</ItemGroup>
+	<!-- SourceLink -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" />
+	</ItemGroup>
+	<!-- PInvoke -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="PInvoke.IPHlpApi" />
+		<PackageReference Include="PInvoke.AdvApi32" />
+		<PackageReference Include="PInvoke.Kernel32" />
+		<PackageReference Include="PInvoke.User32" />
+		<PackageReference Include="Vanara.PInvoke.WinHTTP" />
+	</ItemGroup>
+	<!-- OCR -->
+	<ItemGroup>
+		<PackageReference Include="PaddleOCRSharp" />
+	</ItemGroup>
+	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
+	<ItemGroup>
+		<PackageReference Include="PuppeteerSharp" />
+	</ItemGroup>
+	<!-- WindowsRuntime(NETFX) & PowerShell 5 -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="System.Runtime.WindowsRuntime" />
+		<PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml" />
+		<PackageReference Include="Microsoft.PowerShell.5.ReferenceAssemblies" />
+	</ItemGroup>-->
+	<!-- Windows SDK -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
+	</ItemGroup>
+	<!-- AspNetCore 2x Compat -->
+	<!--
+	<ItemGroup>
+		-->
+	<!-- AspNetCore 2x 目前仅用于 iOS/Android -->
+	<!--
+		-->
+	<!-- 使用修复高版本中 Microsoft.Extensions.Primitives 破坏性更改导致不兼容的自编译高版本本地包覆盖 -->
+	<!--
+		<PackageReference Include="Microsoft.Net.Http.Headers" />
+		<PackageReference Include="AspNetCore2.NETStandard.NLog.Web.AspNetCore" />
+	</ItemGroup>-->
+	<!-- Microsoft.AppCenter -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AppCenter" />
+		<PackageReference Include="Microsoft.AppCenter.Analytics" />
+		<PackageReference Include="Microsoft.AppCenter.Crashes" />
+	</ItemGroup>
+	<!-- Avalonia.AppCenter -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Aigio.Avalonia.AppCenter" />
+		<PackageReference Include="Aigio.Avalonia.AppCenter.Analytics" />
+		<PackageReference Include="Aigio.Avalonia.AppCenter.Crashes" />
+	</ItemGroup>
+	<!-- Moq -->
+	<ItemGroup>
+		<PackageReference Include="Moq" />
+	</ItemGroup>
+	<!-- HarfBuzzSharp -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="HarfBuzzSharp" />
+		<PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" />
+	</ItemGroup>
+	<!-- SkiaSharp -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="SkiaSharp" />
+		<PackageReference Include="SkiaSharp.NativeAssets.Linux" />
+	</ItemGroup>
+	<!-- NotifyIcon -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="NotifyIcon.Base" />
+		<PackageReference Include="NotifyIcon.Linux" />
+		<PackageReference Include="NotifyIcon.Mac" />
+		<PackageReference Include="NotifyIcon.Windows" />
+	</ItemGroup>
+	<!-- Compression Tar, GZip, BZip2 -->
+	<ItemGroup>
+		<!-- priority of use System.Formats.Tar -->
+		<PackageReference Include="SharpZipLib" />
+	</ItemGroup>
+	<!-- Compression 7-Zip -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Squid-Box.SevenZipSharp.Lite" />
+	</ItemGroup>
+	<!-- Compression 7-Zip NativeAssets -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="7-Zip.NativeAssets.Win32" />
+	</ItemGroup>
+	<!-- Compression ZstdNet -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="ZstdNet" />
+	</ItemGroup>
+	<!-- CommandLine -->
+	<ItemGroup>
+		<PackageReference Include="System.CommandLine" />
+		<PackageReference Include="System.CommandLine.NamingConventionBinder" />
+	</ItemGroup>
+	<!-- Windows TaskScheduler -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="TaskScheduler" />
+	</ItemGroup>
+	<!-- Alipay SDK -->
+	<ItemGroup>
+		<PackageReference Include="AlipaySDKNet.Standard" />
+	</ItemGroup>
+	<!-- Excel -->
+	<ItemGroup>
+		<PackageReference Include="NPOI" />
+	</ItemGroup>
+	<!-- Github API -->
+	<ItemGroup>
+		<PackageReference Include="Octokit" />
+	</ItemGroup>
+	<!-- MonoMac(NETSTANDARD) -->
+	<ItemGroup>
+		<!-- Deprecated! use net7.0-macos/net7.0-maccatalyst -->
+		<PackageReference Include="MonoMac.NetStandard" />
+	</ItemGroup>
+	<!-- Clipboard -->
+	<ItemGroup>
+		<PackageReference Include="TextCopy" />
+	</ItemGroup>
+	<!-- Valve Data File -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Gameloop.Vdf" />
+	</ItemGroup>
+	<!-- C# -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" />
+	</ItemGroup>
+	<!-- WebSocket Server -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Fleck" />
+	</ItemGroup>
+	<!-- DNS(Ae.DNS) -->
+	<ItemGroup>
+		<PackageReference Include="Ae.DNS.Client" />
+		<PackageReference Include="Ae.Dns.Protocol" />
+	</ItemGroup>
+	<!-- DNS(DnsClient) -->
+	<ItemGroup>
+		<PackageReference Include="DnsClient" />
+	</ItemGroup>
+	<!-- DNS -->
+	<ItemGroup>
+		<PackageReference Include="DNS" />
+	</ItemGroup>
+	<!-- Cryptographic Algorithms & Protocols -->
+	<ItemGroup>
+		<PackageReference Include="Portable.BouncyCastle" />
+	</ItemGroup>
+	<!-- Avalonia -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Avalonia" />
+		<PackageReference Include="Avalonia.Desktop" />
+		<PackageReference Include="Avalonia.Skia" />
+		<PackageReference Include="Avalonia.Diagnostics" />
+		<PackageReference Include="Avalonia.ReactiveUI" />
+		<!--<PackageReference Include="Avalonia.Direct2D1" />-->
+		<PackageReference Include="Avalonia.Controls.DataGrid" />
+		<PackageReference Include="Avalonia.Native" />
+		<PackageReference Include="Avalonia.Win32" />
+		<PackageReference Include="Avalonia.X11" />
+	</ItemGroup>
+	<!-- Avalonia Xaml Behaviors -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Avalonia.Xaml.Behaviors" />
+	</ItemGroup>
+	<!-- Avalonia Edit -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Avalonia.AvaloniaEdit" />
+	</ItemGroup>
+	<!-- Avalonia CefNet -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="CefNet.Avalonia" />
+	</ItemGroup>
+	<!-- Avalonia LibVLCSharp -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="LibVLCSharp.Avalonia" />
+	</ItemGroup>
+	<!-- Avalonia FluentUI -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="FluentAvaloniaUI" />
+	</ItemGroup>
+	<!-- Avalonia LiveChartsCore -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="LiveChartsCore.SkiaSharpView.Avalonia" />
+	</ItemGroup>
+	<!-- Avalonia JumpLists -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="JumpLists.Win32.Avalonia" />
+	</ItemGroup>
+	<!-- Avalonia WebView2 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="WebView2.Avalonia" />
+	</ItemGroup>
+	<!-- V2Ray Android -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+		<PackageReference Include="XAB.AndroidLibV2rayLite" />
+		<!--<PackageReference Include="Karamunting.KotlinX.Coroutines.Core" />-->
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" />
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Android" />
+		<PackageReference Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" />
+	</ItemGroup>
+	<!-- Xamarin.Android -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+		<PackageReference Include="Xamarin.Build.Download" />
+		<PackageReference Include="Xamarin.Google.Dagger" />
+		<PackageReference Include="Xamarin.Google.MLKit.BarcodeScanning" />
+		<PackageReference Include="Plugin.CurrentActivity" />
+		<PackageReference Include="de.hdodenhof.circleimageview" />
+		<PackageReference Include="Square.OkHttp3" />
+		<PackageReference Include="Square.Picasso" />
+		<PackageReference Include="XAB.FlexboxLayout" />
+	</ItemGroup>
+	<!-- Xamarin.AndroidX -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+		<PackageReference Include="Xamarin.AndroidX.Migration" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" />
+		<PackageReference Include="Xamarin.AndroidX.Emoji.AppCompat" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment" />
+		<PackageReference Include="Xamarin.AndroidX.RecyclerView" />
+		<PackageReference Include="Xamarin.Google.Android.Material" />
+		<PackageReference Include="Xamarin.AndroidX.SwipeRefreshLayout" />
+		<PackageReference Include="Xamarin.AndroidX.ConstraintLayout" />
+		<PackageReference Include="Xamarin.AndroidX.Navigation.UI" />
+		<PackageReference Include="Xamarin.AndroidX.Navigation.Fragment" />
+		<PackageReference Include="Xamarin.AndroidX.ViewPager2" />
+		<PackageReference Include="Xamarin.AndroidX.Activity" />
+		<PackageReference Include="Xamarin.AndroidX.Biometric" />
+		<PackageReference Include="Xamarin.AndroidX.ExifInterface" />
+		<PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.UI" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.Camera2" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.Lifecycle" />
+		<PackageReference Include="Xamarin.AndroidX.Camera.View" />
+		<PackageReference Include="Xamarin.AndroidX.Window" />
+		<PackageReference Include="Xamarin.AndroidX.WebKit" />
+	</ItemGroup>
+	<!-- Xamarin.iOS -->
+	<!--
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+		<PackageReference Include="Toast.iOS" />
+	</ItemGroup>-->
+	<!-- UWP/WinUI2/3 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" />
+		<!--<PackageReference Include="Microsoft.WindowsAppSDK" />-->
+	</ItemGroup>
+	<!-- Yet Another Reverse Proxy -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == ''">
+		<PackageReference Include="Yarp.ReverseProxy" />
+	</ItemGroup>
+	<!-- WinDivert -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="Aigio.WinDivertSharp" />
+	</ItemGroup>
+	<!-- ArchiSteamFarm Library -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="ArchiSteamFarm.Library" />
+	</ItemGroup>-->
+	<!-- Compat -->
+	<!--
+	<ItemGroup>
+		<PackageReference Include="IndexRange" />
+		<PackageReference Include="Microsoft.Win32.Registry" />
+	</ItemGroup>-->
+	<!-- Gtk# -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="GtkSharp" />
+	</ItemGroup>
+	<!-- WinAuth -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="WinAuth.Library" />
+	</ItemGroup>
+	<!-- IdentityModel -->
+	<ItemGroup>
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" />
+	</ItemGroup>
+	<!-- SteamKit2 -->
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+		<PackageReference Include="SteamKit2" />
+	</ItemGroup>
+
+</Project>
