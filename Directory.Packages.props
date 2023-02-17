@@ -174,7 +174,7 @@
 	</ItemGroup>
 	<!-- Serialize NJson & AspNetCore -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.3" />
 	</ItemGroup>
 	<!-- Serialize Protobuf -->
 	<ItemGroup>
@@ -247,7 +247,7 @@
 	</ItemGroup>
 	<!-- .NET Compat(Madness) -->
 	<ItemGroup>
-		<PackageVersion Include="JustArchiNET.Madness" Version="3.10.0" />
+		<PackageVersion Include="JustArchiNET.Madness" Version="3.11.0" />
 	</ItemGroup>
 	<!-- AspNetCore 7 OpenId/OAuth -->
 	<ItemGroup>
@@ -264,7 +264,7 @@
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.3" />
 	</ItemGroup>
 	<!-- OpenIdConnect -->
 	<ItemGroup>
@@ -287,12 +287,12 @@
 	</ItemGroup>
 	<!-- AspNetCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.3" />
 		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
 		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.2" />
-		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" />
 		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.2" />
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.3" />
 		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.2" />
 	</ItemGroup>
 	<!-- EFCore 7.0 -->
@@ -300,11 +300,11 @@
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2" />
 		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.2" />
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
 	</ItemGroup>
 	<!-- EFCore 7.0 PostgreSQL -->
 	<ItemGroup>
-		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
@@ -317,10 +317,10 @@
 		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
 		<PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
 		<PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
-		<PackageVersion Include="System.Text.Json" Version="7.0.1" />
+		<PackageVersion Include="System.Text.Json" Version="7.0.2" />
 		<PackageVersion Include="System.Net.Http.Json" Version="7.0.0" />
 		<PackageVersion Include="System.Net.Http.WinHttpHandler" Version="7.0.0" />
-		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.0" />
+		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.1" />
 		<PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
 		<PackageVersion Include="System.Drawing.Common" Version="7.0.0" />
 		<PackageVersion Include="System.Security.Principal.Windows" Version="5.0.0" />
@@ -332,7 +332,7 @@
 	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.58" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.59" />
 	</ItemGroup>
 	<!-- Edge WebView2 NativeAssets -->
 	<ItemGroup>
@@ -348,7 +348,7 @@
 		<PackageVersion Include="PInvoke.AdvApi32" Version="0.7.124" />
 		<PackageVersion Include="PInvoke.Kernel32" Version="0.7.124" />
 		<PackageVersion Include="PInvoke.User32" Version="0.7.124" />
-		<PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="3.4.12" />
+		<PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="3.4.13" />
 	</ItemGroup>
 	<!-- OCR -->
 	<ItemGroup>
@@ -540,7 +540,7 @@
 	<!-- Xamarin.Android -->
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Build.Download" Version="0.11.4" />
-		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.44.2" />
+		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.44.2.1" />
 		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.0.3.1" />
 		<PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
 		<PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
