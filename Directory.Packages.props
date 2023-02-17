@@ -583,7 +583,7 @@
 	</ItemGroup>
 	<!-- Yet Another Reverse Proxy -->
 	<ItemGroup>
-		<PackageVersion Include="Yarp.ReverseProxy" Version="1.1.1" />
+		<PackageVersion Include="Yarp.ReverseProxy" Version="2.0.0" />
 	</ItemGroup>
 	<!-- WinDivert -->
 	<ItemGroup>
