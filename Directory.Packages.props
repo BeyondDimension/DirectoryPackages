@@ -212,7 +212,7 @@
 	</ItemGroup>
 	<!-- Xamarin -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Essentials" Version="1.7.4" />
+		<PackageVersion Include="Xamarin.Essentials" Version="1.7.5" />
 	</ItemGroup>
 	<!-- Xamarin.Forms -->
 	<ItemGroup>
