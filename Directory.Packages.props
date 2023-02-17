@@ -544,7 +544,7 @@
 		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.0.3.1" />
 		<PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
 		<PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
-		<PackageVersion Include="Square.OkHttp3" Version="4.10.0" />
+		<PackageVersion Include="Square.OkHttp3" Version="4.10.0.1" />
 		<PackageVersion Include="Square.Picasso" Version="2.71828.0" />
 		<PackageVersion Include="XAB.FlexboxLayout" Version="3.0.0.2" />
 	</ItemGroup>
