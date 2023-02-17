@@ -470,7 +470,7 @@
 	<!-- DNS(Ae.DNS) -->
 	<ItemGroup>
 		<PackageVersion Include="Ae.DNS.Client" Version="0.0.17" />
-		<PackageVersion Include="Ae.Dns.Protocol" Version="0.0.17" />
+		<PackageVersion Include="Ae.Dns.Protocol" Version="0.0.21" />
 	</ItemGroup>
 	<!-- DNS(DnsClient) -->
 	<ItemGroup>
