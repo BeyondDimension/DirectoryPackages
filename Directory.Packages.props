@@ -304,7 +304,7 @@
 	</ItemGroup>
 	<!-- EFCore 7.0 PostgreSQL -->
 	<ItemGroup>
-		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
