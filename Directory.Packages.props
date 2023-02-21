@@ -6,7 +6,7 @@
 		<Version_BDNotifyIcon>1.23.10209.11223</Version_BDNotifyIcon>
 		<Version_BDWTTSSDK>1.23.10216.11200</Version_BDWTTSSDK>
 		<!-- RxUI -->
-		<Version_ReactiveUI>18.4.20</Version_ReactiveUI>
+		<Version_ReactiveUI>18.4.22</Version_ReactiveUI>
 		<!-- Avalonia HarfBuzzSharp SkiaSharp -->
 		<Version_Avalonia>0.10.18</Version_Avalonia>
 		<Version_Avalonia_Xaml_Behaviors>0.10.18</Version_Avalonia_Xaml_Behaviors>
