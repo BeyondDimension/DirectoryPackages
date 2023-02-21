@@ -114,8 +114,8 @@
 	<!-- NLog -->
 	<ItemGroup>
 		<PackageVersion Include="NLog" Version="5.1.2" />
-		<PackageVersion Include="NLog.Extensions.Logging" Version="5.2.1" />
-		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.2.1" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="5.2.2" />
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.2.2" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
@@ -123,7 +123,7 @@
 	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
-		<PackageVersion Include="AntDesign" Version="0.14.2" />
+		<PackageVersion Include="AntDesign" Version="0.14.3" />
 		<PackageVersion Include="AntDesign.Charts" Version="0.3.0" />
 		<PackageVersion Include="AntDesign.ProLayout" Version="0.13.1" />
 	</ItemGroup>
