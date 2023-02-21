@@ -114,7 +114,7 @@
 	<!-- NLog -->
 	<ItemGroup>
 		<PackageVersion Include="NLog" Version="5.1.1" />
-		<PackageVersion Include="NLog.Extensions.Logging" Version="5.2.1" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="5.2.2" />
 		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.2.2" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
