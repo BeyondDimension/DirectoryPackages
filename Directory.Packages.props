@@ -579,7 +579,7 @@
 	<!-- UWP/WinUI2/3 -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
-		<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.2.230118.102" />
+		<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.2.230217.4" />
 	</ItemGroup>
 	<!-- Yet Another Reverse Proxy -->
 	<ItemGroup>
