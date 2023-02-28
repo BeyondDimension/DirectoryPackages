@@ -257,7 +257,7 @@
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Core" Version="4.0.0" />
+		<PackageVersion Include="OpenIddict.Core" Version="4.1.0" />
 		<PackageVersion Include="OpenIddict.Quartz" Version="4.0.0" />
 		<PackageVersion Include="OpenIddict.AspNetCore" Version="4.0.0" />
 		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.0.0" />
