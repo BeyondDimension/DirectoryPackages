@@ -1,34 +1,75 @@
 <Project>
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
+	<!-- BD Common -->
 	<PropertyGroup>
-		<!-- BD Common -->
 		<Version_BDCommon>1.23.10301.11343</Version_BDCommon>
-		<Version_BDSteamClient>1.23.10209.11223</Version_BDSteamClient>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_BDSteamClient>1.23.10302.10125</Version_BDSteamClient>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_BDNotifyIcon>1.23.10209.11223</Version_BDNotifyIcon>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_BDWTTSSDK>1.23.10222.11540</Version_BDWTTSSDK>
-		<!-- RxUI -->
+	</PropertyGroup>
+	<!-- RxUI -->
+	<PropertyGroup>
 		<Version_ReactiveUI>18.4.22</Version_ReactiveUI>
-		<!-- Avalonia HarfBuzzSharp SkiaSharp -->
+	</PropertyGroup>
+	<!-- Avalonia HarfBuzzSharp SkiaSharp -->
+	<PropertyGroup>
 		<Version_Avalonia>0.10.18</Version_Avalonia>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>0.10.18</Version_Avalonia_Xaml_Behaviors>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_Edit>0.10.12.2</Version_Avalonia_Edit>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_LibVLCSharp>3.6.7</Version_Avalonia_LibVLCSharp>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_FluentUI>1.4.5</Version_Avalonia_FluentUI>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.701</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+	</PropertyGroup>
+	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
 		<Version_HarfBuzzSharp>2.8.2.3</Version_HarfBuzzSharp>
+	</PropertyGroup>
+	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
 		<Version_SkiaSharp>2.88.3</Version_SkiaSharp>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_CommandLine>2.0.0-beta4.22272.1</Version_CommandLine>
-		<!-- AppCenter -->
+	</PropertyGroup>
+	<!-- AppCenter -->
+	<PropertyGroup>
 		<Version_AppCenter>5.0.1</Version_AppCenter>
+	</PropertyGroup>
+	<PropertyGroup>
 		<Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
-		<!-- ArchiSteamFarm Library -->
+	</PropertyGroup>
+	<!-- ArchiSteamFarm Library -->
+	<PropertyGroup>
 		<Version_ArchiSteamFarm_Library>5.2.6.3-preview.220608</Version_ArchiSteamFarm_Library>
-		<!-- PInvoke -->
+	</PropertyGroup>
+	<!-- PInvoke -->
+	<PropertyGroup>
 		<Version_PInvoke>0.7.124</Version_PInvoke>
-		<!-- Vanara.PInvoke -->
+	</PropertyGroup>
+	<!-- Vanara.PInvoke -->
+	<PropertyGroup>
 		<Version_Vanara_PInvoke>3.4.13</Version_Vanara_PInvoke>
 	</PropertyGroup>
 	<!-- BD Common -->
@@ -67,7 +108,8 @@
 		<PackageVersion Include="BD.Common.PhoneNumber" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Primitives" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
-		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClient)" />
+		<PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
+		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
 	</ItemGroup>
 	<!-- BD WTTS SDK -->
 	<ItemGroup>
