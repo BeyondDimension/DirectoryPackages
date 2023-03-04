@@ -22,7 +22,7 @@
 	</PropertyGroup>
 	<!-- Avalonia HarfBuzzSharp SkiaSharp -->
 	<PropertyGroup>
-		<Version_Avalonia>11.0.0-preview5</Version_Avalonia>
+		<Version_Avalonia>11.0.999-cibuild0030643-beta</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview5</Version_Avalonia_Xaml_Behaviors>
