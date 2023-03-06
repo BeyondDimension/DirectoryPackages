@@ -11,9 +11,6 @@
 		<Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_BDNotifyIcon>1.23.10209.11223</Version_BDNotifyIcon>
-	</PropertyGroup>
-	<PropertyGroup>
 		<Version_BDWTTSSDK>1.23.10222.11540</Version_BDWTTSSDK>
 	</PropertyGroup>
 	<!-- RxUI -->
@@ -453,6 +450,12 @@
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
+		<PackageVersion Include="System.Linq.Async" Version="6.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Composition" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
 		<PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
@@ -581,13 +584,6 @@
 	<ItemGroup>
 		<PackageVersion Include="SkiaSharp" Version="$(Version_SkiaSharp)" />
 		<PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="$(Version_SkiaSharp)" />
-	</ItemGroup>
-	<!-- NotifyIcon -->
-	<ItemGroup>
-		<PackageVersion Include="NotifyIcon.Base" Version="$(Version_BDNotifyIcon)" />
-		<PackageVersion Include="NotifyIcon.Linux" Version="$(Version_BDNotifyIcon)" />
-		<PackageVersion Include="NotifyIcon.Mac" Version="$(Version_BDNotifyIcon)" />
-		<PackageVersion Include="NotifyIcon.Windows" Version="$(Version_BDNotifyIcon)" />
 	</ItemGroup>
 	<!-- Compression Tar, GZip, BZip2 -->
 	<ItemGroup>
