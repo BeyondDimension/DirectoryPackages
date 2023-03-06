@@ -18,7 +18,7 @@
 	</PropertyGroup>
 	<!-- RxUI -->
 	<PropertyGroup>
-		<Version_ReactiveUI>18.4.22</Version_ReactiveUI>
+		<Version_ReactiveUI>18.4.25</Version_ReactiveUI>
 	</PropertyGroup>
 	<!-- Avalonia HarfBuzzSharp SkiaSharp -->
 	<PropertyGroup>
