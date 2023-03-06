@@ -370,6 +370,9 @@
 	</ItemGroup>
 	<!-- Microsoft.Extensions.* 7.0 -->
 	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
