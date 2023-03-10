@@ -11,8 +11,8 @@
 		<Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_BDWTTSSDK>1.23.10222.11540</Version_BDWTTSSDKMicrosoft.VisualStudio.Azure.Containers.Tools.Targets
-</PropertyGroup>
+		<Version_BDWTTSSDK>1.23.10222.11540</Version_BDWTTSSDK>
+	</PropertyGroup>
 	<!-- RxUI -->
 	<PropertyGroup>
 		<Version_ReactiveUI>18.4.22</Version_ReactiveUI>
