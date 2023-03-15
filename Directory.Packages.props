@@ -416,7 +416,7 @@
 		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" />
