@@ -79,6 +79,7 @@
 		<PackageVersion Include="BD.Common.Essentials.Preferences.DBreeze" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Essentials.Preferences.SQLite" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Essentials.Maui" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Maui.Runtime" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Essentials.Xamarin" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Essentials" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Essentials.Primitives" Version="$(Version_BDCommon)" />
