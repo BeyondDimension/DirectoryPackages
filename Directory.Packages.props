@@ -120,7 +120,7 @@
 	</ItemGroup>
 	<!-- Visual Studio Publish Docker Container -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
 	</ItemGroup>
 	<!-- Algorithm -->
 	<ItemGroup>
