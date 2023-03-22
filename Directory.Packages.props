@@ -404,7 +404,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
