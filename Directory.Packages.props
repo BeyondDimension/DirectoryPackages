@@ -450,7 +450,7 @@
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.18.4" />
+		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.20.0" />
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
