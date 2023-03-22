@@ -439,7 +439,7 @@
 		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
