@@ -37,7 +37,7 @@
 		<Version_Avalonia_FluentUI>2.0.0-preview5.2</Version_Avalonia_FluentUI>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.700-11.0.0-preview5</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.701</Version_Avalonia_LiveChartsCore_SkiaSharpView>
 	</PropertyGroup>
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
