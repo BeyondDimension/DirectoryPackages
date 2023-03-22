@@ -770,7 +770,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.RecyclerView" Version="1.2.1.9" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Google.Android.Material" Version="1.7.0.2" />
+		<PackageVersion Include="Xamarin.Google.Android.Material" Version="1.8.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.11" />
