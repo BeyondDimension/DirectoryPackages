@@ -392,7 +392,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
