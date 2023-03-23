@@ -599,7 +599,7 @@
 	</ItemGroup>
 	<!-- Compression 7-Zip -->
 	<ItemGroup>
-		<PackageVersion Include="Squid-Box.SevenZipSharp.Lite" Version="1.5.0.366" />
+		<PackageVersion Include="Squid-Box.SevenZipSharp.Lite" Version="1.5.2.21" />
 	</ItemGroup>
 	<!-- Compression 7-Zip NativeAssets -->
 	<ItemGroup>
