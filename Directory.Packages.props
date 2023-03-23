@@ -22,7 +22,7 @@
 		<Version_Avalonia>11.0.999-cibuild0031870-beta</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview5</Version_Avalonia_Xaml_Behaviors>
+		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview6</Version_Avalonia_Xaml_Behaviors>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Edit>11.0.0-preview5</Version_Avalonia_Edit>
