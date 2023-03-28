@@ -623,7 +623,7 @@
 	</ItemGroup>
 	<!-- Alipay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="AlipaySDKNet.Standard" Version="4.7.186" />
+		<PackageVersion Include="AlipaySDKNet.Standard" Version="4.7.196" />
 	</ItemGroup>
 	<!-- Excel -->
 	<ItemGroup>
