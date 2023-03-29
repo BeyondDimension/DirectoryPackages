@@ -800,7 +800,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.12" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.ExifInterface" Version="1.3.5.1" />
+		<PackageVersion Include="Xamarin.AndroidX.ExifInterface" Version="1.3.6" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Legacy.Support.Core.UI" Version="1.0.0.17" />
