@@ -862,6 +862,9 @@
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
+	</ItemGroup>
 	<!-- Gtk# -->
 	<ItemGroup>
 		<PackageVersion Include="GtkSharp" Version="3.24.24.38" />
