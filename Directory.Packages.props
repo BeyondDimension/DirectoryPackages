@@ -25,7 +25,7 @@
 		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview6</Version_Avalonia_Xaml_Behaviors>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_Edit>11.0.0-preview5</Version_Avalonia_Edit>
+		<Version_Avalonia_Edit>11.0.0-preview6</Version_Avalonia_Edit>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
