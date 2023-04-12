@@ -516,6 +516,12 @@
 	<ItemGroup>
 		<PackageVersion Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Private.Uri" Version="4.3.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
+	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.81" />
