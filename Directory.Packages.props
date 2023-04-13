@@ -191,6 +191,9 @@
 	<ItemGroup>
 		<PackageVersion Include="EFCore.BulkExtensions" Version="7.0.1" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.0.1" />
+	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
 		<PackageVersion Include="AntDesign" Version="0.14.4" />
@@ -457,6 +460,9 @@
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
 		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.20.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="7.20.2" />
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
