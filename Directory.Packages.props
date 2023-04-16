@@ -887,7 +887,7 @@
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.28.1" />
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.29.0" />
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
