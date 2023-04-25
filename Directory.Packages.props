@@ -19,7 +19,7 @@
 	</PropertyGroup>
 	<!-- Avalonia-->
 	<PropertyGroup>
-		<Version_Avalonia>11.0.0-preview6</Version_Avalonia>
+		<Version_Avalonia>11.0.0-preview7</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview6</Version_Avalonia_Xaml_Behaviors>
