@@ -70,7 +70,7 @@
 	</PropertyGroup>
 	<!-- Vanara.PInvoke -->
 	<PropertyGroup>
-		<Version_Vanara_PInvoke>3.4.13</Version_Vanara_PInvoke>
+		<Version_Vanara_PInvoke>3.4.14</Version_Vanara_PInvoke>
 	</PropertyGroup>
 	<!-- BD Common -->
 	<ItemGroup>
