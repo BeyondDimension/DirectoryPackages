@@ -189,7 +189,7 @@
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions" Version="7.0.1" />
+		<PackageVersion Include="EFCore.BulkExtensions" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.0.1" />
