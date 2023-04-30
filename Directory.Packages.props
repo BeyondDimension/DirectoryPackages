@@ -356,7 +356,7 @@
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Core" Version="4.2.0" />
+		<PackageVersion Include="OpenIddict.Core" Version="4.3.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="OpenIddict.Quartz" Version="4.2.0" />
