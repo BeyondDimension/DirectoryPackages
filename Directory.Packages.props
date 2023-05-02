@@ -19,7 +19,7 @@
 	</PropertyGroup>
 	<!-- Avalonia-->
 	<PropertyGroup>
-		<Version_Avalonia>11.0.0-preview7</Version_Avalonia>
+		<Version_Avalonia>11.0.999-cibuild0034035-beta</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>11.0.0-preview7</Version_Avalonia_Xaml_Behaviors>
@@ -34,7 +34,7 @@
 		<Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_FluentUI>2.0.0-preview7</Version_Avalonia_FluentUI>
+		<Version_Avalonia_FluentUI>2.0.0-preview7.1</Version_Avalonia_FluentUI>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.701</Version_Avalonia_LiveChartsCore_SkiaSharpView>
