@@ -416,7 +416,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.5" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="StackExchange.Redis" Version="2.6.104" />
+		<PackageVersion Include="StackExchange.Redis" Version="2.6.111" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
