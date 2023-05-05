@@ -741,7 +741,7 @@
 		<!--<PackageVersion Include="Karamunting.KotlinX.Coroutines.Core" Version="1.4.2" />-->
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.6.4.2" />
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.6.4.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.6.4.3" />
