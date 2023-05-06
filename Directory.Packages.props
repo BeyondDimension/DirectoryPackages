@@ -2,7 +2,7 @@
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
 	<!-- BD Common -->
 	<PropertyGroup>
-		<Version_BDCommon>1.23.10426.11904</Version_BDCommon>
+		<Version_BDCommon>1.23.10506.10942</Version_BDCommon>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_BDSteamClient>1.23.10302.10125</Version_BDSteamClient>
@@ -390,6 +390,9 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Logging" Version="7.0.0" />
