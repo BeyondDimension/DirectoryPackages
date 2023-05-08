@@ -909,4 +909,8 @@
     <ItemGroup>
         <PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha303" />
     </ItemGroup>
+    <!-- ValveKeyValue -->
+    <ItemGroup>
+        <PackageVersion Include="ValveKeyValue" Version="0.8.2.162" />
+    </ItemGroup>
 </Project>
