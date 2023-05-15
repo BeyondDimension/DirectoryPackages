@@ -11,7 +11,7 @@
         <Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDWTTSSDK>1.23.10505.11504</Version_BDWTTSSDK>
+        <Version_BDWTTSSDK>1.23.10515.11832</Version_BDWTTSSDK>
     </PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
@@ -934,5 +934,9 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="akavache.sqlite3" Version="9.1.7" />
+	</ItemGroup>
+	<!-- Splat.Drawing: Cross platform drawing -->
+	<ItemGroup>
+		<PackageVersion Include="Splat.Drawing" Version="14.6.8" />
 	</ItemGroup>
 </Project>
