@@ -613,7 +613,7 @@
     </ItemGroup>
     <!-- SkiaSharp -->
     <ItemGroup>
-        <PackageVersion Include="SkiaSharp" Version="$(z`Version_SkiaSharp)" />
+        <PackageVersion Include="SkiaSharp" Version="$(Version_SkiaSharp)" />
         <PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="$(Version_SkiaSharp)" />
     </ItemGroup>
     <!-- Compression Tar, GZip, BZip2 -->
