@@ -11,7 +11,7 @@
         <Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDWTTSSDK>1.23.10515.11832</Version_BDWTTSSDK>
+        <Version_BDWTTSSDK>1.23.10517.11338</Version_BDWTTSSDK>
     </PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
