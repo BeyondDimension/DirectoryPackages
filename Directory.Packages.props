@@ -264,7 +264,7 @@
     </ItemGroup>
     <!-- Serialize Protobuf Tools -->
     <ItemGroup>
-        <PackageVersion Include="Google.Protobuf.Tools" Version="3.22.4" />
+        <PackageVersion Include="Google.Protobuf.Tools" Version="3.23.1" />
     </ItemGroup>
     <!-- Resilience & Transient Fault Handling -->
     <ItemGroup>
