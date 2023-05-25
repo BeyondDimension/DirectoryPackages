@@ -840,7 +840,7 @@
         <PackageVersion Include="Xamarin.AndroidX.Camera.Camera2" Version="1.2.2.1" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.2.2.1" />
+        <PackageVersion Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.2.2.2" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Xamarin.AndroidX.Camera.View" Version="1.2.2.1" />
