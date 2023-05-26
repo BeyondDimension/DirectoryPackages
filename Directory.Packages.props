@@ -75,6 +75,12 @@
     <PropertyGroup>
         <Version_Vanara_PInvoke>3.4.14</Version_Vanara_PInvoke>
     </PropertyGroup>
+	<PropertyGroup>
+		<Version_Splat_Drawing>14.6.8</Version_Splat_Drawing>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_System_Drawing_Common>7.0.0</Version_System_Drawing_Common>
+	</PropertyGroup>
     <!-- BD Common -->
     <ItemGroup>
         <PackageVersion Include="BD.Common.Mvvm" Version="$(Version_BDCommon)" />
@@ -514,7 +520,7 @@
         <PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Drawing.Common" Version="7.0.0" />
+        <PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="System.Security.Principal.Windows" Version="5.0.0" />
@@ -944,7 +950,7 @@
 	</ItemGroup>
 	<!-- Splat.Drawing: Cross platform drawing -->
 	<ItemGroup>
-		<PackageVersion Include="Splat.Drawing" Version="14.6.8" />
+		<PackageVersion Include="Splat.Drawing" Version="$(Version_Splat_Drawing)" />
 	</ItemGroup>
     <!-- Microsoft.CodeAnalysis -->
     <ItemGroup>
