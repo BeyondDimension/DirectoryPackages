@@ -828,7 +828,7 @@
         <PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.19" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.0.1" />
+        <PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.2" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.13" />
