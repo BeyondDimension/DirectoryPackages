@@ -653,7 +653,11 @@
     </ItemGroup>
     <!-- Alipay SDK -->
     <ItemGroup>
-        <PackageVersion Include="AlipaySDKNet.Standard" Version="4.7.214" />
+        <PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.1" />
+    </ItemGroup>
+    <!-- WechatPay SDK -->
+    <ItemGroup>
+        <PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.1" />
     </ItemGroup>
     <!-- Excel -->
     <ItemGroup>
