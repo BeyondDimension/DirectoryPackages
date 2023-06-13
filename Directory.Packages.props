@@ -2,7 +2,7 @@
     <!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
     <!-- BD Common -->
     <PropertyGroup>
-        <Version_BDCommon>1.23.10601.11431</Version_BDCommon>
+        <Version_BDCommon>1.23.10613.11031</Version_BDCommon>
     </PropertyGroup>
     <PropertyGroup>
         <Version_BDSteamClient>1.23.10601.10615</Version_BDSteamClient>
@@ -81,6 +81,10 @@
 	<PropertyGroup>
 		<Version_System_Drawing_Common>7.0.0</Version_System_Drawing_Common>
 	</PropertyGroup>
+	<!-- Humanizer -->
+	<PropertyGroup>
+		<Version_Humanizer>2.14.1</Version_Humanizer>
+	</PropertyGroup>
     <!-- BD Common -->
     <ItemGroup>
         <PackageVersion Include="BD.Common.Mvvm" Version="$(Version_BDCommon)" />
@@ -103,6 +107,8 @@
         <PackageVersion Include="BD.Common.Repositories" Version="$(Version_BDCommon)" />
         <PackageVersion Include="BD.Common.Repositories.EFCore" Version="$(Version_BDCommon)" />
         <PackageVersion Include="BD.Common.Repositories.SQLitePCL" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Repositories.SourceGenerator" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Repositories.SourceGenerator.Annotations" Version="$(Version_BDCommon)" />
         <PackageVersion Include="BD.Common.SmsSender" Version="$(Version_BDCommon)" />
         <PackageVersion Include="BD.Common.Settings" Version="$(Version_BDCommon)" />
         <PackageVersion Include="BD.Common.Settings.V3" Version="$(Version_BDCommon)" />
@@ -669,7 +675,7 @@
     </ItemGroup>
     <!-- MonoMac(NETSTANDARD) -->
     <ItemGroup>
-        <!-- Deprecated! use net7.0-macos/net7.0-maccatalyst -->
+		<!-- Deprecated! use net7.0-macos/net7.0-maccatalyst -->
         <PackageVersion Include="MonoMac.NetStandard" Version="0.0.4" />
     </ItemGroup>
     <!-- Clipboard -->
@@ -957,8 +963,20 @@
 		<PackageVersion Include="Splat.Drawing" Version="$(Version_Splat_Drawing)" />
 	</ItemGroup>
     <!-- Microsoft.CodeAnalysis -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
-        <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
-    </ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
+	</ItemGroup>
+	<!-- Humanizer -->
+	<ItemGroup>
+		<PackageVersion Include="Humanizer" Version="$(Version_Humanizer)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Humanizer.Core" Version="$(Version_Humanizer)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Humanizer.Core.zh-CN" Version="$(Version_Humanizer)" />
+	</ItemGroup>
 </Project>
