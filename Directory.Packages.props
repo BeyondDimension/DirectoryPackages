@@ -40,7 +40,7 @@
         <Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.700-11.0.0-rc1.1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.800-11.0.0-rc1.1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
     <!-- HarfBuzzSharp -->
     <PropertyGroup>
