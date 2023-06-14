@@ -514,7 +514,7 @@
         <PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Text.Json" Version="7.0.2" />
+        <PackageVersion Include="System.Text.Json" Version="7.0.3" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
