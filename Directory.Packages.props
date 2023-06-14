@@ -459,7 +459,7 @@
         <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.7" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.5" />
