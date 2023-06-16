@@ -8,10 +8,10 @@
         <Version_BDSteamClient>1.23.10614.11642</Version_BDSteamClient>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
+        <Version_BDSteamClientModels>1.23.10616.11526</Version_BDSteamClientModels>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDWTTSSDK>1.23.10616.11121</Version_BDWTTSSDK>
+        <Version_BDWTTSSDK>1.23.10616.11526</Version_BDWTTSSDK>
     </PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
