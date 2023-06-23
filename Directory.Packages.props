@@ -392,7 +392,7 @@
     </ItemGroup>
     <!-- OpenIdConnect -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.5" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.8" />
     </ItemGroup>
     <!-- Microsoft.Extensions.* 7.0 -->
     <ItemGroup>
