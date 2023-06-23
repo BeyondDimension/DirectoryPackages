@@ -457,7 +457,7 @@
         <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.8" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
