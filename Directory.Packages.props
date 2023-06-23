@@ -451,7 +451,7 @@
 	</ItemGroup>
     <!-- AspNetCore 7.0 -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.5" />
+        <PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.8" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
