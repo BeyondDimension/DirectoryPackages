@@ -869,7 +869,7 @@
         <PackageVersion Include="Xamarin.AndroidX.Camera.View" Version="1.2.3" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Window" Version="1.0.0.12" />
+        <PackageVersion Include="Xamarin.AndroidX.Window" Version="1.1.0" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Xamarin.AndroidX.WebKit" Version="1.7.0" />
