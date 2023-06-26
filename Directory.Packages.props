@@ -329,7 +329,7 @@
     <!-- System Reactive 5 exclude winforms & wpf -->
     <ItemGroup>
         <!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
-        <PackageVersion Include="System.Reactive" Version="5.0.1-gd53a04fa44" />
+        <PackageVersion Include="System.Reactive" Version="6.0.0" />
     </ItemGroup>
     <!-- ReactiveUI -->
     <ItemGroup>
