@@ -506,7 +506,7 @@
         <PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Management" Version="7.0.1" />
+        <PackageVersion Include="System.Management" Version="7.0.2" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
