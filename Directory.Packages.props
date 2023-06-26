@@ -706,7 +706,7 @@
         <PackageVersion Include="Ae.DNS.Client" Version="0.0.21" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Ae.Dns.Protocol" Version="0.0.21" />
+        <PackageVersion Include="Ae.Dns.Protocol" Version="1.0.0" />
     </ItemGroup>
     <!-- DNS(DnsClient) -->
     <ItemGroup>
