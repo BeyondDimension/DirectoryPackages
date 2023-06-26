@@ -881,7 +881,7 @@
         <PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.10" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.8.0.1" />
+        <PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.9.0.1" />
     </ItemGroup>
     <!-- Xamarin.iOS -->
     <ItemGroup>
