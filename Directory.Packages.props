@@ -1,80 +1,80 @@
 <Project>
-    <!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
-    <!-- BD Common -->
-    <PropertyGroup>
-        <Version_BDCommon>1.23.10626.11400</Version_BDCommon>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_BDSteamClientModels>1.23.10616.11526</Version_BDSteamClientModels>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_BDWTTSSDK>1.23.10616.11526</Version_BDWTTSSDK>
-    </PropertyGroup>
-    <!-- RxUI -->
-    <PropertyGroup>
-        <Version_ReactiveUI>19.2.1</Version_ReactiveUI>
-    </PropertyGroup>
-    <!-- Avalonia-->
-    <PropertyGroup>
-        <Version_Avalonia>11.0.0-rc1.1</Version_Avalonia>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.0-rc1.1</Version_Avalonia_Xaml_Behaviors>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Edit>11.0.0-rc1.1</Version_Avalonia_Edit>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Markdown>11.0.0-d1</Version_Avalonia_Markdown>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.801</Version_Avalonia_LiveChartsCore_SkiaSharpView>
-    </PropertyGroup>
-    <!-- HarfBuzzSharp -->
-    <PropertyGroup>
-        <!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-        <Version_HarfBuzzSharp>2.8.2.3</Version_HarfBuzzSharp>
-    </PropertyGroup>
-    <!-- SkiaSharp -->
-    <PropertyGroup>
-        <!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-        <Version_SkiaSharp>2.88.3</Version_SkiaSharp>
-    </PropertyGroup>
-    <!-- CommandLine -->
-    <PropertyGroup>
-        <Version_CommandLine>2.0.0-beta4.22272.1</Version_CommandLine>
-    </PropertyGroup>
-    <!-- AppCenter -->
-    <PropertyGroup>
-        <Version_AppCenter>5.0.2</Version_AppCenter>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
-    </PropertyGroup>
-    <!-- ArchiSteamFarm Library -->
-    <PropertyGroup>
-        <Version_ArchiSteamFarm_Library>5.2.6.3-preview.220608</Version_ArchiSteamFarm_Library>
-    </PropertyGroup>
-    <!-- PInvoke -->
-    <PropertyGroup>
-        <Version_PInvoke>0.7.124</Version_PInvoke>
-    </PropertyGroup>
-    <!-- Vanara.PInvoke -->
-    <PropertyGroup>
-        <Version_Vanara_PInvoke>3.4.15</Version_Vanara_PInvoke>
-    </PropertyGroup>
+	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
+	<!-- BD Common -->
+	<PropertyGroup>
+		<Version_BDCommon>1.23.10626.11400</Version_BDCommon>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_BDSteamClientModels>1.23.10616.11526</Version_BDSteamClientModels>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_BDWTTSSDK>1.23.10616.11526</Version_BDWTTSSDK>
+	</PropertyGroup>
+	<!-- RxUI -->
+	<PropertyGroup>
+		<Version_ReactiveUI>19.2.1</Version_ReactiveUI>
+	</PropertyGroup>
+	<!-- Avalonia-->
+	<PropertyGroup>
+		<Version_Avalonia>11.0.0-rc1.1</Version_Avalonia>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Xaml_Behaviors>11.0.0-rc1.1</Version_Avalonia_Xaml_Behaviors>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Edit>11.0.0-rc1.1</Version_Avalonia_Edit>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Markdown>11.0.0-d1</Version_Avalonia_Markdown>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.801</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+	</PropertyGroup>
+	<!-- HarfBuzzSharp -->
+	<PropertyGroup>
+		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
+		<Version_HarfBuzzSharp>2.8.2.3</Version_HarfBuzzSharp>
+	</PropertyGroup>
+	<!-- SkiaSharp -->
+	<PropertyGroup>
+		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
+		<Version_SkiaSharp>2.88.3</Version_SkiaSharp>
+	</PropertyGroup>
+	<!-- CommandLine -->
+	<PropertyGroup>
+		<Version_CommandLine>2.0.0-beta4.22272.1</Version_CommandLine>
+	</PropertyGroup>
+	<!-- AppCenter -->
+	<PropertyGroup>
+		<Version_AppCenter>5.0.2</Version_AppCenter>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
+	</PropertyGroup>
+	<!-- ArchiSteamFarm Library -->
+	<PropertyGroup>
+		<Version_ArchiSteamFarm_Library>5.2.6.3-preview.220608</Version_ArchiSteamFarm_Library>
+	</PropertyGroup>
+	<!-- PInvoke -->
+	<PropertyGroup>
+		<Version_PInvoke>0.7.124</Version_PInvoke>
+	</PropertyGroup>
+	<!-- Vanara.PInvoke -->
+	<PropertyGroup>
+		<Version_Vanara_PInvoke>3.4.15</Version_Vanara_PInvoke>
+	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Splat_Drawing>14.6.37</Version_Splat_Drawing>
 	</PropertyGroup>
@@ -89,867 +89,870 @@
 	<PropertyGroup>
 		<Version_Humanizer>2.14.1</Version_Humanizer>
 	</PropertyGroup>
-    <!-- BD Common -->
-    <ItemGroup>
-        <PackageVersion Include="BD.Common.Mvvm" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Mvvm.ReactiveUI" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Navigation" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Security" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Toast" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Preferences.DBreeze" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Preferences.SQLite" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Maui" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Maui.Runtime" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Xamarin" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Primitives" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Essentials.Utils" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Pinyin" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Pinyin.CFStringTransform" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Pinyin.ChnCharInfo" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Pinyin.TinyPinyin" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Repositories" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Repositories.EFCore" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Repositories.SQLitePCL" Version="$(Version_BDCommon)" />
+	<!-- BD Common -->
+	<ItemGroup>
+		<PackageVersion Include="BD.Common.Mvvm" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Mvvm.ReactiveUI" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Navigation" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Security" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Toast" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Preferences.DBreeze" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Preferences.SQLite" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Maui" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Maui.Runtime" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Xamarin" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Primitives" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Essentials.Utils" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Pinyin" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Pinyin.CFStringTransform" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Pinyin.ChnCharInfo" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Pinyin.TinyPinyin" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Repositories" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Repositories.EFCore" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Repositories.SQLitePCL" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Repositories.SourceGenerator" Version="1.23.10616.11320" />
 		<PackageVersion Include="BD.Common.Repositories.SourceGenerator.Annotations" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.SmsSender" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Settings" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Settings.V3" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.AspNetCore" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.AspNetCore.Identity" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.AspNetCore.Identity.BackManage" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.AspNetCore.Blazor.BackManage" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Area" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.BirthDate" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.EFCore" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.ModelValidator" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.PhoneNumber" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Primitives" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
-        <PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
-        <PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
-    </ItemGroup>
-    <!-- BD WTTS SDK -->
-    <ItemGroup>
-        <PackageVersion Include="BD.WTTS.MicroServices.ClientSDK" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.MicroServices.Primitives" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.MicroServices.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.MicroServices.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.Primitives" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
-        <PackageVersion Include="BD.WTTS.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
-    </ItemGroup>
-    <!-- Visual Studio Publish Docker Container -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
-    </ItemGroup>
-    <!-- Azure Blobs -->
-    <ItemGroup>
-        <PackageVersion Include="Azure.Storage.Blobs" Version="12.17.0-beta.1" />
-    </ItemGroup>
-    <!-- Algorithm -->
-    <ItemGroup>
-        <PackageVersion Include="Crc32.NET" Version="1.2.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="gfoidl.Base64" Version="2.0.0" />
-    </ItemGroup>
-    <!-- AutoMapper -->
-    <ItemGroup>
-        <PackageVersion Include="AutoMapper" Version="12.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AutoMapper.Collection" Version="9.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AutoMapper.Collection.EntityFrameworkCore" Version="9.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AutoMapper.Extensions.ExpressionMapping" Version="6.0.4" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    </ItemGroup>
-    <!-- Quartz JobSchedule -->
-    <ItemGroup>
-        <PackageVersion Include="Quartz.AspNetCore" Version="3.6.2" />
-    </ItemGroup>
-    <!-- Code Style -->
-    <ItemGroup>
-        <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435" />
-    </ItemGroup>
-    <!-- Swagger OpenAPI Documentation -->
-    <ItemGroup>
-        <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
-    </ItemGroup>
-    <!-- Swagger OpenAPI Documentation AspNetCore 2x Compat -->
-    <ItemGroup>
-        <PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore" Version="6.3.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Newtonsoft" Version="6.3.1" />
-    </ItemGroup>
-    <!-- NLog -->
-    <ItemGroup>
-        <PackageVersion Include="NLog" Version="5.2.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="NLog.Extensions.Logging" Version="5.3.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="NLog.Web.AspNetCore" Version="5.3.0" />
-    </ItemGroup>
-    <!-- EFCore Extensions -->
-    <ItemGroup>
-        <PackageVersion Include="EFCore.BulkExtensions" Version="7.1.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.2" />
-    </ItemGroup>
-    <!-- AntDesign -->
-    <ItemGroup>
-        <PackageVersion Include="AntDesign" Version="0.15.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AntDesign.Charts" Version="0.3.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AntDesign.ProLayout" Version="0.14.4.1" />
-    </ItemGroup>
-    <!-- Blazor -->
-    <ItemGroup>
-        <!--<PackageVersion Include="Blazored.LocalStorage" Version="4.3.0" />-->
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Blazor.QRCode" Version="0.2.1" />
-    </ItemGroup>
-    <!-- UnitTest(MS) -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.6.2" />
-    </ItemGroup>
-    <!-- UnitTest(NUnit) -->
-    <ItemGroup>
-        <PackageVersion Include="NUnit" Version="3.13.3" />
-    </ItemGroup>
-    <!-- UnitTest(NUnit3TestAdapter) -->
-    <ItemGroup>
-        <PackageVersion Include="NUnit3TestAdapter" Version="4.5.0" />
-    </ItemGroup>
-    <!-- UnitTest(NUnit Analyzers) -->
-    <ItemGroup>
-        <PackageVersion Include="NUnit.Analyzers" Version="3.6.1" />
-    </ItemGroup>
-    <!-- CSV / Excel -->
-    <ItemGroup>
-        <PackageVersion Include="CsvHelper" Version="30.0.1" />
-    </ItemGroup>
-    <!-- Html Parser(AngleSharp) -->
-    <ItemGroup>
-        <PackageVersion Include="AngleSharp" Version="1.0.4" />
-    </ItemGroup>
-    <!-- Html Parser(HtmlAgilityPack) -->
-    <ItemGroup>
-        <PackageVersion Include="HtmlAgilityPack" Version="1.11.46" />
-    </ItemGroup>
-    <!-- Serialize MessagePack -->
-    <ItemGroup>
-        <PackageVersion Include="MessagePack" Version="2.5.108" />
-    </ItemGroup>
-    <!-- Serialize MemoryPack -->
-    <ItemGroup>
-        <PackageVersion Include="MemoryPack" Version="1.9.16" />
-    </ItemGroup>
-    <!-- Serialize NJson -->
-    <ItemGroup>
-        <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
-    </ItemGroup>
-    <!-- Serialize NJson & AspNetCore -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.8" />
-    </ItemGroup>
-    <!-- Serialize Protobuf -->
-    <ItemGroup>
-        <PackageVersion Include="Google.Protobuf" Version="3.23.3" />
-    </ItemGroup>
-    <!-- Serialize Protobuf Tools -->
-    <ItemGroup>
-        <PackageVersion Include="Google.Protobuf.Tools" Version="3.23.3" />
-    </ItemGroup>
-    <!-- Resilience & Transient Fault Handling -->
-    <ItemGroup>
-        <PackageVersion Include="Polly" Version="7.2.3" />
-    </ItemGroup>
-    <!-- QrCode -->
-    <ItemGroup>
-        <PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.0.3" />
-    </ItemGroup>
-    <!-- Nito.* -->
-    <ItemGroup>
-        <PackageVersion Include="Nito.Comparers" Version="6.2.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <!--<PackageVersion Include="Nito.Disposables" Version="2.3.0" />-->
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
-    </ItemGroup>
-    <!-- SQLite PCL -->
-    <ItemGroup>
-        <PackageVersion Include="sqlite-net-pcl" Version="1.8.116" />
-    </ItemGroup>
-    <!-- SQLite PCL RAW -->
-    <ItemGroup>
-        <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
-    </ItemGroup>
-    <!-- DBreeze(key value store embedded) -->
-    <ItemGroup>
-        <PackageVersion Include="DBreeze" Version="1.107.0" />
-    </ItemGroup>
-    <!-- Xamarin -->
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Essentials" Version="1.7.5" />
-    </ItemGroup>
-    <!-- Xamarin.Forms -->
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Forms" Version="5.0.0.2578" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2578" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xam.Plugins.Forms.ImageCircle" Version="3.1.1.1-beta" />
-    </ItemGroup>
-    <!-- System Reactive 5 exclude winforms & wpf -->
-    <ItemGroup>
-        <!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
-        <PackageVersion Include="System.Reactive" Version="$(Version_System_Reactive)" />
-    </ItemGroup>
-    <!-- ReactiveUI -->
-    <ItemGroup>
-        <PackageVersion Include="ReactiveUI" Version="$(Version_ReactiveUI)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="ReactiveUI.Fody" Version="$(Version_ReactiveUI)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="ReactiveUI.XamForms" Version="$(Version_ReactiveUI)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="ReactiveUI.AndroidX" Version="$(Version_ReactiveUI)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="ReactiveUI.Maui" Version="$(Version_ReactiveUI)" />
-    </ItemGroup>
-    <!-- Pinyin(TinyPinyin.Net) -->
-    <ItemGroup>
-        <PackageVersion Include="TinyPinyin.Net" Version="1.0.2" />
-    </ItemGroup>
-    <!-- Pinyin(XAB.TinyPinyin) -->
-    <ItemGroup>
-        <PackageVersion Include="XAB.TinyPinyin" Version="2.0.4.4" />
-    </ItemGroup>
-    <!-- .NET Compat(OperatingSystem2) -->
-    <ItemGroup>
-        <PackageVersion Include="OperatingSystem2" Version="3.0.0" />
-    </ItemGroup>
-    <!-- .NET Compat(Madness) -->
-    <ItemGroup>
-        <PackageVersion Include="JustArchiNET.Madness" Version="3.15.0" />
-    </ItemGroup>
-    <!-- AspNetCore 7 OpenId/OAuth -->
-    <ItemGroup>
-        <PackageVersion Include="AspNet.Security.OpenId.Steam" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AspNet.Security.OAuth.QQ" Version="7.0.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AspNet.Security.OAuth.Apple" Version="7.0.2" />
-    </ItemGroup>
-    <!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
-    <ItemGroup>
-        <PackageVersion Include="OpenIddict.Core" Version="4.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="OpenIddict.Quartz" Version="4.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="OpenIddict.AspNetCore" Version="4.5.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.5.0" />
-    </ItemGroup>
-    <!-- MicrosoftAccount -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.8" />
-    </ItemGroup>
-    <!-- OpenIdConnect -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.8" />
-    </ItemGroup>
-    <!-- Microsoft.Extensions.* 7.0 -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Http" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
-    </ItemGroup>
+		<PackageVersion Include="BD.Common.SmsSender" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Settings" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Settings.V3" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.AspNetCore" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.AspNetCore.Identity" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.AspNetCore.Identity.BackManage" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.AspNetCore.Blazor.BackManage" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Area" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.BirthDate" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.EFCore" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.ModelValidator" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.PhoneNumber" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Primitives" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
+		<PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
+		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
+	</ItemGroup>
+	<!-- BD WTTS SDK -->
+	<ItemGroup>
+		<PackageVersion Include="BD.WTTS.MicroServices.ClientSDK" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.MicroServices.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives.Resources" Version="$(Version_BDWTTSSDK)" />
+		<PackageVersion Include="BD.WTTS.Primitives.ViewModels" Version="$(Version_BDWTTSSDK)" />
+	</ItemGroup>
+	<!-- Visual Studio Publish Docker Container -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+	</ItemGroup>
+	<!-- Azure Blobs -->
+	<ItemGroup>
+		<PackageVersion Include="Azure.Storage.Blobs" Version="12.17.0-beta.1" />
+	</ItemGroup>
+	<!-- Algorithm -->
+	<ItemGroup>
+		<PackageVersion Include="Crc32.NET" Version="1.2.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="gfoidl.Base64" Version="2.0.0" />
+	</ItemGroup>
+	<!-- AutoMapper -->
+	<ItemGroup>
+		<PackageVersion Include="AutoMapper" Version="12.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AutoMapper.Collection" Version="9.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AutoMapper.Collection.EntityFrameworkCore" Version="9.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AutoMapper.Extensions.ExpressionMapping" Version="6.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+	</ItemGroup>
+	<!-- Quartz JobSchedule -->
+	<ItemGroup>
+		<PackageVersion Include="Quartz.AspNetCore" Version="3.6.2" />
+	</ItemGroup>
+	<!-- Code Style -->
+	<ItemGroup>
+		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435" />
+	</ItemGroup>
+	<!-- Swagger OpenAPI Documentation -->
+	<ItemGroup>
+		<PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
+	</ItemGroup>
+	<!-- Swagger OpenAPI Documentation AspNetCore 2x Compat -->
+	<ItemGroup>
+		<PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore" Version="6.3.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AspNetCore2.NETStandard.Swashbuckle.AspNetCore.Newtonsoft" Version="6.3.1" />
+	</ItemGroup>
+	<!-- NLog -->
+	<ItemGroup>
+		<PackageVersion Include="NLog" Version="5.2.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="NLog.Extensions.Logging" Version="5.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.3.0" />
+	</ItemGroup>
+	<!-- EFCore Extensions -->
+	<ItemGroup>
+		<PackageVersion Include="EFCore.BulkExtensions" Version="7.1.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.2" />
+	</ItemGroup>
+	<!-- AntDesign -->
+	<ItemGroup>
+		<PackageVersion Include="AntDesign" Version="0.15.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AntDesign.Charts" Version="0.3.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AntDesign.ProLayout" Version="0.14.4.1" />
+	</ItemGroup>
+	<!-- Blazor -->
+	<ItemGroup>
+		<!--<PackageVersion Include="Blazored.LocalStorage" Version="4.3.0" />-->
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Blazor.QRCode" Version="0.2.1" />
+	</ItemGroup>
+	<!-- UnitTest(MS) -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.6.2" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit) -->
+	<ItemGroup>
+		<PackageVersion Include="NUnit" Version="3.13.3" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit3TestAdapter) -->
+	<ItemGroup>
+		<PackageVersion Include="NUnit3TestAdapter" Version="4.5.0" />
+	</ItemGroup>
+	<!-- UnitTest(NUnit Analyzers) -->
+	<ItemGroup>
+		<PackageVersion Include="NUnit.Analyzers" Version="3.6.1" />
+	</ItemGroup>
+	<!-- CSV / Excel -->
+	<ItemGroup>
+		<PackageVersion Include="CsvHelper" Version="30.0.1" />
+	</ItemGroup>
+	<!-- Html Parser(AngleSharp) -->
+	<ItemGroup>
+		<PackageVersion Include="AngleSharp" Version="1.0.4" />
+	</ItemGroup>
+	<!-- Html Parser(HtmlAgilityPack) -->
+	<ItemGroup>
+		<PackageVersion Include="HtmlAgilityPack" Version="1.11.46" />
+	</ItemGroup>
+	<!-- Serialize MessagePack -->
+	<ItemGroup>
+		<PackageVersion Include="MessagePack" Version="2.5.108" />
+	</ItemGroup>
+	<!-- Serialize MemoryPack -->
+	<ItemGroup>
+		<PackageVersion Include="MemoryPack" Version="1.9.16" />
+	</ItemGroup>
+	<!-- Serialize NJson -->
+	<ItemGroup>
+		<PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+	<!-- Serialize NJson & AspNetCore -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.8" />
+	</ItemGroup>
+	<!-- Serialize Protobuf -->
+	<ItemGroup>
+		<PackageVersion Include="Google.Protobuf" Version="3.23.3" />
+	</ItemGroup>
+	<!-- Serialize Protobuf Tools -->
+	<ItemGroup>
+		<PackageVersion Include="Google.Protobuf.Tools" Version="3.23.3" />
+	</ItemGroup>
+	<!-- Resilience & Transient Fault Handling -->
+	<ItemGroup>
+		<PackageVersion Include="Polly" Version="7.2.3" />
+	</ItemGroup>
+	<!-- QrCode -->
+	<ItemGroup>
+		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.0.3" />
+	</ItemGroup>
+	<!-- Nito.* -->
+	<ItemGroup>
+		<PackageVersion Include="Nito.Comparers" Version="6.2.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<!--<PackageVersion Include="Nito.Disposables" Version="2.3.0" />-->
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Nito.AsyncEx.Coordination" Version="5.1.2" />
+	</ItemGroup>
+	<!-- SQLite PCL -->
+	<ItemGroup>
+		<PackageVersion Include="sqlite-net-pcl" Version="1.8.116" />
+	</ItemGroup>
+	<!-- SQLite PCL RAW -->
+	<ItemGroup>
+		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
+	</ItemGroup>
+	<!-- DBreeze(key value store embedded) -->
+	<ItemGroup>
+		<PackageVersion Include="DBreeze" Version="1.107.0" />
+	</ItemGroup>
+	<!-- Xamarin -->
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Essentials" Version="1.7.5" />
+	</ItemGroup>
+	<!-- Xamarin.Forms -->
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Forms" Version="5.0.0.2578" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2578" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xam.Plugins.Forms.ImageCircle" Version="3.1.1.1-beta" />
+	</ItemGroup>
+	<!-- System Reactive 5 exclude winforms & wpf -->
+	<ItemGroup>
+		<!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
+		<PackageVersion Include="System.Reactive" Version="$(Version_System_Reactive)" />
+	</ItemGroup>
+	<!-- ReactiveUI -->
+	<ItemGroup>
+		<PackageVersion Include="ReactiveUI" Version="$(Version_ReactiveUI)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="ReactiveUI.Fody" Version="$(Version_ReactiveUI)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="ReactiveUI.XamForms" Version="$(Version_ReactiveUI)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="ReactiveUI.AndroidX" Version="$(Version_ReactiveUI)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="ReactiveUI.Maui" Version="$(Version_ReactiveUI)" />
+	</ItemGroup>
+	<!-- Pinyin(TinyPinyin.Net) -->
+	<ItemGroup>
+		<PackageVersion Include="TinyPinyin.Net" Version="1.0.2" />
+	</ItemGroup>
+	<!-- Pinyin(XAB.TinyPinyin) -->
+	<ItemGroup>
+		<PackageVersion Include="XAB.TinyPinyin" Version="2.0.4.4" />
+	</ItemGroup>
+	<!-- .NET Compat(OperatingSystem2) -->
+	<ItemGroup>
+		<PackageVersion Include="OperatingSystem2" Version="3.0.0" />
+	</ItemGroup>
+	<!-- .NET Compat(Madness) -->
+	<ItemGroup>
+		<PackageVersion Include="JustArchiNET.Madness" Version="3.15.0" />
+	</ItemGroup>
+	<!-- AspNetCore 7 OpenId/OAuth -->
+	<ItemGroup>
+		<PackageVersion Include="AspNet.Security.OpenId.Steam" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AspNet.Security.OAuth.QQ" Version="7.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AspNet.Security.OAuth.Apple" Version="7.0.2" />
+	</ItemGroup>
+	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
+	<ItemGroup>
+		<PackageVersion Include="OpenIddict.Core" Version="4.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="OpenIddict.Quartz" Version="4.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="OpenIddict.AspNetCore" Version="4.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.5.0" />
+	</ItemGroup>
+	<!-- MicrosoftAccount -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.8" />
+	</ItemGroup>
+	<!-- OpenIdConnect -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.8" />
+	</ItemGroup>
+	<!-- Microsoft.Extensions.* 7.0 -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Http" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 	</ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="StackExchange.Redis" Version="2.6.116" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
-    </ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="StackExchange.Redis" Version="2.6.116" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
+	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="7.0.0" />
 	</ItemGroup>
-    <!-- AspNetCore 7.0 -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.8" />
-    </ItemGroup>
-    <!-- EFCore 7.0 -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.8" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
-    </ItemGroup>
-    <!-- EFCore 7.0 PostgreSQL -->
-    <ItemGroup>
-        <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
-    </ItemGroup>
-    <!-- EFCore Z Plus -->
-    <ItemGroup>
-        <PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.22.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="7.22.3" />
-    </ItemGroup>
-    <!-- BCL 7.0 -->
-    <ItemGroup>
-        <PackageVersion Include="System.Linq.Async" Version="6.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Composition" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Management" Version="7.0.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Text.Json" Version="7.0.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Net.Http.WinHttpHandler" Version="7.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Security.Principal.Windows" Version="5.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Buffers" Version="4.5.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Memory" Version="4.5.5" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Diagnostics.Tracing" Version="4.3.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Private.Uri" Version="4.3.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
-    </ItemGroup>
-    <!-- Edge WebView2 -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.86" />
-    </ItemGroup>
-    <!-- Edge WebView2 NativeAssets -->
-    <ItemGroup>
-        <PackageVersion Include="WebView2.NativeAssets.Win32" Version="1.0.1518.46" />
-    </ItemGroup>
-    <!-- SourceLink -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
-    </ItemGroup>
-    <!-- PInvoke -->
-    <ItemGroup>
-        <PackageVersion Include="PInvoke.IPHlpApi" Version="$(Version_PInvoke)" />
-        <PackageVersion Include="PInvoke.AdvApi32" Version="$(Version_PInvoke)" />
-        <PackageVersion Include="PInvoke.Kernel32" Version="$(Version_PInvoke)" />
-        <PackageVersion Include="PInvoke.User32" Version="$(Version_PInvoke)" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="$(Version_Vanara_PInvoke)" />
-    </ItemGroup>
-    <!-- OCR -->
-    <ItemGroup>
-        <PackageVersion Include="PaddleOCRSharp" Version="3.1.0" />
-    </ItemGroup>
-    <!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
-    <ItemGroup>
+	<!-- AspNetCore 7.0 -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.8" />
+	</ItemGroup>
+	<!-- EFCore 7.0 -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.8" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+	</ItemGroup>
+	<!-- EFCore 7.0 PostgreSQL -->
+	<ItemGroup>
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+	</ItemGroup>
+	<!-- EFCore Z Plus -->
+	<ItemGroup>
+		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.22.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="7.22.3" />
+	</ItemGroup>
+	<!-- BCL 7.0 -->
+	<ItemGroup>
+		<PackageVersion Include="System.Linq.Async" Version="6.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Composition" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Management" Version="7.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Text.Json" Version="7.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Net.Http.WinHttpHandler" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Security.Principal.Windows" Version="5.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Buffers" Version="4.5.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Memory" Version="4.5.5" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Diagnostics.Tracing" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.ComponentModel.TypeConverter" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Private.Uri" Version="4.3.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
+	</ItemGroup>
+	<!-- Edge WebView2 -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.86" />
+	</ItemGroup>
+	<!-- Edge WebView2 NativeAssets -->
+	<ItemGroup>
+		<PackageVersion Include="WebView2.NativeAssets.Win32" Version="1.0.1518.46" />
+	</ItemGroup>
+	<!-- SourceLink -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+	</ItemGroup>
+	<!-- PInvoke -->
+	<ItemGroup>
+		<PackageVersion Include="PInvoke.IPHlpApi" Version="$(Version_PInvoke)" />
+		<PackageVersion Include="PInvoke.AdvApi32" Version="$(Version_PInvoke)" />
+		<PackageVersion Include="PInvoke.Kernel32" Version="$(Version_PInvoke)" />
+		<PackageVersion Include="PInvoke.User32" Version="$(Version_PInvoke)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="$(Version_Vanara_PInvoke)" />
+	</ItemGroup>
+	<!-- OCR -->
+	<ItemGroup>
+		<PackageVersion Include="PaddleOCRSharp" Version="3.1.0" />
+	</ItemGroup>
+	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
+	<!--<ItemGroup>
         <PackageVersion Include="PuppeteerSharp" Version="10.1.0" />
-    </ItemGroup>
-    <!-- WindowsRuntime(NETFX) & PowerShell 5 -->
-    <ItemGroup>
-        <PackageVersion Include="System.Runtime.WindowsRuntime" Version="4.7.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.7.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.PowerShell.5.ReferenceAssemblies" Version="1.1.0" />
-    </ItemGroup>
-    <!-- Windows SDK -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
-    </ItemGroup>
-    <!-- AspNetCore 2x Compat -->
-    <ItemGroup>
-        <!-- AspNetCore 2x 目前仅用于 iOS/Android -->
-        <!-- 使用修复高版本中 Microsoft.Extensions.Primitives 破坏性更改导致不兼容的自编译高版本本地包覆盖 -->
-        <PackageVersion Include="Microsoft.Net.Http.Headers" Version="2.2.255.255" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="AspNetCore2.NETStandard.NLog.Web.AspNetCore" Version="5.0.0" />
-    </ItemGroup>
-    <!-- Microsoft.AppCenter -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.AppCenter" Version="$(Version_AppCenter)" />
-        <PackageVersion Include="Microsoft.AppCenter.Analytics" Version="$(Version_AppCenter)" />
-        <PackageVersion Include="Microsoft.AppCenter.Crashes" Version="$(Version_AppCenter)" />
-    </ItemGroup>
-    <!-- Avalonia.AppCenter -->
-    <ItemGroup>
-        <PackageVersion Include="Aigio.Avalonia.AppCenter" Version="$(Version_Avalonia_AppCenter)" />
-        <PackageVersion Include="Aigio.Avalonia.AppCenter.Analytics" Version="$(Version_Avalonia_AppCenter)" />
-        <PackageVersion Include="Aigio.Avalonia.AppCenter.Crashes" Version="$(Version_Avalonia_AppCenter)" />
-    </ItemGroup>
-    <!-- Moq -->
-    <ItemGroup>
-        <PackageVersion Include="Moq" Version="4.18.4" />
-    </ItemGroup>
-    <!-- HarfBuzzSharp -->
-    <ItemGroup>
-        <PackageVersion Include="HarfBuzzSharp" Version="$(Version_HarfBuzzSharp)" />
-        <PackageVersion Include="HarfBuzzSharp.NativeAssets.Linux" Version="$(Version_HarfBuzzSharp)" />
-    </ItemGroup>
-    <!-- SkiaSharp -->
-    <ItemGroup>
-        <PackageVersion Include="SkiaSharp" Version="$(Version_SkiaSharp)" />
-        <PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="$(Version_SkiaSharp)" />
-    </ItemGroup>
-    <!-- Compression Tar, GZip, BZip2 -->
-    <ItemGroup>
-        <!-- priority of use System.Formats.Tar -->
-        <PackageVersion Include="SharpZipLib" Version="1.4.2" />
-    </ItemGroup>
-    <!-- Compression 7-Zip -->
-    <ItemGroup>
-        <PackageVersion Include="Squid-Box.SevenZipSharp.Lite" Version="1.6.1.23" />
-    </ItemGroup>
-    <!-- Compression 7-Zip NativeAssets -->
-    <ItemGroup>
-        <PackageVersion Include="7-Zip.NativeAssets.Win32" Version="22.1.0" />
-    </ItemGroup>
-    <!-- Compression ZstdNet -->
-    <ItemGroup>
-        <PackageVersion Include="ZstdNet" Version="1.4.5" />
-    </ItemGroup>
-    <!-- CommandLine -->
-    <ItemGroup>
-        <PackageVersion Include="System.CommandLine" Version="$(Version_CommandLine)" />
-        <PackageVersion Include="System.CommandLine.NamingConventionBinder" Version="$(Version_CommandLine)" />
-    </ItemGroup>
-    <!-- Windows TaskScheduler -->
-    <ItemGroup>
-        <PackageVersion Include="TaskScheduler" Version="2.10.1" />
-    </ItemGroup>
-    <!-- Alipay SDK -->
-    <ItemGroup>
-        <PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.1" />
-    </ItemGroup>
-    <!-- WechatPay SDK -->
-    <ItemGroup>
-        <PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.1" />
-    </ItemGroup>
-    <!-- Excel -->
-    <ItemGroup>
-        <PackageVersion Include="NPOI" Version="2.6.0" />
-    </ItemGroup>
-    <!-- Github API -->
-    <ItemGroup>
-        <PackageVersion Include="Octokit" Version="6.1.0" />
-    </ItemGroup>
-    <!-- MonoMac(NETSTANDARD) -->
-    <ItemGroup>
+    </ItemGroup>-->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Playwright" Version="1.35.0" />
+	</ItemGroup>
+	<!-- WindowsRuntime(NETFX) & PowerShell 5 -->
+	<ItemGroup>
+		<PackageVersion Include="System.Runtime.WindowsRuntime" Version="4.7.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.7.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.PowerShell.5.ReferenceAssemblies" Version="1.1.0" />
+	</ItemGroup>
+	<!-- Windows SDK -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
+	</ItemGroup>
+	<!-- AspNetCore 2x Compat -->
+	<ItemGroup>
+		<!-- AspNetCore 2x 目前仅用于 iOS/Android -->
+		<!-- 使用修复高版本中 Microsoft.Extensions.Primitives 破坏性更改导致不兼容的自编译高版本本地包覆盖 -->
+		<PackageVersion Include="Microsoft.Net.Http.Headers" Version="2.2.255.255" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="AspNetCore2.NETStandard.NLog.Web.AspNetCore" Version="5.0.0" />
+	</ItemGroup>
+	<!-- Microsoft.AppCenter -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.AppCenter" Version="$(Version_AppCenter)" />
+		<PackageVersion Include="Microsoft.AppCenter.Analytics" Version="$(Version_AppCenter)" />
+		<PackageVersion Include="Microsoft.AppCenter.Crashes" Version="$(Version_AppCenter)" />
+	</ItemGroup>
+	<!-- Avalonia.AppCenter -->
+	<ItemGroup>
+		<PackageVersion Include="Aigio.Avalonia.AppCenter" Version="$(Version_Avalonia_AppCenter)" />
+		<PackageVersion Include="Aigio.Avalonia.AppCenter.Analytics" Version="$(Version_Avalonia_AppCenter)" />
+		<PackageVersion Include="Aigio.Avalonia.AppCenter.Crashes" Version="$(Version_Avalonia_AppCenter)" />
+	</ItemGroup>
+	<!-- Moq -->
+	<ItemGroup>
+		<PackageVersion Include="Moq" Version="4.18.4" />
+	</ItemGroup>
+	<!-- HarfBuzzSharp -->
+	<ItemGroup>
+		<PackageVersion Include="HarfBuzzSharp" Version="$(Version_HarfBuzzSharp)" />
+		<PackageVersion Include="HarfBuzzSharp.NativeAssets.Linux" Version="$(Version_HarfBuzzSharp)" />
+	</ItemGroup>
+	<!-- SkiaSharp -->
+	<ItemGroup>
+		<PackageVersion Include="SkiaSharp" Version="$(Version_SkiaSharp)" />
+		<PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="$(Version_SkiaSharp)" />
+	</ItemGroup>
+	<!-- Compression Tar, GZip, BZip2 -->
+	<ItemGroup>
+		<!-- priority of use System.Formats.Tar -->
+		<PackageVersion Include="SharpZipLib" Version="1.4.2" />
+	</ItemGroup>
+	<!-- Compression 7-Zip -->
+	<ItemGroup>
+		<PackageVersion Include="Squid-Box.SevenZipSharp.Lite" Version="1.6.1.23" />
+	</ItemGroup>
+	<!-- Compression 7-Zip NativeAssets -->
+	<ItemGroup>
+		<PackageVersion Include="7-Zip.NativeAssets.Win32" Version="22.1.0" />
+	</ItemGroup>
+	<!-- Compression ZstdNet -->
+	<ItemGroup>
+		<PackageVersion Include="ZstdNet" Version="1.4.5" />
+	</ItemGroup>
+	<!-- CommandLine -->
+	<ItemGroup>
+		<PackageVersion Include="System.CommandLine" Version="$(Version_CommandLine)" />
+		<PackageVersion Include="System.CommandLine.NamingConventionBinder" Version="$(Version_CommandLine)" />
+	</ItemGroup>
+	<!-- Windows TaskScheduler -->
+	<ItemGroup>
+		<PackageVersion Include="TaskScheduler" Version="2.10.1" />
+	</ItemGroup>
+	<!-- Alipay SDK -->
+	<ItemGroup>
+		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.1" />
+	</ItemGroup>
+	<!-- WechatPay SDK -->
+	<ItemGroup>
+		<PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.1" />
+	</ItemGroup>
+	<!-- Excel -->
+	<ItemGroup>
+		<PackageVersion Include="NPOI" Version="2.6.0" />
+	</ItemGroup>
+	<!-- Github API -->
+	<ItemGroup>
+		<PackageVersion Include="Octokit" Version="6.1.0" />
+	</ItemGroup>
+	<!-- MonoMac(NETSTANDARD) -->
+	<ItemGroup>
 		<!-- Deprecated! use net7.0-macos/net7.0-maccatalyst -->
-        <PackageVersion Include="MonoMac.NetStandard" Version="0.0.4" />
-    </ItemGroup>
-    <!-- Clipboard -->
-    <ItemGroup>
-        <PackageVersion Include="TextCopy" Version="6.2.1" />
-    </ItemGroup>
-    <!-- Valve Data File -->
-    <ItemGroup>
-        <PackageVersion Include="Gameloop.Vdf" Version="0.6.2" />
-    </ItemGroup>
-    <!-- C# -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.CSharp" Version="4.7.0" />
-    </ItemGroup>
-    <!-- WebSocket Server -->
-    <ItemGroup>
-        <PackageVersion Include="Fleck" Version="1.2.0" />
-    </ItemGroup>
-    <!-- DNS(Ae.DNS) -->
-    <ItemGroup>
-        <PackageVersion Include="Ae.DNS.Client" Version="1.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Ae.Dns.Protocol" Version="1.0.0" />
-    </ItemGroup>
-    <!-- DNS(DnsClient) -->
-    <ItemGroup>
-        <PackageVersion Include="DnsClient" Version="1.7.0" />
-    </ItemGroup>
-    <!-- DNS -->
-    <ItemGroup>
-        <PackageVersion Include="DNS" Version="7.0.0" />
-    </ItemGroup>
-    <!-- Cryptographic Algorithms & Protocols -->
-    <ItemGroup>
-        <PackageVersion Include="Portable.BouncyCastle" Version="1.9.0" />
-    </ItemGroup>
-    <!-- Avalonia -->
-    <ItemGroup>
-        <PackageVersion Include="Avalonia" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Desktop" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Skia" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Diagnostics" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.ReactiveUI" Version="$(Version_Avalonia)" />
-        <!--<PackageVersion Include="Avalonia.Direct2D1" Version="$(Version_Avalonia)" />-->
-        <PackageVersion Include="Avalonia.Controls.DataGrid" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
-    </ItemGroup>
-    <!-- Avalonia Xaml Behaviors -->
-    <ItemGroup>
-        <PackageVersion Include="Avalonia.Xaml.Behaviors" Version="$(Version_Avalonia_Xaml_Behaviors)" />
-    </ItemGroup>
-    <!-- Avalonia Edit -->
-    <ItemGroup>
-        <PackageVersion Include="Avalonia.AvaloniaEdit" Version="$(Version_Avalonia_Edit)" />
-    </ItemGroup>
-    <!-- Avalonia CefNet -->
-    <ItemGroup>
-        <PackageVersion Include="CefNet.Avalonia" Version="$(Version_Avalonia_CefNet)" />
-    </ItemGroup>
-    <!-- Avalonia LibVLCSharp -->
-    <ItemGroup>
-        <PackageVersion Include="LibVLCSharp.Avalonia" Version="$(Version_Avalonia_LibVLCSharp)" />
-    </ItemGroup>
-    <!-- Avalonia FluentUI -->
-    <ItemGroup>
-        <PackageVersion Include="FluentAvaloniaUI" Version="$(Version_Avalonia_FluentUI)" />
-    </ItemGroup>
-    <!-- Avalonia LiveChartsCore -->
-    <ItemGroup>
-        <PackageVersion Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="$(Version_Avalonia_LiveChartsCore_SkiaSharpView)" />
-    </ItemGroup>
-    <!-- Avalonia JumpLists -->
-    <ItemGroup>
-        <PackageVersion Include="JumpLists.Win32.Avalonia" Version="1.23.10209.11223" />
-    </ItemGroup>
-    <!-- Avalonia WebView2 -->
-    <ItemGroup>
-        <PackageVersion Include="WebView2.Avalonia" Version="1.0.1518.46-preview.230207.17" />
-    </ItemGroup>
-    <!-- Avalonia Markdown -->
-    <ItemGroup>
-        <PackageVersion Include="Markdown.Avalonia" Version="$(Version_Avalonia_Markdown)" />
-    </ItemGroup>
-    <!-- V2Ray Android -->
-    <ItemGroup>
-        <PackageVersion Include="XAB.AndroidLibV2rayLite" Version="1.0.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <!--<PackageVersion Include="Karamunting.KotlinX.Coroutines.Core" Version="1.4.2" />-->
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.1.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.1.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" Version="3.1.6.2" />
-    </ItemGroup>
-    <!-- Xamarin.Android -->
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Build.Download" Version="0.11.4" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Google.Dagger" Version="2.46.1.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.1.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Square.OkHttp3" Version="4.11.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Square.Picasso" Version="2.71828.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="XAB.FlexboxLayout" Version="3.0.0.2" />
-    </ItemGroup>
-    <!-- Xamarin.AndroidX -->
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Migration" Version="1.0.10" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Emoji.AppCompat" Version="1.1.0.13" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Fragment" Version="1.6.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.RecyclerView" Version="1.3.0.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Google.Android.Material" Version="1.9.0.1" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.13" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.5" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.6.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.6.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.20" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.14" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.ExifInterface" Version="1.3.6.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Legacy.Support.Core.UI" Version="1.0.0.19" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.6.1.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Camera.Camera2" Version="1.2.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.2.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Camera.View" Version="1.2.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Window" Version="1.1.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.WebKit" Version="1.7.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.5.0.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.11" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.9.0.1" />
-    </ItemGroup>
-    <!-- Xamarin.iOS -->
-    <ItemGroup>
-        <PackageVersion Include="Toast.iOS" Version="1.2.0" />
-    </ItemGroup>
-    <!-- UWP/WinUI2/3 -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.3.230602002" />
-    </ItemGroup>
-    <!-- Yet Another Reverse Proxy -->
-    <ItemGroup>
-        <PackageVersion Include="Yarp.ReverseProxy" Version="2.0.0" />
-    </ItemGroup>
-    <!-- WinDivert -->
-    <ItemGroup>
-        <PackageVersion Include="Aigio.WinDivertSharp" Version="1.4.4.3" />
-    </ItemGroup>
-    <!-- ArchiSteamFarm Library -->
-    <ItemGroup>
-        <PackageVersion Include="ArchiSteamFarm.Library" Version="$(Version_ArchiSteamFarm_Library)" />
-    </ItemGroup>
-    <!-- Compat -->
-    <ItemGroup>
-        <PackageVersion Include="IndexRange" Version="1.0.2" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
-    </ItemGroup>
-    <!-- Gtk# -->
-    <ItemGroup>
-        <PackageVersion Include="GtkSharp" Version="3.24.24.95" />
-    </ItemGroup>
-    <!-- WinAuth -->
-    <ItemGroup>
-        <PackageVersion Include="WinAuth.Library" Version="3.623.20625.21123" />
-    </ItemGroup>
-    <!-- IdentityModel -->
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.31.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.31.0" />
-    </ItemGroup>
-    <!-- SteamKit2 -->
-    <ItemGroup>
-        <PackageVersion Include="SteamKit2" Version="2.4.1" />
-    </ItemGroup>
-    <!-- IPC -->
-    <ItemGroup>
-        <PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha401" />
-    </ItemGroup>
-    <!-- ValveKeyValue -->
-    <ItemGroup>
-        <PackageVersion Include="ValveKeyValue" Version="0.9.0.267" />
-    </ItemGroup>
+		<PackageVersion Include="MonoMac.NetStandard" Version="0.0.4" />
+	</ItemGroup>
+	<!-- Clipboard -->
+	<ItemGroup>
+		<PackageVersion Include="TextCopy" Version="6.2.1" />
+	</ItemGroup>
+	<!-- Valve Data File -->
+	<ItemGroup>
+		<PackageVersion Include="Gameloop.Vdf" Version="0.6.2" />
+	</ItemGroup>
+	<!-- C# -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.CSharp" Version="4.7.0" />
+	</ItemGroup>
+	<!-- WebSocket Server -->
+	<ItemGroup>
+		<PackageVersion Include="Fleck" Version="1.2.0" />
+	</ItemGroup>
+	<!-- DNS(Ae.DNS) -->
+	<ItemGroup>
+		<PackageVersion Include="Ae.DNS.Client" Version="1.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Ae.Dns.Protocol" Version="1.0.0" />
+	</ItemGroup>
+	<!-- DNS(DnsClient) -->
+	<ItemGroup>
+		<PackageVersion Include="DnsClient" Version="1.7.0" />
+	</ItemGroup>
+	<!-- DNS -->
+	<ItemGroup>
+		<PackageVersion Include="DNS" Version="7.0.0" />
+	</ItemGroup>
+	<!-- Cryptographic Algorithms & Protocols -->
+	<ItemGroup>
+		<PackageVersion Include="Portable.BouncyCastle" Version="1.9.0" />
+	</ItemGroup>
+	<!-- Avalonia -->
+	<ItemGroup>
+		<PackageVersion Include="Avalonia" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Desktop" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Skia" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Diagnostics" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.ReactiveUI" Version="$(Version_Avalonia)" />
+		<!--<PackageVersion Include="Avalonia.Direct2D1" Version="$(Version_Avalonia)" />-->
+		<PackageVersion Include="Avalonia.Controls.DataGrid" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
+	</ItemGroup>
+	<!-- Avalonia Xaml Behaviors -->
+	<ItemGroup>
+		<PackageVersion Include="Avalonia.Xaml.Behaviors" Version="$(Version_Avalonia_Xaml_Behaviors)" />
+	</ItemGroup>
+	<!-- Avalonia Edit -->
+	<ItemGroup>
+		<PackageVersion Include="Avalonia.AvaloniaEdit" Version="$(Version_Avalonia_Edit)" />
+	</ItemGroup>
+	<!-- Avalonia CefNet -->
+	<ItemGroup>
+		<PackageVersion Include="CefNet.Avalonia" Version="$(Version_Avalonia_CefNet)" />
+	</ItemGroup>
+	<!-- Avalonia LibVLCSharp -->
+	<ItemGroup>
+		<PackageVersion Include="LibVLCSharp.Avalonia" Version="$(Version_Avalonia_LibVLCSharp)" />
+	</ItemGroup>
+	<!-- Avalonia FluentUI -->
+	<ItemGroup>
+		<PackageVersion Include="FluentAvaloniaUI" Version="$(Version_Avalonia_FluentUI)" />
+	</ItemGroup>
+	<!-- Avalonia LiveChartsCore -->
+	<ItemGroup>
+		<PackageVersion Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="$(Version_Avalonia_LiveChartsCore_SkiaSharpView)" />
+	</ItemGroup>
+	<!-- Avalonia JumpLists -->
+	<ItemGroup>
+		<PackageVersion Include="JumpLists.Win32.Avalonia" Version="1.23.10209.11223" />
+	</ItemGroup>
+	<!-- Avalonia WebView2 -->
+	<ItemGroup>
+		<PackageVersion Include="WebView2.Avalonia" Version="1.0.1518.46-preview.230207.17" />
+	</ItemGroup>
+	<!-- Avalonia Markdown -->
+	<ItemGroup>
+		<PackageVersion Include="Markdown.Avalonia" Version="$(Version_Avalonia_Markdown)" />
+	</ItemGroup>
+	<!-- V2Ray Android -->
+	<ItemGroup>
+		<PackageVersion Include="XAB.AndroidLibV2rayLite" Version="1.0.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<!--<PackageVersion Include="Karamunting.KotlinX.Coroutines.Core" Version="1.4.2" />-->
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.1.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.1.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" Version="3.1.6.2" />
+	</ItemGroup>
+	<!-- Xamarin.Android -->
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Build.Download" Version="0.11.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.46.1.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.1.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Square.OkHttp3" Version="4.11.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Square.Picasso" Version="2.71828.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="XAB.FlexboxLayout" Version="3.0.0.2" />
+	</ItemGroup>
+	<!-- Xamarin.AndroidX -->
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Migration" Version="1.0.10" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Emoji.AppCompat" Version="1.1.0.13" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Fragment" Version="1.6.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.RecyclerView" Version="1.3.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Google.Android.Material" Version="1.9.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.13" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.5" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.6.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.6.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.20" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.14" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.ExifInterface" Version="1.3.6.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Legacy.Support.Core.UI" Version="1.0.0.19" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.6.1.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Camera.Camera2" Version="1.2.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.2.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Camera.View" Version="1.2.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Window" Version="1.1.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.WebKit" Version="1.7.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.5.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.11" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.9.0.1" />
+	</ItemGroup>
+	<!-- Xamarin.iOS -->
+	<ItemGroup>
+		<PackageVersion Include="Toast.iOS" Version="1.2.0" />
+	</ItemGroup>
+	<!-- UWP/WinUI2/3 -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.3.230602002" />
+	</ItemGroup>
+	<!-- Yet Another Reverse Proxy -->
+	<ItemGroup>
+		<PackageVersion Include="Yarp.ReverseProxy" Version="2.0.0" />
+	</ItemGroup>
+	<!-- WinDivert -->
+	<ItemGroup>
+		<PackageVersion Include="Aigio.WinDivertSharp" Version="1.4.4.3" />
+	</ItemGroup>
+	<!-- ArchiSteamFarm Library -->
+	<ItemGroup>
+		<PackageVersion Include="ArchiSteamFarm.Library" Version="$(Version_ArchiSteamFarm_Library)" />
+	</ItemGroup>
+	<!-- Compat -->
+	<ItemGroup>
+		<PackageVersion Include="IndexRange" Version="1.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
+	</ItemGroup>
+	<!-- Gtk# -->
+	<ItemGroup>
+		<PackageVersion Include="GtkSharp" Version="3.24.24.95" />
+	</ItemGroup>
+	<!-- WinAuth -->
+	<ItemGroup>
+		<PackageVersion Include="WinAuth.Library" Version="3.623.20625.21123" />
+	</ItemGroup>
+	<!-- IdentityModel -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.31.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.31.0" />
+	</ItemGroup>
+	<!-- SteamKit2 -->
+	<ItemGroup>
+		<PackageVersion Include="SteamKit2" Version="2.4.1" />
+	</ItemGroup>
+	<!-- IPC -->
+	<ItemGroup>
+		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha401" />
+	</ItemGroup>
+	<!-- ValveKeyValue -->
+	<ItemGroup>
+		<PackageVersion Include="ValveKeyValue" Version="0.9.0.267" />
+	</ItemGroup>
 	<!-- Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET -->
 	<ItemGroup>
 		<PackageVersion Include="Refit" Version="6.3.2" />
@@ -973,7 +976,7 @@
 	<ItemGroup>
 		<PackageVersion Include="Splat.Drawing" Version="$(Version_Splat_Drawing)" />
 	</ItemGroup>
-    <!-- Microsoft.CodeAnalysis -->
+	<!-- Microsoft.CodeAnalysis -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
 	</ItemGroup>
