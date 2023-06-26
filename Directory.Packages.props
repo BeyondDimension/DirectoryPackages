@@ -944,7 +944,7 @@
     </ItemGroup>
     <!-- ValveKeyValue -->
     <ItemGroup>
-        <PackageVersion Include="ValveKeyValue" Version="0.8.2.162" />
+        <PackageVersion Include="ValveKeyValue" Version="0.9.0.267" />
     </ItemGroup>
 	<!-- Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET -->
 	<ItemGroup>
