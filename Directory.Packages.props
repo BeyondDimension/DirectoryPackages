@@ -73,7 +73,7 @@
     </PropertyGroup>
     <!-- Vanara.PInvoke -->
     <PropertyGroup>
-        <Version_Vanara_PInvoke>3.4.14</Version_Vanara_PInvoke>
+        <Version_Vanara_PInvoke>3.4.15</Version_Vanara_PInvoke>
     </PropertyGroup>
 	<PropertyGroup>
 		<Version_Splat_Drawing>14.6.8</Version_Splat_Drawing>
