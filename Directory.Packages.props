@@ -2,10 +2,10 @@
     <!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
     <!-- BD Common -->
     <PropertyGroup>
-        <Version_BDCommon>1.23.10614.11642</Version_BDCommon>
+        <Version_BDCommon>1.23.10626.11400</Version_BDCommon>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDSteamClient>1.23.10614.11642</Version_BDSteamClient>
+        <Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
     </PropertyGroup>
     <PropertyGroup>
         <Version_BDSteamClientModels>1.23.10616.11526</Version_BDSteamClientModels>
@@ -80,6 +80,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_System_Drawing_Common>7.0.0</Version_System_Drawing_Common>
+	</PropertyGroup>
+	<!-- Reactive -->
+	<PropertyGroup>
+		<Version_System_Reactive>6.0.0</Version_System_Reactive>
 	</PropertyGroup>
 	<!-- Humanizer -->
 	<PropertyGroup>
@@ -329,7 +333,7 @@
     <!-- System Reactive 5 exclude winforms & wpf -->
     <ItemGroup>
         <!-- 此包在 tfm net5.0-windows10.0.19041 引用 winforms & wpf，使用删除引用后的自编译高版本本地包覆盖 -->
-        <PackageVersion Include="System.Reactive" Version="6.0.0" />
+        <PackageVersion Include="System.Reactive" Version="$(Version_System_Reactive)" />
     </ItemGroup>
     <!-- ReactiveUI -->
     <ItemGroup>
