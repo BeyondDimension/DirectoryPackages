@@ -388,7 +388,7 @@
     </ItemGroup>
     <!-- MicrosoftAccount -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.5" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.8" />
     </ItemGroup>
     <!-- OpenIdConnect -->
     <ItemGroup>
