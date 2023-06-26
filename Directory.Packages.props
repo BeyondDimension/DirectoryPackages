@@ -818,7 +818,7 @@
         <PackageVersion Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.2" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Xamarin.AndroidX.Emoji.AppCompat" Version="1.1.0.12" />
+        <PackageVersion Include="Xamarin.AndroidX.Emoji.AppCompat" Version="1.1.0.13" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="Xamarin.AndroidX.Fragment" Version="1.5.6.1" />
