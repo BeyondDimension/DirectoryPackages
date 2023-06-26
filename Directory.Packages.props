@@ -918,7 +918,7 @@
     </ItemGroup>
     <!-- Gtk# -->
     <ItemGroup>
-        <PackageVersion Include="GtkSharp" Version="3.24.24.38" />
+        <PackageVersion Include="GtkSharp" Version="3.24.24.95" />
     </ItemGroup>
     <!-- WinAuth -->
     <ItemGroup>
