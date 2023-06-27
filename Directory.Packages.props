@@ -40,7 +40,7 @@
 		<Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.801</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.800-11.0.0-rc1.1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
 	</PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
@@ -943,7 +943,7 @@
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
-		<PackageVersion Include="SteamKit2" Version="2.4.1" />
+		<PackageVersion Include="SteamKit2" Version="2.5.0-Beta.1" />
 	</ItemGroup>
 	<!-- IPC -->
 	<ItemGroup>
