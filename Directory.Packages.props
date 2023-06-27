@@ -590,9 +590,9 @@
 		<PackageVersion Include="PaddleOCRSharp" Version="3.1.0" />
 	</ItemGroup>
 	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
-	<!--<ItemGroup>
+	<ItemGroup>
         <PackageVersion Include="PuppeteerSharp" Version="10.1.0" />
-    </ItemGroup>-->
+    </ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Playwright" Version="1.35.0" />
 	</ItemGroup>
