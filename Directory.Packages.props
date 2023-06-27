@@ -288,7 +288,7 @@
 	</ItemGroup>
 	<!-- Resilience & Transient Fault Handling -->
 	<ItemGroup>
-		<PackageVersion Include="Polly" Version="7.2.3" />
+		<PackageVersion Include="Polly" Version="7.2.4" />
 	</ItemGroup>
 	<!-- QrCode -->
 	<ItemGroup>
