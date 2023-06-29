@@ -955,7 +955,7 @@
 	</ItemGroup>
 	<!-- Refit: The automatic type-safe REST library for .NET Core, Xamarin and .NET -->
 	<ItemGroup>
-		<PackageVersion Include="Refit" Version="6.3.2" />
+		<PackageVersion Include="Refit" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<!-- Remove Microsoft.Extensions.Http Usage https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#remove-microsoft-extensions-http-usage -->
