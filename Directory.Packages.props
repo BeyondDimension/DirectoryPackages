@@ -2,7 +2,7 @@
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
 	<!-- BD Common -->
 	<PropertyGroup>
-		<Version_BDCommon>1.23.10630.11350</Version_BDCommon>
+		<Version_BDCommon>1.23.10630.11549</Version_BDCommon>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
@@ -928,9 +928,9 @@
 		<PackageVersion Include="GtkSharp" Version="3.24.24.95" />
 	</ItemGroup>
 	<!-- WinAuth -->
-	<!--<ItemGroup>
+	<ItemGroup>
 		<PackageVersion Include="WinAuth.Library" Version="3.623.20625.21123" />
-	</ItemGroup>-->
+	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.31.0" />
