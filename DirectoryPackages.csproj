@@ -618,9 +618,9 @@
 		<PackageReference Include="GtkSharp" />
 	</ItemGroup>
 	<!-- WinAuth -->
-	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
+	<!--<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
 		<PackageReference Include="WinAuth.Library" />
-	</ItemGroup>
+	</ItemGroup>-->
 	<!-- IdentityModel -->
 	<ItemGroup>
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" />
