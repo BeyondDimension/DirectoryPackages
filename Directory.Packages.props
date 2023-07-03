@@ -945,6 +945,10 @@
 	<ItemGroup>
 		<PackageVersion Include="SteamKit2" Version="2.5.0-Beta.1" />
 	</ItemGroup>
+	<!-- Playwright -->
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Playwright" Version="1.33.0" />
+	</ItemGroup>
 	<!-- IPC -->
 	<ItemGroup>
 		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha401" />
