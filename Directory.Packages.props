@@ -130,6 +130,7 @@
 		<PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
 		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
+		<PackageVersion Include="BD.Common.XmlnsDefinition.Avalonia" Version="0.0.0" />
 	</ItemGroup>
 	<!-- BD WTTS SDK -->
 	<ItemGroup>
