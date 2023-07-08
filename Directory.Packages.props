@@ -18,30 +18,30 @@
 		<Version_ReactiveUI>19.2.1</Version_ReactiveUI>
 	</PropertyGroup>
 	<!-- Avalonia-->
-	<PropertyGroup>
-		<Version_Avalonia>11.0.0-rc1.1</Version_Avalonia>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_Xaml_Behaviors>11.0.0-rc1.1</Version_Avalonia_Xaml_Behaviors>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_Edit>11.0.0-rc1.1</Version_Avalonia_Edit>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_Markdown>11.0.0-d1</Version_Avalonia_Markdown>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
-	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.800-11.0.0-rc1.1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
-	</PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia>11.0.0</Version_Avalonia>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_Xaml_Behaviors>11.0.0.1</Version_Avalonia_Xaml_Behaviors>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_Edit>11.0.0</Version_Avalonia_Edit>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_Markdown>11.0.0-d1</Version_Avalonia_Markdown>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_FluentUI>2.0.0-rc1</Version_Avalonia_FluentUI>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.802-11.0.0-rc1.1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+    </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
