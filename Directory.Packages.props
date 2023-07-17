@@ -886,7 +886,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.5.0.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.11" />
+		<PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.12" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.9.0.2" />
