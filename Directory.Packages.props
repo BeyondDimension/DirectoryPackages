@@ -963,7 +963,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<!-- Remove Microsoft.Extensions.Http Usage https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#remove-microsoft-extensions-http-usage -->
-		<PackageVersion Include="Refit.HttpClientFactory" Version="6.3.2" />
+		<PackageVersion Include="Refit.HttpClientFactory" Version="7.0.0" />
 	</ItemGroup>
 	<!-- Fusillade: An opinionated HTTP library for Mobile Development -->
 	<ItemGroup>
