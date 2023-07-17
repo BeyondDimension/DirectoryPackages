@@ -15,7 +15,7 @@
 	</PropertyGroup>
 	<!-- RxUI -->
 	<PropertyGroup>
-		<Version_ReactiveUI>19.2.1</Version_ReactiveUI>
+		<Version_ReactiveUI>19.4.1</Version_ReactiveUI>
 	</PropertyGroup>
 	<!-- Avalonia-->
     <PropertyGroup>
