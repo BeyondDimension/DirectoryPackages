@@ -383,7 +383,7 @@
 		<PackageVersion Include="OpenIddict.Core" Version="4.6.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Quartz" Version="4.5.0" />
+		<PackageVersion Include="OpenIddict.Quartz" Version="4.6.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="OpenIddict.AspNetCore" Version="4.6.0" />
