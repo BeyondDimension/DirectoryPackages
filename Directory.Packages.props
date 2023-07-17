@@ -111,7 +111,7 @@
 		<PackageVersion Include="BD.Common.Repositories" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Repositories.EFCore" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Repositories.SQLitePCL" Version="$(Version_BDCommon)" />
-		<PackageVersion Include="BD.Common.Repositories.SourceGenerator" Version="1.23.10616.11320" />
+		<PackageVersion Include="BD.Common.Repositories.SourceGenerator" Version="1.23.10628.11906" />
 		<PackageVersion Include="BD.Common.Repositories.SourceGenerator.Annotations" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.SmsSender" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Settings" Version="$(Version_BDCommon)" />
