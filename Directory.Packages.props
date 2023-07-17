@@ -856,7 +856,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.14" />
+		<PackageVersion Include="Xamarin.AndroidX.Biometric" Version="1.1.0.15" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.ExifInterface" Version="1.3.6.2" />
