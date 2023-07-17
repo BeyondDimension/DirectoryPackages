@@ -566,7 +566,7 @@
 	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.86" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.92" />
 	</ItemGroup>
 	<!-- Edge WebView2 NativeAssets -->
 	<ItemGroup>
