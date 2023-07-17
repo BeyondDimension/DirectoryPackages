@@ -868,7 +868,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.6.1.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Camera.Camera2" Version="1.2.3" />
+		<PackageVersion Include="Xamarin.AndroidX.Camera.Camera2" Version="1.2.3.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Camera.Lifecycle" Version="1.2.3" />
