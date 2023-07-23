@@ -585,6 +585,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Vanara.PInvoke.WinHTTP" Version="$(Version_Vanara_PInvoke)" />
+		<PackageVersion Include="Vanara.PInvoke.PowrProf" Version="$(Version_Vanara_PInvoke)" />
 	</ItemGroup>
 	<!-- OCR -->
 	<ItemGroup>
