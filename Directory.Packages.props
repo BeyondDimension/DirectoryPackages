@@ -19,10 +19,10 @@
 	</PropertyGroup>
 	<!-- Avalonia-->
     <PropertyGroup>
-        <Version_Avalonia>11.0.0</Version_Avalonia>
+        <Version_Avalonia>11.0.1</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.0.1</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.0.1</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Edit>11.0.0</Version_Avalonia_Edit>
@@ -40,17 +40,17 @@
         <Version_Avalonia_FluentUI>2.0.0</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.850</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.860</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-		<Version_HarfBuzzSharp>2.8.2.3</Version_HarfBuzzSharp>
+		<Version_HarfBuzzSharp>2.8.2.4-preview.89</Version_HarfBuzzSharp>
 	</PropertyGroup>
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>2.88.3</Version_SkiaSharp>
+		<Version_SkiaSharp>2.88.4-preview.89</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- CommandLine -->
 	<PropertyGroup>
