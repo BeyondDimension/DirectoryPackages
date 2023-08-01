@@ -2,7 +2,7 @@
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
 	<!-- BD Common -->
 	<PropertyGroup>
-		<Version_BDCommon>1.23.10731.11331</Version_BDCommon>
+		<Version_BDCommon>1.23.10801.11742</Version_BDCommon>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
