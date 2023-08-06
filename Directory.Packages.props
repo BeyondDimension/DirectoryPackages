@@ -22,7 +22,7 @@
         <Version_Avalonia>11.0.2</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.1</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Edit>11.0.0</Version_Avalonia_Edit>
