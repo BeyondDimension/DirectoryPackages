@@ -19,7 +19,7 @@
 	</PropertyGroup>
 	<!-- Avalonia-->
     <PropertyGroup>
-        <Version_Avalonia>11.0.2</Version_Avalonia>
+        <Version_Avalonia>11.0.3</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
@@ -37,7 +37,7 @@
         <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.0.0</Version_Avalonia_FluentUI>
+        <Version_Avalonia_FluentUI>2.0.1</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.911</Version_Avalonia_LiveChartsCore_SkiaSharpView>
@@ -1000,5 +1000,8 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Humanizer.Core.zh-CN" Version="$(Version_Humanizer)" />
+	</ItemGroup>
+	<ItemGroup>
+        <PackageVersion Include="Facepunch.Steamworks" Version="2.3.3" />
 	</ItemGroup>
 </Project>
