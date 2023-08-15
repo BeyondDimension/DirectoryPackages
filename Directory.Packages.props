@@ -1004,4 +1004,7 @@
 	<ItemGroup>
         <PackageVersion Include="Facepunch.Steamworks" Version="2.3.3" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="LiteDB" Version="5.0.17" />
+	</ItemGroup>
 </Project>
