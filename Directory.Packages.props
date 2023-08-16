@@ -219,7 +219,7 @@
 		<PackageVersion Include="EFCore.BulkExtensions" Version="7.1.5" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.4" />
+		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.5" />
 	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
