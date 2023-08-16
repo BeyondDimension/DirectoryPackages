@@ -326,7 +326,7 @@
 	</ItemGroup>
 	<!-- Xamarin.Forms -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Forms" Version="5.0.0.2578" />
+		<PackageVersion Include="Xamarin.Forms" Version="5.0.0.2612" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2578" />
