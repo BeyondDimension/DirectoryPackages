@@ -175,7 +175,7 @@
 	</ItemGroup>
 	<!-- Quartz JobSchedule -->
 	<ItemGroup>
-		<PackageVersion Include="Quartz.AspNetCore" Version="3.6.3" />
+		<PackageVersion Include="Quartz.AspNetCore" Version="3.7.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="NuGet.Versioning" Version="6.7.0" />
