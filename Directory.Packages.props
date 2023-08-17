@@ -50,7 +50,7 @@
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>2.88.4-preview.89</Version_SkiaSharp>
+		<Version_SkiaSharp>2.88.4-preview.96</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- CommandLine -->
 	<PropertyGroup>
