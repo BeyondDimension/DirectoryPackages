@@ -240,7 +240,7 @@
 	</ItemGroup>
 	<!-- UnitTest(MS) -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.7.0" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
