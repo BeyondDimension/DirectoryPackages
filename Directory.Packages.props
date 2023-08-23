@@ -314,7 +314,7 @@
 	</ItemGroup>
 	<!-- SQLite PCL RAW -->
 	<ItemGroup>
-		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
+		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.6" />
 	</ItemGroup>
 	<!-- DBreeze(key value store embedded) -->
 	<ItemGroup>
