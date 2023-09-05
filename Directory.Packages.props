@@ -63,6 +63,9 @@
 	<PropertyGroup>
 		<Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
 	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Any_AppCenter>5.0.2</Version_Any_AppCenter>
+	</PropertyGroup>
 	<!-- ArchiSteamFarm Library -->
 	<PropertyGroup>
 		<Version_ArchiSteamFarm_Library>5.2.6.3-preview.220608</Version_ArchiSteamFarm_Library>
@@ -635,6 +638,12 @@
 		<PackageVersion Include="Aigio.Avalonia.AppCenter" Version="$(Version_Avalonia_AppCenter)" />
 		<PackageVersion Include="Aigio.Avalonia.AppCenter.Analytics" Version="$(Version_Avalonia_AppCenter)" />
 		<PackageVersion Include="Aigio.Avalonia.AppCenter.Crashes" Version="$(Version_Avalonia_AppCenter)" />
+	</ItemGroup>
+	<!-- Any.AppCenter -->
+	<ItemGroup>
+		<PackageVersion Include="Aigio.Any.AppCenter" Version="$(Version_Any_AppCenter)" />
+		<PackageVersion Include="Aigio.Any.AppCenter.Analytics" Version="$(Version_Any_AppCenter)" />
+		<PackageVersion Include="Aigio.Any.AppCenter.Crashes" Version="$(Version_Any_AppCenter)" />
 	</ItemGroup>
 	<!-- Moq -->
 	<ItemGroup>
