@@ -950,7 +950,7 @@
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="6.32.2" />
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
