@@ -857,7 +857,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.6" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.7.0" />
+		<PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.7.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.7.0" />
