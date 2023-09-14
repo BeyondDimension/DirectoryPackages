@@ -493,7 +493,7 @@
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
 	</ItemGroup>
 	<!-- EFCore 7.0 PostgreSQL -->
 	<ItemGroup>
