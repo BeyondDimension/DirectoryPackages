@@ -471,7 +471,7 @@
 		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.10" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.11" />
