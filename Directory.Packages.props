@@ -403,7 +403,7 @@
 	</ItemGroup>
 	<!-- OpenIdConnect -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.10" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.11" />
 	</ItemGroup>
 	<!-- Microsoft.Extensions.* 7.0 -->
 	<ItemGroup>
