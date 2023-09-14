@@ -487,7 +487,7 @@
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.11" />
