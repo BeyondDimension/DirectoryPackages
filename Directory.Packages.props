@@ -869,7 +869,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.7.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.7.1" />
+		<PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.7.2.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.21" />
