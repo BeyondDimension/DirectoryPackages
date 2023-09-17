@@ -872,7 +872,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.Navigation.Fragment" Version="2.7.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.21" />
+		<PackageVersion Include="Xamarin.AndroidX.ViewPager2" Version="1.0.0.22" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Activity" Version="1.7.2.1" />
