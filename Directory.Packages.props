@@ -905,7 +905,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.WebKit" Version="1.8.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.6.0" />
+		<PackageVersion Include="Xamarin.AndroidX.Browser" Version="1.6.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Security.SecurityCrypto" Version="1.0.0.13" />
