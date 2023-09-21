@@ -863,7 +863,7 @@
 		<PackageVersion Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.14" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.6" />
+		<PackageVersion Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.7" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Navigation.UI" Version="2.7.1" />
