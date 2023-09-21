@@ -989,7 +989,7 @@
 	</ItemGroup>
 	<!-- Fusillade: An opinionated HTTP library for Mobile Development -->
 	<ItemGroup>
-		<PackageVersion Include="fusillade" Version="2.4.67" />
+		<PackageVersion Include="fusillade" Version="2.6.1" />
 	</ItemGroup>
 	<!-- Akavache: An Asynchronous Key-Value Store for Native Applications -->
 	<ItemGroup>
