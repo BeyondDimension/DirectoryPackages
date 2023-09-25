@@ -50,7 +50,7 @@
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>2.88.6</Version_SkiaSharp>
+		<Version_SkiaSharp>2.88.5</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- CommandLine -->
 	<PropertyGroup>
@@ -667,6 +667,7 @@
 	<ItemGroup>
 		<PackageVersion Include="SkiaSharp" Version="$(Version_SkiaSharp)" />
 		<PackageVersion Include="SkiaSharp.NativeAssets.Linux" Version="$(Version_SkiaSharp)" />
+		<PackageVersion Include="SkiaSharp.HarfBuzz" Version="$(Version_SkiaSharp)" />
 	</ItemGroup>
 	<!-- Compression Tar, GZip, BZip2 -->
 	<ItemGroup>
