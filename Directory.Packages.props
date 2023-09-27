@@ -2,7 +2,7 @@
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
 	<!-- BD Common -->
 	<PropertyGroup>
-		<Version_BDCommon>1.23.10912.11322</Version_BDCommon>
+		<Version_BDCommon>1.23.10926.11939</Version_BDCommon>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
@@ -18,30 +18,30 @@
 		<Version_ReactiveUI>19.4.1</Version_ReactiveUI>
 	</PropertyGroup>
 	<!-- Avalonia-->
-    <PropertyGroup>
-        <Version_Avalonia>11.0.4</Version_Avalonia>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Edit>11.0.1</Version_Avalonia_Edit>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.0.4</Version_Avalonia_FluentUI>
-    </PropertyGroup>
-    <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
-    </PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia>11.0.4</Version_Avalonia>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Edit>11.0.1</Version_Avalonia_Edit>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_FluentUI>2.0.4</Version_Avalonia_FluentUI>
+	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+	</PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
@@ -763,6 +763,7 @@
 		<PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Android" Version="$(Version_Avalonia)" />
 	</ItemGroup>
 	<!-- Avalonia Xaml Behaviors -->
 	<ItemGroup>
@@ -842,7 +843,7 @@
 		<PackageVersion Include="XAB.FlexboxLayout" Version="3.0.0.2" />
 	</ItemGroup>
 	<!-- Xamarin.AndroidX -->
-	<ItemGroup>
+	<!--<ItemGroup>
 		<PackageVersion Include="Xamarin.AndroidX.Migration" Version="1.0.10" />
 	</ItemGroup>
 	<ItemGroup>
@@ -913,6 +914,16 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Google.Crypto.Tink.Android" Version="1.10.0.1" />
+	</ItemGroup>-->
+	<!-- Kotlin Std -->
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Kotlin.StdLib" Version="1.9.10.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.10.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.10.1" />
 	</ItemGroup>
 	<!-- Xamarin.iOS -->
 	<ItemGroup>
@@ -1021,7 +1032,7 @@
 		<PackageVersion Include="Humanizer.Core.zh-CN" Version="$(Version_Humanizer)" />
 	</ItemGroup>
 	<ItemGroup>
-        <PackageVersion Include="Facepunch.Steamworks" Version="2.3.3" />
+		<PackageVersion Include="Facepunch.Steamworks" Version="2.3.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="LiteDB" Version="5.0.17" />
