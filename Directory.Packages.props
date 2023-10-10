@@ -487,7 +487,7 @@
 	</ItemGroup>
 	<!-- EFCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
