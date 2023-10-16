@@ -812,7 +812,7 @@
 		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3.1" />
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" Version="3.1.7.1" />
