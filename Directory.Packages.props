@@ -923,7 +923,7 @@
 		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.10.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.10.1" />
+		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.10.2" />
 	</ItemGroup>
 	<!-- Xamarin.iOS -->
 	<ItemGroup>
