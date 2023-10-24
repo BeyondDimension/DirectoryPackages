@@ -5,7 +5,7 @@
         <Version_BDCommon>1.23.10601.11431</Version_BDCommon>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDSteamClient>1.23.10601.10615</Version_BDSteamClient>
+        <Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
     </PropertyGroup>
     <PropertyGroup>
         <Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
