@@ -28,7 +28,7 @@
         <Version_Avalonia_Edit>11.0.0-preview6</Version_Avalonia_Edit>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Markdown>11.0.0-c1</Version_Avalonia_Markdown>
+        <Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
