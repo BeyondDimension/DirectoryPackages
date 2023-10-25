@@ -2,33 +2,33 @@
     <!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
     <!-- BD Common -->
     <PropertyGroup>
-        <Version_BDCommon>1.23.10601.11431</Version_BDCommon>
+        <Version_BDCommon>1.23.10926.11939</Version_BDCommon>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDSteamClient>1.23.10601.10615</Version_BDSteamClient>
+        <Version_BDSteamClient>1.23.10626.11400</Version_BDSteamClient>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDSteamClientModels>1.23.10209.11223</Version_BDSteamClientModels>
+        <Version_BDSteamClientModels>1.23.10616.11526</Version_BDSteamClientModels>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_BDWTTSSDK>1.23.10531.11718</Version_BDWTTSSDK>
+        <Version_BDWTTSSDK>1.23.10616.11526</Version_BDWTTSSDK>
     </PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
-        <Version_ReactiveUI>18.4.34</Version_ReactiveUI>
+        <Version_ReactiveUI>19.4.1</Version_ReactiveUI>
     </PropertyGroup>
     <!-- Avalonia-->
     <PropertyGroup>
         <Version_Avalonia>11.0.5</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.0-preview8</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Edit>11.0.0-preview6</Version_Avalonia_Edit>
+        <Version_Avalonia_Edit>11.0.1</Version_Avalonia_Edit>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Markdown>11.0.0-c1</Version_Avalonia_Markdown>
+        <Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
@@ -37,10 +37,10 @@
         <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.0.0-preview8</Version_Avalonia_FluentUI>
+        <Version_Avalonia_FluentUI>2.0.4</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-beta.700-11.0.0-preview8</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
