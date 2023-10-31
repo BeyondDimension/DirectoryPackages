@@ -452,7 +452,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="StackExchange.Redis" Version="2.6.122" />
+		<PackageVersion Include="StackExchange.Redis" Version="2.7.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="InitQ " Version="1.0.0.18" />
