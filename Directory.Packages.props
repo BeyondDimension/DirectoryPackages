@@ -34,7 +34,7 @@
         <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
+        <Version_Avalonia_LibVLCSharp>3.8.1</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_FluentUI>2.0.4</Version_Avalonia_FluentUI>
