@@ -250,7 +250,7 @@
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit" Version="3.13.3" />
+		<PackageVersion Include="NUnit" Version="3.14.0" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit3TestAdapter) -->
 	<ItemGroup>
