@@ -828,7 +828,7 @@
 		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.46.1.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.1.0.2" />
+		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.2.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
