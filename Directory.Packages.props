@@ -837,7 +837,7 @@
 		<PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Square.OkHttp3" Version="4.11.0.2" />
+		<PackageVersion Include="Square.OkHttp3" Version="4.11.0.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Square.Picasso" Version="2.71828.0" />
