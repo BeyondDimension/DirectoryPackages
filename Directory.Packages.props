@@ -538,7 +538,7 @@
 		<PackageVersion Include="System.Text.Json" Version="7.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
+		<PackageVersion Include="System.Net.Http.Json" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Net.Http.WinHttpHandler" Version="7.0.0" />
