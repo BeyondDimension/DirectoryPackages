@@ -461,7 +461,7 @@
 		<PackageVersion Include="InitQ " Version="1.0.0.18" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="7.0.0" />
