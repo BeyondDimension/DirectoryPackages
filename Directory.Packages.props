@@ -422,7 +422,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Http" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
