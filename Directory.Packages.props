@@ -962,7 +962,7 @@
 		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
+		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="8.0.0" />
 	</ItemGroup>
 	<!-- Gtk# -->
 	<ItemGroup>
