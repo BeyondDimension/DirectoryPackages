@@ -547,7 +547,7 @@
 		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
+		<PackageVersion Include="System.Security.Cryptography.Xml" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
