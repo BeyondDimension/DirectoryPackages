@@ -58,7 +58,7 @@
 	</PropertyGroup>
 	<!-- AppCenter -->
 	<PropertyGroup>
-		<Version_AppCenter>5.0.2</Version_AppCenter>
+		<Version_AppCenter>5.0.3</Version_AppCenter>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
