@@ -529,7 +529,7 @@
 		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+		<PackageVersion Include="System.Text.Encoding.CodePages" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Text.Encodings.Web" Version="8.0.0" />
