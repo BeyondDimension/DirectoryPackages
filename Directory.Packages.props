@@ -480,7 +480,7 @@
 		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
