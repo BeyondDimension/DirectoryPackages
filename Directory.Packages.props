@@ -520,7 +520,7 @@
 		<PackageVersion Include="System.Composition" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
+		<PackageVersion Include="System.IO.Pipelines" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Management" Version="7.0.2" />
