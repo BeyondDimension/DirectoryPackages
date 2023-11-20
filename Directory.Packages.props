@@ -580,7 +580,7 @@
 		<PackageVersion Include="System.Runtime.Caching" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
+		<PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
 	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
