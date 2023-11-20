@@ -82,7 +82,7 @@
 		<Version_Splat_Drawing>14.8.6</Version_Splat_Drawing>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_System_Drawing_Common>7.0.0</Version_System_Drawing_Common>
+		<Version_System_Drawing_Common>8.0.0</Version_System_Drawing_Common>
 	</PropertyGroup>
 	<!-- Reactive -->
 	<PropertyGroup>
