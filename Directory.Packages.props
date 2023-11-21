@@ -222,7 +222,7 @@
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions" Version="7.1.6" />
+		<PackageVersion Include="EFCore.BulkExtensions" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.6" />
