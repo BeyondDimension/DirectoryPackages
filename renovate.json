@@ -9,5 +9,6 @@
   ],
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "platformAutomerge": true
 }
