@@ -10,5 +10,6 @@
   "git-submodules": {
     "enabled": true
   },
+  "ignoreTests": true,
   "platformAutomerge": true
 }
