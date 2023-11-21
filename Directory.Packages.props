@@ -614,7 +614,7 @@
 		<PackageVersion Include="PuppeteerSharp" Version="12.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Playwright" Version="1.39.0" />
+		<PackageVersion Include="Microsoft.Playwright" Version="1.40.0" />
 	</ItemGroup>
 	<!-- WindowsRuntime(NETFX) & PowerShell 5 -->
 	<ItemGroup>
