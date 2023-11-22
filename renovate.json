@@ -11,5 +11,7 @@
     "enabled": true
   },
   "ignoreTests": true,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "timezone": "Asia/Shanghai",
+  "schedule": ["before 5:00am","before 10am","before 3pm","before 8pm"]
 }
