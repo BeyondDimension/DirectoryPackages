@@ -659,7 +659,7 @@
 	</ItemGroup>
 	<!-- Moq -->
 	<ItemGroup>
-		<PackageVersion Include="Moq" Version="4.20.69" />
+		<PackageVersion Include="Moq" Version="4.20.70" />
 	</ItemGroup>
 	<!-- HarfBuzzSharp -->
 	<ItemGroup>
