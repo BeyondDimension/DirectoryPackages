@@ -507,7 +507,7 @@
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="8.101.0" />
+		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="8.101.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="8.101.1" />
