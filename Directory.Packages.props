@@ -611,7 +611,7 @@
 	</ItemGroup>
 	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
 	<ItemGroup>
-		<PackageVersion Include="PuppeteerSharp" Version="13.0.1" />
+		<PackageVersion Include="PuppeteerSharp" Version="13.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Playwright" Version="1.40.0" />
