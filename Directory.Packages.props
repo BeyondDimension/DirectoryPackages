@@ -988,7 +988,7 @@
 	</ItemGroup>
 	<!-- IPC -->
 	<ItemGroup>
-		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha409" />
+		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha410" />
 	</ItemGroup>
 	<!-- ValveKeyValue -->
 	<ItemGroup>
