@@ -398,7 +398,7 @@
 		<PackageVersion Include="OpenIddict.AspNetCore" Version="5.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.10.1" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="5.0.0" />
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
