@@ -188,7 +188,7 @@
 	</ItemGroup>
 	<!-- Code Style -->
 	<ItemGroup>
-		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.553" />
+		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556" />
 	</ItemGroup>
 	<!-- Swagger OpenAPI Documentation -->
 	<ItemGroup>
