@@ -389,16 +389,16 @@
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Core" Version="5.0.0" />
+		<PackageVersion Include="OpenIddict.Core" Version="5.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Quartz" Version="5.0.0" />
+		<PackageVersion Include="OpenIddict.Quartz" Version="5.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.AspNetCore" Version="5.0.0" />
+		<PackageVersion Include="OpenIddict.AspNetCore" Version="5.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="5.0.0" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="5.0.1" />
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
