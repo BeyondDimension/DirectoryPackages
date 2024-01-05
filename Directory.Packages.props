@@ -15,17 +15,17 @@
     </PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
-        <Version_ReactiveUI>19.5.1</Version_ReactiveUI>
+        <Version_ReactiveUI>19.4.1</Version_ReactiveUI>
     </PropertyGroup>
     <!-- Avalonia-->
     <PropertyGroup>
         <Version_Avalonia>11.0.5</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.0.5</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.0.2</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Edit>11.0.5</Version_Avalonia_Edit>
+        <Version_Avalonia_Edit>11.0.1</Version_Avalonia_Edit>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
@@ -34,13 +34,13 @@
         <Version_Avalonia_CefNet>105.3.22248.142</Version_Avalonia_CefNet>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LibVLCSharp>3.8.2</Version_Avalonia_LibVLCSharp>
+        <Version_Avalonia_LibVLCSharp>3.7.0</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_FluentUI>2.0.4</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc2</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc1</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
@@ -58,7 +58,7 @@
 	</PropertyGroup>
 	<!-- AppCenter -->
 	<PropertyGroup>
-		<Version_AppCenter>5.0.3</Version_AppCenter>
+		<Version_AppCenter>5.0.2</Version_AppCenter>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_AppCenter>4.5.3</Version_Avalonia_AppCenter>
@@ -76,13 +76,13 @@
 	</PropertyGroup>
 	<!-- Vanara.PInvoke -->
 	<PropertyGroup>
-		<Version_Vanara_PInvoke>3.4.17</Version_Vanara_PInvoke>
+		<Version_Vanara_PInvoke>3.4.16</Version_Vanara_PInvoke>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Splat_Drawing>14.8.6</Version_Splat_Drawing>
+		<Version_Splat_Drawing>14.7.1</Version_Splat_Drawing>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_System_Drawing_Common>8.0.0</Version_System_Drawing_Common>
+		<Version_System_Drawing_Common>7.0.0</Version_System_Drawing_Common>
 	</PropertyGroup>
 	<!-- Reactive -->
 	<PropertyGroup>
@@ -151,7 +151,7 @@
 	</ItemGroup>
 	<!-- Azure Blobs -->
 	<ItemGroup>
-		<PackageVersion Include="Azure.Storage.Blobs" Version="12.19.1" />
+		<PackageVersion Include="Azure.Storage.Blobs" Version="12.18.0" />
 	</ItemGroup>
 	<!-- Algorithm -->
 	<ItemGroup>
@@ -181,14 +181,14 @@
 	</ItemGroup>
 	<!-- Quartz JobSchedule -->
 	<ItemGroup>
-		<PackageVersion Include="Quartz.AspNetCore" Version="3.8.0" />
+		<PackageVersion Include="Quartz.AspNetCore" Version="3.7.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NuGet.Versioning" Version="6.8.0" />
+		<PackageVersion Include="NuGet.Versioning" Version="6.7.0" />
 	</ItemGroup>
 	<!-- Code Style -->
 	<ItemGroup>
-		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556" />
+		<PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.507" />
 	</ItemGroup>
 	<!-- Swagger OpenAPI Documentation -->
 	<ItemGroup>
@@ -212,30 +212,30 @@
 	</ItemGroup>
 	<!-- NLog -->
 	<ItemGroup>
-		<PackageVersion Include="NLog" Version="5.2.8" />
+		<PackageVersion Include="NLog" Version="5.2.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Extensions.Logging" Version="5.3.8" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="5.3.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.3.8" />
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="5.3.4" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions" Version="8.0.1" />
+		<PackageVersion Include="EFCore.BulkExtensions" Version="7.1.6" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="8.0.1" />
+		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="7.1.6" />
 	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
-		<PackageVersion Include="AntDesign" Version="0.17.1" />
+		<PackageVersion Include="AntDesign" Version="0.15.5" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AntDesign.Charts" Version="0.5.0" />
+		<PackageVersion Include="AntDesign.Charts" Version="0.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AntDesign.ProLayout" Version="0.17.1.3" />
+		<PackageVersion Include="AntDesign.ProLayout" Version="0.14.4.1" />
 	</ItemGroup>
 	<!-- Blazor -->
 	<ItemGroup>
@@ -246,11 +246,11 @@
 	</ItemGroup>
 	<!-- UnitTest(MS) -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit" Version="4.0.1" />
+		<PackageVersion Include="NUnit" Version="3.13.3" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit3TestAdapter) -->
 	<ItemGroup>
@@ -258,7 +258,7 @@
 	</ItemGroup>
 	<!-- UnitTest(NUnit Analyzers) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit.Analyzers" Version="3.10.0" />
+		<PackageVersion Include="NUnit.Analyzers" Version="3.7.0" />
 	</ItemGroup>
 	<!-- CSV / Excel -->
 	<ItemGroup>
@@ -266,19 +266,19 @@
 	</ItemGroup>
 	<!-- Html Parser(AngleSharp) -->
 	<ItemGroup>
-		<PackageVersion Include="AngleSharp" Version="1.0.7" />
+		<PackageVersion Include="AngleSharp" Version="1.0.4" />
 	</ItemGroup>
 	<!-- Html Parser(HtmlAgilityPack) -->
 	<ItemGroup>
-		<PackageVersion Include="HtmlAgilityPack" Version="1.11.57" />
+		<PackageVersion Include="HtmlAgilityPack" Version="1.11.53" />
 	</ItemGroup>
 	<!-- Serialize MessagePack -->
 	<ItemGroup>
-		<PackageVersion Include="MessagePack" Version="2.5.140" />
+		<PackageVersion Include="MessagePack" Version="2.5.124" />
 	</ItemGroup>
 	<!-- Serialize MemoryPack -->
 	<ItemGroup>
-		<PackageVersion Include="MemoryPack" Version="1.10.0" />
+		<PackageVersion Include="MemoryPack" Version="1.9.16" />
 	</ItemGroup>
 	<!-- Serialize NJson -->
 	<ItemGroup>
@@ -286,23 +286,23 @@
 	</ItemGroup>
 	<!-- Serialize NJson & AspNetCore -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.11" />
 	</ItemGroup>
 	<!-- Serialize Protobuf -->
 	<ItemGroup>
-		<PackageVersion Include="Google.Protobuf" Version="3.25.1" />
+		<PackageVersion Include="Google.Protobuf" Version="3.24.3" />
 	</ItemGroup>
 	<!-- Serialize Protobuf Tools -->
 	<ItemGroup>
-		<PackageVersion Include="Google.Protobuf.Tools" Version="3.25.1" />
+		<PackageVersion Include="Google.Protobuf.Tools" Version="3.24.3" />
 	</ItemGroup>
 	<!-- Resilience & Transient Fault Handling -->
 	<ItemGroup>
-		<PackageVersion Include="Polly" Version="8.2.0" />
+		<PackageVersion Include="Polly" Version="7.2.4" />
 	</ItemGroup>
 	<!-- QrCode -->
 	<ItemGroup>
-		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.0.4" />
+		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.0.3" />
 	</ItemGroup>
 	<!-- Nito.* -->
 	<ItemGroup>
@@ -320,22 +320,22 @@
 	</ItemGroup>
 	<!-- SQLite PCL RAW -->
 	<ItemGroup>
-		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.7" />
+		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.6" />
 	</ItemGroup>
 	<!-- DBreeze(key value store embedded) -->
 	<ItemGroup>
-		<PackageVersion Include="DBreeze" Version="1.115.2023.1103" />
+		<PackageVersion Include="DBreeze" Version="1.108.0" />
 	</ItemGroup>
 	<!-- Xamarin -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Essentials" Version="1.8.1" />
+		<PackageVersion Include="Xamarin.Essentials" Version="1.8.0" />
 	</ItemGroup>
 	<!-- Xamarin.Forms -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Forms" Version="5.0.0.2622" />
+		<PackageVersion Include="Xamarin.Forms" Version="5.0.0.2612" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2622" />
+		<PackageVersion Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2612" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xam.Plugins.Forms.ImageCircle" Version="3.1.1.1-beta" />
@@ -375,179 +375,179 @@
 	</ItemGroup>
 	<!-- .NET Compat(Madness) -->
 	<ItemGroup>
-		<PackageVersion Include="JustArchiNET.Madness" Version="3.17.0" />
+		<PackageVersion Include="JustArchiNET.Madness" Version="3.16.0" />
 	</ItemGroup>
 	<!-- AspNetCore 7 OpenId/OAuth -->
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OpenId.Steam" Version="8.0.0" />
+		<PackageVersion Include="AspNet.Security.OpenId.Steam" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OAuth.QQ" Version="8.0.0" />
+		<PackageVersion Include="AspNet.Security.OAuth.QQ" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OAuth.Apple" Version="8.0.0" />
+		<PackageVersion Include="AspNet.Security.OAuth.Apple" Version="7.0.4" />
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Core" Version="5.0.1" />
+		<PackageVersion Include="OpenIddict.Core" Version="4.8.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Quartz" Version="5.0.1" />
+		<PackageVersion Include="OpenIddict.Quartz" Version="4.8.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.AspNetCore" Version="5.0.1" />
+		<PackageVersion Include="OpenIddict.AspNetCore" Version="4.8.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="5.0.1" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.8.0" />
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.11" />
 	</ItemGroup>
 	<!-- OpenIdConnect -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.11" />
 	</ItemGroup>
 	<!-- Microsoft.Extensions.* 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Http" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Http" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Logging" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="StackExchange.Redis" Version="2.7.10" />
+		<PackageVersion Include="StackExchange.Redis" Version="2.6.122" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="InitQ " Version="1.0.0.18" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="7.0.0" />
 	</ItemGroup>
 	<!-- AspNetCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.11" />
 	</ItemGroup>
 	<!-- EFCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.11" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
 	</ItemGroup>
 	<!-- EFCore 7.0 PostgreSQL -->
 	<ItemGroup>
-		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="8.101.1.3" />
+		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="7.100.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="8.101.1.3" />
+		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="7.100.0.1" />
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
 		<PackageVersion Include="System.Linq.Async" Version="6.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Composition" Version="8.0.0" />
+		<PackageVersion Include="System.Composition" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.IO.Pipelines" Version="8.0.0" />
+		<PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Management" Version="8.0.0" />
+		<PackageVersion Include="System.Management" Version="7.0.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="8.0.0" />
+		<PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+		<PackageVersion Include="System.Text.Encoding.CodePages" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Text.Encodings.Web" Version="8.0.0" />
+		<PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Text.Json" Version="8.0.0" />
+		<PackageVersion Include="System.Text.Json" Version="7.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Net.Http.Json" Version="8.0.0" />
+		<PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Net.Http.WinHttpHandler" Version="8.0.0" />
+		<PackageVersion Include="System.Net.Http.WinHttpHandler" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+		<PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="7.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Security.Cryptography.Xml" Version="8.0.0" />
+		<PackageVersion Include="System.Security.Cryptography.Xml" Version="7.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
@@ -577,14 +577,14 @@
 		<PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Runtime.Caching" Version="8.0.0" />
+		<PackageVersion Include="System.Runtime.Caching" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
 	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="8.0.3" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.92" />
 	</ItemGroup>
 	<!-- Edge WebView2 NativeAssets -->
 	<ItemGroup>
@@ -592,7 +592,7 @@
 	</ItemGroup>
 	<!-- SourceLink -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
 	</ItemGroup>
 	<!-- PInvoke -->
 	<ItemGroup>
@@ -607,14 +607,14 @@
 	</ItemGroup>
 	<!-- OCR -->
 	<ItemGroup>
-		<PackageVersion Include="PaddleOCRSharp" Version="4.0.2" />
+		<PackageVersion Include="PaddleOCRSharp" Version="4.0.1" />
 	</ItemGroup>
 	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
 	<ItemGroup>
-		<PackageVersion Include="PuppeteerSharp" Version="13.0.2" />
+		<PackageVersion Include="PuppeteerSharp" Version="11.0.6" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Playwright" Version="1.40.0" />
+		<PackageVersion Include="Microsoft.Playwright" Version="1.38.0" />
 	</ItemGroup>
 	<!-- WindowsRuntime(NETFX) & PowerShell 5 -->
 	<ItemGroup>
@@ -628,13 +628,13 @@
 	</ItemGroup>
 	<!-- Windows SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.2428" />
+		<PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22621.756" />
 	</ItemGroup>
 	<!-- AspNetCore 2x Compat -->
 	<ItemGroup>
 		<!-- AspNetCore 2x 目前仅用于 iOS/Android -->
 		<!-- 使用修复高版本中 Microsoft.Extensions.Primitives 破坏性更改导致不兼容的自编译高版本本地包覆盖 -->
-		<PackageVersion Include="Microsoft.Net.Http.Headers" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Net.Http.Headers" Version="2.2.255.255" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AspNetCore2.NETStandard.NLog.Web.AspNetCore" Version="5.0.0" />
@@ -659,7 +659,7 @@
 	</ItemGroup>
 	<!-- Moq -->
 	<ItemGroup>
-		<PackageVersion Include="Moq" Version="4.20.70" />
+		<PackageVersion Include="Moq" Version="4.20.69" />
 	</ItemGroup>
 	<!-- HarfBuzzSharp -->
 	<ItemGroup>
@@ -700,15 +700,11 @@
 	</ItemGroup>
 	<!-- Alipay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.3" />
+		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.2" />
 	</ItemGroup>
 	<!-- WechatPay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.3" />
-	</ItemGroup>
-	<!-- Wechat Api SDK -->
-	<ItemGroup>
-		<PackageVersion Include="SKIT.FlurlHttpClient.Wechat.Api" Version="2.36.0" />
+		<PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.2" />
 	</ItemGroup>
 	<!-- Excel -->
 	<ItemGroup>
@@ -716,7 +712,7 @@
 	</ItemGroup>
 	<!-- Github API -->
 	<ItemGroup>
-		<PackageVersion Include="Octokit" Version="9.1.0" />
+		<PackageVersion Include="Octokit" Version="8.0.0" />
 	</ItemGroup>
 	<!-- MonoMac(NETSTANDARD) -->
 	<ItemGroup>
@@ -741,10 +737,10 @@
 	</ItemGroup>
 	<!-- DNS(Ae.DNS) -->
 	<ItemGroup>
-		<PackageVersion Include="Ae.DNS.Client" Version="2.1.0" />
+		<PackageVersion Include="Ae.DNS.Client" Version="1.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Ae.Dns.Protocol" Version="2.1.0" />
+		<PackageVersion Include="Ae.Dns.Protocol" Version="1.0.0" />
 	</ItemGroup>
 	<!-- DNS(DnsClient) -->
 	<ItemGroup>
@@ -816,23 +812,23 @@
 		<!--<PackageVersion Include="Karamunting.KotlinX.Coroutines.Core" Version="1.4.2" />-->
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.3.3" />
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3.3" />
+		<PackageVersion Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" Version="3.1.8.2" />
+		<PackageVersion Include="Xamarin.Android.ReactiveX.RxJava3.RxJava" Version="3.1.7.1" />
 	</ItemGroup>
 	<!-- Xamarin.Android -->
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Build.Download" Version="0.11.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.48.1.1" />
+		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.46.1.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.2.0.3" />
+		<PackageVersion Include="Xamarin.Google.MLKit.BarcodeScanning" Version="117.1.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Plugin.CurrentActivity" Version="2.1.0.4" />
@@ -841,7 +837,7 @@
 		<PackageVersion Include="de.hdodenhof.circleimageview" Version="3.1.0.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Square.OkHttp3" Version="4.12.0.1" />
+		<PackageVersion Include="Square.OkHttp3" Version="4.11.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Square.Picasso" Version="2.71828.0" />
@@ -924,13 +920,13 @@
 	</ItemGroup>-->
 	<!-- Kotlin Std -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Kotlin.StdLib" Version="1.9.21.1" />
+		<PackageVersion Include="Xamarin.Kotlin.StdLib" Version="1.9.10.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.21.1" />
+		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.10.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.21.1" />
+		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.10.1" />
 	</ItemGroup>
 	<!-- Xamarin.iOS -->
 	<ItemGroup>
@@ -941,11 +937,11 @@
 		<PackageVersion Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.4.231115000" />
+		<PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.4.230913002" />
 	</ItemGroup>
 	<!-- Yet Another Reverse Proxy -->
 	<ItemGroup>
-		<PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
+		<PackageVersion Include="Yarp.ReverseProxy" Version="2.0.1" />
 	</ItemGroup>
 	<!-- WinDivert -->
 	<ItemGroup>
@@ -966,7 +962,7 @@
 		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
 	</ItemGroup>
 	<!-- Gtk# -->
 	<ItemGroup>
@@ -974,25 +970,25 @@
 	</ItemGroup>
 	<!-- WinAuth -->
 	<ItemGroup>
-		<PackageVersion Include="WinAuth.Library" Version="3.623.20626.21818" />
+		<PackageVersion Include="WinAuth.Library" Version="3.623.20625.21123" />
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.0.3" />
+		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.0.0" />
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
-		<PackageVersion Include="SteamKit2" Version="2.5.0" />
+		<PackageVersion Include="SteamKit2" Version="2.5.0-Beta.1" />
 	</ItemGroup>
 	<!-- IPC -->
 	<ItemGroup>
-		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha411" />
+		<PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha406" />
 	</ItemGroup>
 	<!-- ValveKeyValue -->
 	<ItemGroup>
@@ -1026,7 +1022,7 @@
 		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.7.0" />
 	</ItemGroup>
 	<!-- Humanizer -->
 	<ItemGroup>
