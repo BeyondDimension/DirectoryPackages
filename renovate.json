@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":automergeAll",
+    ":disableRenovate",
     ":disableDependencyDashboard",
     ":disableRateLimiting",
     ":label(🤖 Automatic)"
@@ -10,8 +10,6 @@
   "git-submodules": {
     "enabled": true
   },
-  "ignoreTests": true,
-  "platformAutomerge": true,
   "timezone": "Asia/Shanghai",
   "schedule": ["before 5:00am","before 10am","before 3pm","before 8pm"]
 }
