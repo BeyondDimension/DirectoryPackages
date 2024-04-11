@@ -458,6 +458,9 @@
 		<PackageVersion Include="StackExchange.Redis" Version="2.6.122" />
 	</ItemGroup>
 	<ItemGroup>
+		<PackageVersion Include="StackExchange.Redis.Extensions.AspNetCore" Version="9.1.0" />
+	</ItemGroup>
+	<ItemGroup>
 		<PackageVersion Include="InitQ " Version="1.0.0.18" />
 	</ItemGroup>
 	<ItemGroup>
