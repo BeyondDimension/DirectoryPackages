@@ -13,6 +13,9 @@
     <PropertyGroup>
         <Version_BDWTTSSDK>1.23.10616.11526</Version_BDWTTSSDK>
     </PropertyGroup>
+	<PropertyGroup>
+		<Version_BDCommon8_HuaweiCloud_SDK_OBS>8.24.10411.11524</Version_BDCommon8_HuaweiCloud_SDK_OBS>
+	</PropertyGroup>
     <!-- RxUI -->
     <PropertyGroup>
         <Version_ReactiveUI>19.4.1</Version_ReactiveUI>
@@ -134,6 +137,7 @@
 		<PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
 		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
 		<PackageVersion Include="BD.Common.XmlnsDefinition.Avalonia" Version="0.0.0" />
+		<PackageVersion Include="BD.Common8.HuaweiCloud.SDK.Obs" Version="$(Version_BDCommon8_HuaweiCloud_SDK_OBS)" />
 	</ItemGroup>
 	<!-- BD WTTS SDK -->
 	<ItemGroup>
