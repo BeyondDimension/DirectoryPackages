@@ -403,6 +403,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="4.8.0" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore.Models" Version="4.8.0" />
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
