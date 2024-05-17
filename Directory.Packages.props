@@ -31,6 +31,9 @@
         <Version_Avalonia_Edit>11.0.6</Version_Avalonia_Edit>
     </PropertyGroup>
     <PropertyGroup>
+        <Version_AvaloniaEdit_TextMate>11.0.6</Version_AvaloniaEdit_TextMate>
+    </PropertyGroup>
+    <PropertyGroup>
         <Version_Avalonia_Markdown>11.0.2</Version_Avalonia_Markdown>
     </PropertyGroup>
     <PropertyGroup>
@@ -790,6 +793,7 @@
 	<!-- Avalonia Edit -->
 	<ItemGroup>
 		<PackageVersion Include="Avalonia.AvaloniaEdit" Version="$(Version_Avalonia_Edit)" />
+        <PackageVersion Include="AvaloniaEdit.TextMate" Version="$(Version_AvaloniaEdit_TextMate)" />
 	</ItemGroup>
 	<!-- Avalonia CefNet -->
 	<ItemGroup>
