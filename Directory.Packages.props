@@ -781,6 +781,7 @@
 		<PackageVersion Include="Avalonia.ReactiveUI" Version="$(Version_Avalonia)" />
 		<!--<PackageVersion Include="Avalonia.Direct2D1" Version="$(Version_Avalonia)" />-->
 		<PackageVersion Include="Avalonia.Controls.DataGrid" Version="$(Version_Avalonia)" />
+        <PackageVersion Include="Avalonia.Controls.ItemsRepeater" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
