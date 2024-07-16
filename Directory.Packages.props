@@ -22,10 +22,10 @@
     </PropertyGroup>
     <!-- Avalonia-->
     <PropertyGroup>
-        <Version_Avalonia>11.1.0-rc1</Version_Avalonia>
+        <Version_Avalonia>11.1.0-rc2</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.1.0-rc1</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.1.0-rc2</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Edit>11.0.6</Version_Avalonia_Edit>
