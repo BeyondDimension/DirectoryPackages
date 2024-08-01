@@ -129,7 +129,7 @@
 		<PackageVersion Include="BD.Common.AspNetCore.Identity" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.AspNetCore.Identity.BackManage" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.AspNetCore.Blazor.BackManage" Version="$(Version_BDCommon)" />
-		<PackageVersion Include="BD.Common" Version="1.24.10221.11803" />
+		<PackageVersion Include="BD.Common" Version="1.24.10801.12003" />
 		<PackageVersion Include="BD.Common.Area" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.BirthDate" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.EFCore" Version="$(Version_BDCommon)" />
