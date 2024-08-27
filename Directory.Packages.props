@@ -100,7 +100,7 @@
 	</PropertyGroup>
 	<!-- BD Common -->
 	<ItemGroup>
-		<PackageVersion Include="BD.Common.Mvvm" Version="1.24.10221.11803" />
+		<PackageVersion Include="BD.Common.Mvvm" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Mvvm.ReactiveUI" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Navigation" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.Common.Security" Version="$(Version_BDCommon)" />
