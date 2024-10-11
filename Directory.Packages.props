@@ -1067,4 +1067,7 @@
   <ItemGroup>
       <PackageVersion Include="BsDiff" Version="1.1.0" />
   </ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="CryptSharpStandard" Version="1.0.0" />
+	</ItemGroup>
 </Project>
