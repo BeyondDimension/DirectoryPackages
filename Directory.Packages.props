@@ -961,7 +961,7 @@
 	</ItemGroup>
 	<!-- Yet Another Reverse Proxy -->
 	<ItemGroup>
-		<PackageVersion Include="Yarp.ReverseProxy" Version="2.1.0" />
+		<PackageVersion Include="Yarp.ReverseProxy" Version="2.2.0" />
 	</ItemGroup>
 	<!-- WinDivert -->
 	<ItemGroup>
