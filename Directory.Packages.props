@@ -994,13 +994,13 @@
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.3.0" />
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="7.7.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.3.0" />
+		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="7.7.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.0.0" />
+		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="7.7.1" />
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
