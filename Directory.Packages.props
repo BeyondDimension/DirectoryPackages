@@ -323,7 +323,7 @@
 	</ItemGroup>
 	<!-- SQLite PCL -->
 	<ItemGroup>
-		<PackageVersion Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageVersion Include="sqlite-net-pcl" Version="1.9.172" />
 	</ItemGroup>
 	<!-- SQLite PCL RAW -->
 	<ItemGroup>
