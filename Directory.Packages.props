@@ -261,7 +261,7 @@
 	</ItemGroup>
 	<!-- UnitTest(NUnit3TestAdapter) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit3TestAdapter" Version="4.5.0" />
+		<PackageVersion Include="NUnit3TestAdapter" Version="4.6.0" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit Analyzers) -->
 	<ItemGroup>
