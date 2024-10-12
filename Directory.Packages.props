@@ -714,7 +714,7 @@
 	</ItemGroup>
 	<!-- Alipay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.2" />
+		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.4" />
 	</ItemGroup>
 	<!-- WechatPay SDK -->
 	<ItemGroup>
