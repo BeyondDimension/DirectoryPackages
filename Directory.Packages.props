@@ -293,7 +293,7 @@
 	</ItemGroup>
 	<!-- Serialize NJson & AspNetCore -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.20" />
 	</ItemGroup>
 	<!-- Serialize Protobuf -->
 	<ItemGroup>
@@ -410,11 +410,11 @@
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.20" />
 	</ItemGroup>
 	<!-- OpenIdConnect -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.20" />
 	</ItemGroup>
 	<!-- Microsoft.Extensions.* 7.0 -->
 	<ItemGroup>
@@ -445,7 +445,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
@@ -457,10 +457,10 @@
 		<PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="StackExchange.Redis" Version="2.8.16" />
@@ -482,38 +482,38 @@
 	</ItemGroup>
 	<!-- AspNetCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.20" />
 	</ItemGroup>
 	<!-- EFCore 7.0 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.20" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
 	</ItemGroup>
 	<!-- EFCore 7.0 PostgreSQL -->
 	<ItemGroup>
@@ -549,7 +549,7 @@
 		<PackageVersion Include="System.Text.Encodings.Web" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Text.Json" Version="7.0.3" />
+		<PackageVersion Include="System.Text.Json" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Net.Http.Json" Version="7.0.1" />
@@ -598,7 +598,7 @@
 	</ItemGroup>
 	<!-- Edge WebView2 -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.92" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="7.0.101" />
 	</ItemGroup>
 	<!-- Edge WebView2 NativeAssets -->
 	<ItemGroup>
@@ -1042,7 +1042,7 @@
 		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.7.0" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.11.0" />
 	</ItemGroup>
 	<!-- Humanizer -->
 	<ItemGroup>
