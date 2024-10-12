@@ -990,7 +990,7 @@
 	</ItemGroup>
 	<!-- WinAuth -->
 	<ItemGroup>
-		<PackageVersion Include="WinAuth.Library" Version="3.623.20625.21123" />
+		<PackageVersion Include="WinAuth.Library" Version="3.623.20626.21818" />
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
