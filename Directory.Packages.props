@@ -940,7 +940,7 @@
 	</ItemGroup>-->
 	<!-- Kotlin Std -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Kotlin.StdLib" Version="1.9.23.3" />
+		<PackageVersion Include="Xamarin.Kotlin.StdLib" Version="2.0.20" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.23.3" />
