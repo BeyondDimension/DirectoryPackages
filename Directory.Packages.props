@@ -277,7 +277,7 @@
 	</ItemGroup>
 	<!-- Html Parser(HtmlAgilityPack) -->
 	<ItemGroup>
-		<PackageVersion Include="HtmlAgilityPack" Version="1.11.53" />
+		<PackageVersion Include="HtmlAgilityPack" Version="1.11.67" />
 	</ItemGroup>
 	<!-- Serialize MessagePack -->
 	<ItemGroup>
