@@ -139,7 +139,7 @@
 		<PackageVersion Include="BD.Common.Primitives.ApiResponse" Version="$(Version_BDCommon)" />
 		<PackageVersion Include="BD.SteamClient" Version="$(Version_BDSteamClient)" />
 		<PackageVersion Include="BD.SteamClient.Models" Version="$(Version_BDSteamClientModels)" />
-		<PackageVersion Include="BD.Common.XmlnsDefinition.Avalonia" Version="0.0.0-beta1" />
+		<PackageVersion Include="BD.Common.XmlnsDefinition.Avalonia" Version="0.0.0" />
 		<PackageVersion Include="BD.Common8.HuaweiCloud.SDK.Obs" Version="$(Version_BDCommon8_HuaweiCloud_SDK_OBS)" />
 	</ItemGroup>
 	<!-- BD WTTS SDK -->
