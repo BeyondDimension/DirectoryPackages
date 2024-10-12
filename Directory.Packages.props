@@ -392,7 +392,7 @@
 		<PackageVersion Include="AspNet.Security.OAuth.QQ" Version="7.0.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OAuth.Apple" Version="7.0.4" />
+		<PackageVersion Include="AspNet.Security.OAuth.Apple" Version="8.2.0" />
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
