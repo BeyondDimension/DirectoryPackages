@@ -281,7 +281,7 @@
 	</ItemGroup>
 	<!-- Serialize MessagePack -->
 	<ItemGroup>
-		<PackageVersion Include="MessagePack" Version="2.5.124" />
+		<PackageVersion Include="MessagePack" Version="2.5.172" />
 	</ItemGroup>
 	<!-- Serialize MemoryPack -->
 	<ItemGroup>
