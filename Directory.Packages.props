@@ -273,7 +273,7 @@
 	</ItemGroup>
 	<!-- Html Parser(AngleSharp) -->
 	<ItemGroup>
-		<PackageVersion Include="AngleSharp" Version="1.0.4" />
+		<PackageVersion Include="AngleSharp" Version="1.1.2" />
 	</ItemGroup>
 	<!-- Html Parser(HtmlAgilityPack) -->
 	<ItemGroup>
