@@ -297,7 +297,7 @@
 	</ItemGroup>
 	<!-- Serialize Protobuf -->
 	<ItemGroup>
-		<PackageVersion Include="Google.Protobuf" Version="3.28.2" />
+		<PackageVersion Include="Google.Protobuf" Version="3.28.3" />
 	</ItemGroup>
 	<!-- Serialize Protobuf Tools -->
 	<ItemGroup>
