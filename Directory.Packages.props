@@ -723,7 +723,7 @@
 	</ItemGroup>
 	<!-- Alipay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.4" />
+		<PackageVersion Include="Essensoft.Paylink.Alipay" Version="4.1.5" />
 	</ItemGroup>
 	<!-- WechatPay SDK -->
 	<ItemGroup>
