@@ -735,7 +735,7 @@
 	</ItemGroup>
 	<!-- Excel -->
 	<ItemGroup>
-		<PackageVersion Include="NPOI" Version="2.7.1" />
+		<PackageVersion Include="NPOI" Version="2.7.2" />
 	</ItemGroup>
 	<!-- Github API -->
 	<ItemGroup>
