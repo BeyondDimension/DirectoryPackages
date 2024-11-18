@@ -236,7 +236,7 @@
 	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
-		<PackageVersion Include="AntDesign" Version="1.0.0" />
+		<PackageVersion Include="AntDesign" Version="1.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AntDesign.Charts" Version="0.5.6" />
