@@ -72,6 +72,9 @@
 	<PropertyGroup>
 		<Version_Any_AppCenter>5.0.2</Version_Any_AppCenter>
 	</PropertyGroup>
+	<PropertyGroup>
+		<Version_Any_AppCenter_BD>5.0.6.1</Version_Any_AppCenter_BD>
+	</PropertyGroup>
 	<!-- ArchiSteamFarm Library -->
 	<PropertyGroup>
 		<Version_ArchiSteamFarm_Library>5.2.6.3-preview.220608</Version_ArchiSteamFarm_Library>
@@ -679,6 +682,11 @@
 		<PackageVersion Include="Aigio.Any.AppCenter" Version="$(Version_Any_AppCenter)" />
 		<PackageVersion Include="Aigio.Any.AppCenter.Analytics" Version="$(Version_Any_AppCenter)" />
 		<PackageVersion Include="Aigio.Any.AppCenter.Crashes" Version="$(Version_Any_AppCenter)" />
+	</ItemGroup>
+	<!-- BD.Any.AppCenter -->
+	<ItemGroup>
+		<PackageVersion Include="BD.Any.AppCenter" Version="$(Version_Any_AppCenter_BD)" />
+		<PackageVersion Include="BD.Any.AppCenter.Analytics" Version="$(Version_Any_AppCenter_BD)" /> 
 	</ItemGroup>
 	<!-- Moq -->
 	<ItemGroup>
