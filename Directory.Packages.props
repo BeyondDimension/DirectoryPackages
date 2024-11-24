@@ -735,7 +735,7 @@
 	</ItemGroup>
 	<!-- WechatPay SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.6" />
+		<PackageVersion Include="Essensoft.Paylink.WeChatPay" Version="4.1.7" />
 	</ItemGroup>
 	<!-- Wechat Api SDK -->
 	<ItemGroup>
