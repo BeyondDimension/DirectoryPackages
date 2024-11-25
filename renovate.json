@@ -12,5 +12,11 @@
   },
   "platformAutomerge": true,
   "timezone": "Asia/Shanghai",
-  "schedule": ["before 5:00am","before 10am","before 3pm","before 8pm"]
+  "schedule": [ "before 5:00am", "before 10am", "before 3pm", "before 8pm" ],
+  "packageRules": [
+    {
+      "matchPackageNames": [ "dotnetCampus.Ipc" ],
+      "allowedVersions": "<=2.0.0-alpha406"
+    }
+  ]
 }
