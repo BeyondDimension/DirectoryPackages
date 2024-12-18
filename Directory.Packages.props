@@ -660,7 +660,7 @@
 	<ItemGroup>
 		<!-- AspNetCore 2x 目前仅用于 iOS/Android -->
 		<!-- 使用修复高版本中 Microsoft.Extensions.Primitives 破坏性更改导致不兼容的自编译高版本本地包覆盖 -->
-		<PackageVersion Include="Microsoft.Net.Http.Headers" Version="2.2.255.255" />
+		<PackageVersion Include="Microsoft.Net.Http.Headers" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AspNetCore2.NETStandard.NLog.Web.AspNetCore" Version="5.0.0" />
