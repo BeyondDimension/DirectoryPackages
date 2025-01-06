@@ -22,10 +22,10 @@
     </PropertyGroup>
     <!-- Avalonia-->
     <PropertyGroup>
-        <Version_Avalonia>11.1.5</Version_Avalonia>
+        <Version_Avalonia>11.2.3</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.1.0.7</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.2.0.6</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Edit>11.1.0</Version_Avalonia_Edit>
@@ -43,20 +43,20 @@
         <Version_Avalonia_LibVLCSharp>3.9.0</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.1.0</Version_Avalonia_FluentUI>
+        <Version_Avalonia_FluentUI>2.2.0</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc2</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc4.5</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-		<Version_HarfBuzzSharp>7.3.0.2</Version_HarfBuzzSharp>
+		<Version_HarfBuzzSharp>8.3.1-preview.2.3</Version_HarfBuzzSharp>
 	</PropertyGroup>
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>2.88.8</Version_SkiaSharp>
+		<Version_SkiaSharp>3.118.0-preview.2.3</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- CommandLine -->
 	<PropertyGroup>
@@ -798,7 +798,7 @@
 		<PackageVersion Include="Avalonia.ReactiveUI" Version="$(Version_Avalonia)" />
 		<!--<PackageVersion Include="Avalonia.Direct2D1" Version="$(Version_Avalonia)" />-->
 		<PackageVersion Include="Avalonia.Controls.DataGrid" Version="$(Version_Avalonia)" />
-        <PackageVersion Include="Avalonia.Controls.ItemsRepeater" Version="$(Version_Avalonia)" />
+        <PackageVersion Include="Avalonia.Controls.ItemsRepeater" Version="11.1.5" />
 		<PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
