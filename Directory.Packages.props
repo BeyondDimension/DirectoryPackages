@@ -747,7 +747,7 @@
 	</ItemGroup>
 	<!-- Github API -->
 	<ItemGroup>
-		<PackageVersion Include="Octokit" Version="13.0.1" />
+		<PackageVersion Include="Octokit" Version="14.0.0" />
 	</ItemGroup>
 	<!-- MonoMac(NETSTANDARD) -->
 	<ItemGroup>
