@@ -172,7 +172,7 @@
 	</ItemGroup>
 	<!-- AutoMapper -->
 	<ItemGroup>
-		<PackageVersion Include="AutoMapper" Version="13.0.1" />
+		<PackageVersion Include="AutoMapper" Version="14.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AutoMapper.Collection" Version="10.0.0" />
