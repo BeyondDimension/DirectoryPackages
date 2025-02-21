@@ -157,7 +157,7 @@
 	</ItemGroup>
 	<!-- Visual Studio Publish Docker Container -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.1" />
+		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
 	</ItemGroup>
 	<!-- Azure Blobs -->
 	<ItemGroup>
