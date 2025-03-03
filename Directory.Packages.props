@@ -22,10 +22,10 @@
     </PropertyGroup>
     <!-- Avalonia-->
     <PropertyGroup>
-        <Version_Avalonia>11.2.3</Version_Avalonia>
+        <Version_Avalonia>11.2.5</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_Xaml_Behaviors>11.2.0.6</Version_Avalonia_Xaml_Behaviors>
+        <Version_Avalonia_Xaml_Behaviors>11.2.0.9</Version_Avalonia_Xaml_Behaviors>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Edit>11.1.0</Version_Avalonia_Edit>
@@ -46,7 +46,7 @@
         <Version_Avalonia_FluentUI>2.2.0</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc4.5</Version_Avalonia_LiveChartsCore_SkiaSharpView>
+        <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc5.4</Version_Avalonia_LiveChartsCore_SkiaSharpView>
     </PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
