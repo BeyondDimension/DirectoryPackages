@@ -727,7 +727,7 @@
 	</ItemGroup>
 	<!-- Windows TaskScheduler -->
 	<ItemGroup>
-		<PackageVersion Include="TaskScheduler" Version="2.12.0" />
+		<PackageVersion Include="TaskScheduler" Version="2.12.1" />
 	</ItemGroup>
 	<!-- Alipay SDK -->
 	<ItemGroup>
