@@ -588,7 +588,7 @@
 		<PackageVersion Include="System.Memory" Version="4.6.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.6.0" />
+		<PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.6.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Diagnostics.Tracing" Version="4.3.0" />
