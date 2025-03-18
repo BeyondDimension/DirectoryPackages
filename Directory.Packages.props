@@ -43,7 +43,7 @@
         <Version_Avalonia_LibVLCSharp>3.9.0</Version_Avalonia_LibVLCSharp>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_Avalonia_FluentUI>2.2.0</Version_Avalonia_FluentUI>
+        <Version_Avalonia_FluentUI>2.3.0</Version_Avalonia_FluentUI>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_LiveChartsCore_SkiaSharpView>2.0.0-rc5.4</Version_Avalonia_LiveChartsCore_SkiaSharpView>
