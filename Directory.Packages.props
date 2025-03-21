@@ -582,7 +582,7 @@
 		<PackageVersion Include="System.Security.Principal.Windows" Version="5.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.Buffers" Version="4.6.0" />
+		<PackageVersion Include="System.Buffers" Version="4.6.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="System.Memory" Version="4.6.1" />
