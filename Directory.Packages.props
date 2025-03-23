@@ -401,7 +401,7 @@
 		<PackageVersion Include="BuknSS.AspNet.Security.OAuth.Alipay" Version="8.2.2-dev" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OAuth.Weixin" Version="9.1.0" />
+		<PackageVersion Include="AspNet.Security.OAuth.Weixin" Version="9.2.0" />
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
