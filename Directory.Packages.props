@@ -242,7 +242,7 @@
 		<PackageVersion Include="AntDesign" Version="1.2.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AntDesign.Charts" Version="0.5.9" />
+		<PackageVersion Include="AntDesign.Charts" Version="0.6.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AntDesign.ProLayout" Version="1.2.1" />
