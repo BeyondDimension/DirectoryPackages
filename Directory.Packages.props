@@ -288,7 +288,7 @@
 	</ItemGroup>
 	<!-- Serialize MemoryPack -->
 	<ItemGroup>
-		<PackageVersion Include="MemoryPack" Version="1.21.3" />
+		<PackageVersion Include="MemoryPack" Version="1.21.4" />
 	</ItemGroup>
 	<!-- Serialize NJson -->
 	<ItemGroup>
