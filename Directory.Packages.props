@@ -334,7 +334,7 @@
 	</ItemGroup>
 	<!-- DBreeze(key value store embedded) -->
 	<ItemGroup>
-		<PackageVersion Include="DBreeze" Version="1.118.2024.1016" />
+		<PackageVersion Include="DBreeze" Version="1.119.2025.403" />
 	</ItemGroup>
 	<!-- Xamarin -->
 	<ItemGroup>
