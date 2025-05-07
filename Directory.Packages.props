@@ -739,7 +739,7 @@
 	</ItemGroup>
 	<!-- Wechat Api SDK -->
 	<ItemGroup>
-		<PackageVersion Include="SKIT.FlurlHttpClient.Wechat.Api" Version="3.8.0" />
+		<PackageVersion Include="SKIT.FlurlHttpClient.Wechat.Api" Version="3.9.0" />
 	</ItemGroup>
 	<!-- Excel -->
 	<ItemGroup>
