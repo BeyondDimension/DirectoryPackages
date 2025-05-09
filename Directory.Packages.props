@@ -1021,7 +1021,7 @@
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
-		<PackageVersion Include="SteamKit2" Version="3.1.0" />
+		<PackageVersion Include="SteamKit2" Version="3.2.0" />
 	</ItemGroup>
 	<!-- IPC -->
 	<ItemGroup>
