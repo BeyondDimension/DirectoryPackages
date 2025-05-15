@@ -1056,7 +1056,7 @@
 	</ItemGroup>
 	<!-- Microsoft.CodeAnalysis -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="4.14.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" />
