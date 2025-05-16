@@ -614,7 +614,7 @@
 	</ItemGroup>
 	<!-- Edge WebView2 NativeAssets -->
 	<ItemGroup>
-		<PackageVersion Include="WebView2.NativeAssets.Win32" Version="1.0.1518.46" />
+		<PackageVersion Include="WebView2.NativeAssets.Win32" Version="1.0.3240.44" />
 	</ItemGroup>
 	<!-- SourceLink -->
 	<ItemGroup>
