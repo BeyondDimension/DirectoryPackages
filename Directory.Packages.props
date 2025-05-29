@@ -268,7 +268,7 @@
 	</ItemGroup>
 	<!-- UnitTest(NUnit Analyzers) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit.Analyzers" Version="4.8.0" />
+		<PackageVersion Include="NUnit.Analyzers" Version="4.8.1" />
 	</ItemGroup>
 	<!-- CSV / Excel -->
 	<ItemGroup>
