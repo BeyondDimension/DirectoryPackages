@@ -272,7 +272,7 @@
 	</ItemGroup>
 	<!-- CSV / Excel -->
 	<ItemGroup>
-		<PackageVersion Include="CsvHelper" Version="33.0.1" />
+		<PackageVersion Include="CsvHelper" Version="33.1.0" />
 	</ItemGroup>
 	<!-- Html Parser(AngleSharp) -->
 	<ItemGroup>
