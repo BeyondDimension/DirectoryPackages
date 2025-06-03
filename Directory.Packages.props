@@ -256,7 +256,7 @@
 	</ItemGroup>
 	<!-- UnitTest(MS) -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
