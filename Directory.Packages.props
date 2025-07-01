@@ -633,7 +633,7 @@
 	</ItemGroup>
 	<!-- OCR -->
 	<ItemGroup>
-		<PackageVersion Include="PaddleOCRSharp" Version="5.0.0.1" />
+		<PackageVersion Include="PaddleOCRSharp" Version="5.1.0" />
 	</ItemGroup>
 	<!-- Puppeteer 库提供高级 API，以使用 DevTools 协议控制基于 Chromium 的浏览器。 -->
 	<ItemGroup>
