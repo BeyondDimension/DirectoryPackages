@@ -161,7 +161,7 @@
 	</ItemGroup>
 	<!-- Azure Blobs -->
 	<ItemGroup>
-		<PackageVersion Include="Azure.Storage.Blobs" Version="12.24.1" />
+		<PackageVersion Include="Azure.Storage.Blobs" Version="12.25.0" />
 	</ItemGroup>
 	<!-- Algorithm -->
 	<ItemGroup>
