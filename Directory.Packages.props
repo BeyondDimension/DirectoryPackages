@@ -225,7 +225,7 @@
 		<PackageVersion Include="NLog" Version="6.0.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Extensions.Logging" Version="6.0.2" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="6.0.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.0.2" />
