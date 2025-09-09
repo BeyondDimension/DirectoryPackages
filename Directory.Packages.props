@@ -1045,7 +1045,7 @@
 	</ItemGroup>
 	<!-- Akavache: An Asynchronous Key-Value Store for Native Applications -->
 	<ItemGroup>
-		<PackageVersion Include="akavache" Version="11.3.3" />
+		<PackageVersion Include="akavache" Version="11.4.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="akavache.sqlite3" Version="11.4.1" />
