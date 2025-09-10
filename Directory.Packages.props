@@ -405,17 +405,17 @@
 	</ItemGroup>
 	<!-- OpenIddict 库提供 OAuth2 和 OpenId 服务授权 -->
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Core" Version="7.0.0" />
+		<PackageVersion Include="OpenIddict.Core" Version="7.1.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.Quartz" Version="7.0.0" />
+		<PackageVersion Include="OpenIddict.Quartz" Version="7.1.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.AspNetCore" Version="7.0.0" />
+		<PackageVersion Include="OpenIddict.AspNetCore" Version="7.1.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="7.0.0" />
-		<PackageVersion Include="OpenIddict.EntityFrameworkCore.Models" Version="7.0.0" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore" Version="7.1.0" />
+		<PackageVersion Include="OpenIddict.EntityFrameworkCore.Models" Version="7.1.0" />
 	</ItemGroup>
 	<!-- MicrosoftAccount -->
 	<ItemGroup>
