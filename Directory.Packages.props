@@ -472,7 +472,7 @@
 		<PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.9" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="StackExchange.Redis" Version="2.9.17" />
+		<PackageVersion Include="StackExchange.Redis" Version="2.9.24" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="StackExchange.Redis.Extensions.AspNetCore" Version="11.0.0" />
