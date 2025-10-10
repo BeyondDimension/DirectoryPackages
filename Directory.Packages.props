@@ -235,7 +235,7 @@
 		<PackageVersion Include="EFCore.BulkExtensions" Version="9.0.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="9.0.1" />
+		<PackageVersion Include="EFCore.BulkExtensions.PostgreSql" Version="9.0.2" />
 	</ItemGroup>
 	<!-- AntDesign -->
 	<ItemGroup>
