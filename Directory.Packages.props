@@ -175,7 +175,7 @@
 		<PackageVersion Include="AutoMapper" Version="15.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="AutoMapper.Collection" Version="11.0.0" />
+		<PackageVersion Include="AutoMapper.Collection" Version="12.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AutoMapper.Collection.EntityFrameworkCore" Version="11.0.0" />
