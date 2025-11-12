@@ -389,7 +389,7 @@
 	</ItemGroup>
 	<!-- AspNetCore 7 OpenId/OAuth -->
 	<ItemGroup>
-		<PackageVersion Include="AspNet.Security.OpenId.Steam" Version="9.0.0" />
+		<PackageVersion Include="AspNet.Security.OpenId.Steam" Version="10.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AspNet.Security.OAuth.QQ" Version="10.0.0" />
