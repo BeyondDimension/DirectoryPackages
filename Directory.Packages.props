@@ -654,7 +654,7 @@
 	</ItemGroup>
 	<!-- Windows SDK -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6584" />
+		<PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.6901" />
 	</ItemGroup>
 	<!-- AspNetCore 2x Compat -->
 	<ItemGroup>
