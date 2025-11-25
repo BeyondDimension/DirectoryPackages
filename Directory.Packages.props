@@ -194,7 +194,7 @@
 		<PackageVersion Include="Quartz.AspNetCore" Version="3.15.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NuGet.Versioning" Version="7.0.0" />
+		<PackageVersion Include="NuGet.Versioning" Version="7.0.1" />
 	</ItemGroup>
 	<!-- Code Style -->
 	<ItemGroup>
