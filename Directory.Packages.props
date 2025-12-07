@@ -1041,7 +1041,7 @@
 	</ItemGroup>
 	<!-- Fusillade: An opinionated HTTP library for Mobile Development -->
 	<ItemGroup>
-		<PackageVersion Include="fusillade" Version="3.0.1" />
+		<PackageVersion Include="fusillade" Version="4.0.3" />
 	</ItemGroup>
 	<!-- Akavache: An Asynchronous Key-Value Store for Native Applications -->
 	<ItemGroup>
