@@ -1048,7 +1048,7 @@
 		<PackageVersion Include="akavache" Version="11.5.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="akavache.sqlite3" Version="11.4.1" />
+		<PackageVersion Include="akavache.sqlite3" Version="11.5.1" />
 	</ItemGroup>
 	<!-- Splat.Drawing: Cross platform drawing -->
 	<ItemGroup>
