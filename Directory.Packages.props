@@ -1088,6 +1088,6 @@
 		<PackageVersion Include="CryptSharpStandard" Version="1.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.264"/>
+		<PackageVersion Include="Microsoft.Windows.CsWin32" Version="0.3.269"/>
 	</ItemGroup>
 </Project>
