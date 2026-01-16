@@ -300,11 +300,11 @@
 	</ItemGroup>
 	<!-- Serialize Protobuf -->
 	<ItemGroup>
-		<PackageVersion Include="Google.Protobuf" Version="3.33.2" />
+		<PackageVersion Include="Google.Protobuf" Version="3.33.4" />
 	</ItemGroup>
 	<!-- Serialize Protobuf Tools -->
 	<ItemGroup>
-		<PackageVersion Include="Google.Protobuf.Tools" Version="3.33.2" />
+		<PackageVersion Include="Google.Protobuf.Tools" Version="3.33.4" />
 	</ItemGroup>
 	<!-- Resilience & Transient Fault Handling -->
 	<ItemGroup>
