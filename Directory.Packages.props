@@ -536,7 +536,7 @@
 		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="10.105.2.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="10.105.2" />
+		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="10.105.2.1" />
 	</ItemGroup>
 	<!-- BCL 7.0 -->
 	<ItemGroup>
