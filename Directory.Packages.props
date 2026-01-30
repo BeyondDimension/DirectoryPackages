@@ -84,9 +84,6 @@
 		<Version_Vanara_PInvoke>5.0.0</Version_Vanara_PInvoke>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Splat_Drawing>14.7.1</Version_Splat_Drawing>
-	</PropertyGroup>
-	<PropertyGroup>
 		<Version_System_Drawing_Common>10.0.2</Version_System_Drawing_Common>
 	</PropertyGroup>
 	<!-- Reactive -->
@@ -1044,6 +1041,7 @@
 	<!-- Fusillade: An opinionated HTTP library for Mobile Development -->
 	<ItemGroup>
 		<PackageVersion Include="fusillade" Version="4.0.3" />
+		<PackageVersion Include="BD.Common.fusillade" Version="5.0.4" />
 	</ItemGroup>
 	<!-- Akavache: An Asynchronous Key-Value Store for Native Applications -->
 	<ItemGroup>
