@@ -791,7 +791,7 @@
 		<PackageVersion Include="Avalonia.Desktop" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Skia" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Diagnostics" Version="$(Version_Avalonia)" />
-		<PackageVersion Include="Avalonia.ReactiveUI" Version="11.3.8" />
+		<PackageVersion Include="Avalonia.ReactiveUI" Version="11.3.9" />
 		<PackageVersion Include="ReactiveUI.Avalonia" Version="11.3.8" />
 		<!--<PackageVersion Include="Avalonia.Direct2D1" Version="$(Version_Avalonia)" />-->
 		<PackageVersion Include="Avalonia.Controls.DataGrid" Version="$(Version_Avalonia)" />
