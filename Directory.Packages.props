@@ -803,6 +803,7 @@
 		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Android" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="Avalonia.Controls.ColorPicker" Version="11.3.11" />
 	</ItemGroup>
 	<!-- Avalonia Xaml Behaviors -->
 	<ItemGroup>
