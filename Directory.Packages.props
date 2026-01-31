@@ -221,7 +221,7 @@
 		<PackageVersion Include="NLog.Extensions.Logging" Version="6.1.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.0" />
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.1" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
