@@ -707,7 +707,7 @@
 	</ItemGroup>
 	<!-- Compression 7-Zip NativeAssets -->
 	<ItemGroup>
-		<PackageVersion Include="7-Zip.NativeAssets.Win32" Version="24.5.0" />
+		<PackageVersion Include="7-Zip.NativeAssets.Win32" Version="25.1.0" />
 	</ItemGroup>
 	<!-- Compression ZstdNet -->
 	<ItemGroup>
