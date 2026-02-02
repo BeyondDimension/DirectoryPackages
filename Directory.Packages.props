@@ -215,13 +215,13 @@
 	</ItemGroup>
 	<!-- NLog -->
 	<ItemGroup>
-		<PackageVersion Include="NLog" Version="6.0.7" />
+		<PackageVersion Include="NLog" Version="6.1.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Extensions.Logging" Version="6.1.0" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="6.1.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.0" />
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.1" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
@@ -253,7 +253,7 @@
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit" Version="3.14.0" />
+		<PackageVersion Include="NUnit" Version="4.4.0" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit3TestAdapter) -->
 	<ItemGroup>
@@ -1052,7 +1052,7 @@
 	</ItemGroup>
 	<!-- Splat.Drawing: Cross platform drawing -->
 	<ItemGroup>
-		<PackageVersion Include="Splat.Drawing" Version="19.2.1" />
+		<PackageVersion Include="Splat.Drawing" Version="17.2.1" />
 	</ItemGroup>
 	<!-- Microsoft.CodeAnalysis -->
 	<ItemGroup>
