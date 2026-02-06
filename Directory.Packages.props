@@ -1052,7 +1052,7 @@
 	</ItemGroup>
 	<!-- Splat.Drawing: Cross platform drawing -->
 	<ItemGroup>
-		<PackageVersion Include="Splat.Drawing" Version="19.2.1" />
+		<PackageVersion Include="Splat.Drawing" Version="17.2.1" />
 	</ItemGroup>
 	<!-- Microsoft.CodeAnalysis -->
 	<ItemGroup>
