@@ -47,12 +47,12 @@
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-		<Version_HarfBuzzSharp>8.3.1.2</Version_HarfBuzzSharp>
+		<Version_HarfBuzzSharp>8.3.1.3</Version_HarfBuzzSharp>
 	</PropertyGroup>
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>3.119.1</Version_SkiaSharp>
+		<Version_SkiaSharp>3.119.2</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- CommandLine -->
 	<PropertyGroup>
@@ -805,7 +805,7 @@
 	<!-- Avalonia Xaml Behaviors -->
 	<ItemGroup>
 		<PackageVersion Include="Avalonia.Xaml.Behaviors" Version="$(Version_Avalonia_Xaml_Behaviors)" />
-		<PackageVersion Include="Xaml.Behaviors.Avalonia" Version="11.3.9.3" />
+		<PackageVersion Include="Xaml.Behaviors.Avalonia" Version="11.3.9.4" />
 	</ItemGroup>
 	<!-- Avalonia Edit -->
 	<ItemGroup>
