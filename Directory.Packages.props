@@ -1010,13 +1010,13 @@
 	</ItemGroup>
 	<!-- IdentityModel -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="8.15.0" />
+		<PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="8.16.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+		<PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.16.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.15.0" />
+		<PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.16.0" />
 	</ItemGroup>
 	<!-- SteamKit2 -->
 	<ItemGroup>
