@@ -18,16 +18,16 @@
 	</PropertyGroup>
 	<!-- Avalonia-->
 	<PropertyGroup>
-		<Version_Avalonia>11.3.11</Version_Avalonia>
+		<Version_Avalonia>11.3.12</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>11.2.0.9</Version_Avalonia_Xaml_Behaviors>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_Edit>11.3.0</Version_Avalonia_Edit>
+		<Version_Avalonia_Edit>11.4.1</Version_Avalonia_Edit>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_AvaloniaEdit_TextMate>11.3.0</Version_AvaloniaEdit_TextMate>
+		<Version_AvaloniaEdit_TextMate>11.4.1</Version_AvaloniaEdit_TextMate>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Markdown>11.0.3-a1</Version_Avalonia_Markdown>
@@ -800,7 +800,7 @@
 		<PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Android" Version="$(Version_Avalonia)" />
-		<PackageVersion Include="Avalonia.Controls.ColorPicker" Version="11.3.11" />
+		<PackageVersion Include="Avalonia.Controls.ColorPicker" Version="$(Version_Avalonia)" />
 	</ItemGroup>
 	<!-- Avalonia Xaml Behaviors -->
 	<ItemGroup>
