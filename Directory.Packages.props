@@ -474,7 +474,7 @@
 		<PackageVersion Include="InitQ" Version="1.0.0.19" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="MailKit" Version="4.14.1" />
+		<PackageVersion Include="MailKit" Version="4.15.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Extensions.Primitives" Version="10.0.3" />
