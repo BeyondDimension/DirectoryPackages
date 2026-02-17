@@ -711,7 +711,7 @@
 	</ItemGroup>
 	<!-- Compression ZstdNet -->
 	<ItemGroup>
-		<PackageVersion Include="ZstdNet" Version="1.4.5" />
+		<PackageVersion Include="ZstdNet" Version="1.5.7" />
 	</ItemGroup>
 	<!-- CommandLine -->
 	<ItemGroup>
