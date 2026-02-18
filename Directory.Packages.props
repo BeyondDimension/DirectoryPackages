@@ -195,13 +195,13 @@
 	</ItemGroup>
 	<!-- Swagger OpenAPI Documentation -->
 	<ItemGroup>
-		<PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.2" />
+		<PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="10.1.2" />
+		<PackageVersion Include="Swashbuckle.AspNetCore.Annotations" Version="10.1.4" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Swashbuckle.AspNetCore.Newtonsoft" Version="10.1.2" />
+		<PackageVersion Include="Swashbuckle.AspNetCore.Newtonsoft" Version="10.1.4" />
 	</ItemGroup>
 	<!-- Swagger OpenAPI Documentation AspNetCore 2x Compat -->
 	<ItemGroup>
