@@ -779,7 +779,7 @@
 		<PackageVersion Include="DNS" Version="7.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="Stun.Net" Version="9.0.1" />
+		<PackageVersion Include="Stun.Net" Version="10.0.0" />
 	</ItemGroup>
 	<!-- Cryptographic Algorithms & Protocols -->
 	<ItemGroup>
