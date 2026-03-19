@@ -992,7 +992,7 @@
 	</ItemGroup>
 	<!-- Compat -->
 	<ItemGroup>
-		<PackageVersion Include="IndexRange" Version="1.1.0" />
+		<PackageVersion Include="IndexRange" Version="1.1.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
