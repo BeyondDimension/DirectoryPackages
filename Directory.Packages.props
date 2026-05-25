@@ -305,7 +305,7 @@
 	</ItemGroup>
 	<!-- QrCode -->
 	<ItemGroup>
-		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.1.0" />
+		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="3.0.0" />
 	</ItemGroup>
 	<!-- Nito.* -->
 	<ItemGroup>
