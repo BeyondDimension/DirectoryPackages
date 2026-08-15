@@ -4,6 +4,8 @@
 	<PropertyGroup>
 		<Version_NET>10.0.11</Version_NET>
 		<Version_NET Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">11.0.0-preview.7.26381.103</Version_NET>
+		<Version_SL_GITHUB>10.0.400</Version_SL_GITHUB>
+		<Version_SL_GITHUB Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">$(Version_NET)</Version_SL_GITHUB>
 	</PropertyGroup>
     <!-- BD Common -->
     <PropertyGroup>
@@ -59,10 +61,6 @@
         <!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
         <Version_SkiaSharp>4.151.1</Version_SkiaSharp>
     </PropertyGroup>
-    <!-- CommandLine -->
-    <PropertyGroup>
-        <Version_CommandLine>2.0.3</Version_CommandLine>
-    </PropertyGroup>
     <!-- AppCenter -->
     <PropertyGroup>
         <Version_AppCenter>5.0.2</Version_AppCenter>
@@ -86,18 +84,18 @@
     </PropertyGroup>
     <!-- Vanara.PInvoke -->
     <PropertyGroup>
-        <Version_Vanara_PInvoke>5.0.0</Version_Vanara_PInvoke>
+        <Version_Vanara_PInvoke>5.0.6</Version_Vanara_PInvoke>
     </PropertyGroup>
     <PropertyGroup>
         <Version_System_Drawing_Common>$(Version_NET)</Version_System_Drawing_Common>
     </PropertyGroup>
     <!-- Reactive -->
     <PropertyGroup>
-        <Version_System_Reactive>6.1.0</Version_System_Reactive>
+        <Version_System_Reactive>7.0.0</Version_System_Reactive>
     </PropertyGroup>
     <!-- Humanizer -->
     <PropertyGroup>
-        <Version_Humanizer>2.14.1</Version_Humanizer>
+        <Version_Humanizer>3.0.10</Version_Humanizer>
     </PropertyGroup>
     <!-- BD Common -->
     <ItemGroup>
@@ -170,16 +168,16 @@
     </ItemGroup>
     <!-- AutoMapper -->
     <ItemGroup>
-        <PackageVersion Include="AutoMapper" Version="16.0.0" />
+        <PackageVersion Include="AutoMapper" Version="16.2.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="AutoMapper.Collection" Version="12.0.0" />
+        <PackageVersion Include="AutoMapper.Collection" Version="13.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="AutoMapper.Collection.EntityFrameworkCore" Version="12.0.0" />
+        <PackageVersion Include="AutoMapper.Collection.EntityFrameworkCore" Version="13.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="AutoMapper.Extensions.ExpressionMapping" Version="10.0.0" />
+        <PackageVersion Include="AutoMapper.Extensions.ExpressionMapping" Version="11.0.0" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
@@ -220,13 +218,13 @@
     </ItemGroup>
     <!-- NLog -->
     <ItemGroup>
-        <PackageVersion Include="NLog" Version="6.1.0" />
+        <PackageVersion Include="NLog" Version="6.1.4" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="NLog.Extensions.Logging" Version="6.1.1" />
+        <PackageVersion Include="NLog.Extensions.Logging" Version="6.1.4" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.1" />
+        <PackageVersion Include="NLog.Web.AspNetCore" Version="6.1.4" />
     </ItemGroup>
     <!-- EFCore Extensions -->
     <ItemGroup>
@@ -254,19 +252,19 @@
     </ItemGroup>
     <!-- UnitTest(MS) -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.9.0" />
     </ItemGroup>
     <!-- UnitTest(NUnit) -->
     <ItemGroup>
-        <PackageVersion Include="NUnit" Version="4.4.0" />
+        <PackageVersion Include="NUnit" Version="4.6.1" />
     </ItemGroup>
     <!-- UnitTest(NUnit3TestAdapter) -->
     <ItemGroup>
-        <PackageVersion Include="NUnit3TestAdapter" Version="6.1.0" />
+        <PackageVersion Include="NUnit3TestAdapter" Version="6.2.0" />
     </ItemGroup>
     <!-- UnitTest(NUnit Analyzers) -->
     <ItemGroup>
-        <PackageVersion Include="NUnit.Analyzers" Version="4.11.2" />
+        <PackageVersion Include="NUnit.Analyzers" Version="4.14.0" />
     </ItemGroup>
     <!-- CSV / Excel -->
     <ItemGroup>
@@ -306,11 +304,11 @@
     </ItemGroup>
     <!-- Resilience & Transient Fault Handling -->
     <ItemGroup>
-        <PackageVersion Include="Polly" Version="8.6.5" />
+        <PackageVersion Include="Polly" Version="8.7.0" />
     </ItemGroup>
     <!-- QrCode -->
     <ItemGroup>
-        <PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="2.1.0" />
+        <PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="3.1.0" />
     </ItemGroup>
     <!-- Nito.* -->
     <ItemGroup>
@@ -324,11 +322,11 @@
     </ItemGroup>
     <!-- SQLite PCL -->
     <ItemGroup>
-        <PackageVersion Include="sqlite-net-pcl" Version="1.9.172" />
+        <PackageVersion Include="sqlite-net-pcl" Version="1.11.285" />
     </ItemGroup>
     <!-- SQLite PCL RAW -->
     <ItemGroup>
-        <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
+        <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
     </ItemGroup>
     <!-- DBreeze(key value store embedded) -->
     <ItemGroup>
@@ -355,7 +353,7 @@
     </ItemGroup>
     <!-- ReactiveUI -->
     <ItemGroup>
-        <PackageVersion Include="DynamicData" Version="9.4.31" />
+        <PackageVersion Include="DynamicData" Version="9.4.33" />
         <PackageVersion Include="ReactiveUI" Version="23.2.28" />
     </ItemGroup>
     <ItemGroup>
@@ -539,7 +537,7 @@
     </ItemGroup>
     <!-- BCL 7.0 -->
     <ItemGroup>
-        <PackageVersion Include="System.Linq.Async" Version="7.0.0" />
+        <PackageVersion Include="System.Linq.Async" Version="7.0.1" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="System.Composition" Version="$(Version_NET)" />
@@ -617,7 +615,7 @@
     </ItemGroup>
     <!-- SourceLink -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="10.0.103" />
+        <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="$(Version_SL_GITHUB)" />
     </ItemGroup>
     <!-- PInvoke -->
     <ItemGroup>
@@ -717,12 +715,12 @@
     </ItemGroup>
     <!-- Compression ZstdNet -->
     <ItemGroup>
-        <PackageVersion Include="ZstdNet" Version="1.4.5" />
+        <PackageVersion Include="ZstdNet" Version="1.5.7" />
     </ItemGroup>
     <!-- CommandLine -->
     <ItemGroup>
-        <PackageVersion Include="System.CommandLine" Version="$(Version_CommandLine)" />
-        <PackageVersion Include="System.CommandLine.NamingConventionBinder" Version="$(Version_CommandLine)" />
+        <PackageVersion Include="System.CommandLine" Version="2.0.11" />
+        <PackageVersion Include="System.CommandLine.NamingConventionBinder" Version="2.0.0-beta5.25306.1" />
     </ItemGroup>
     <!-- Windows TaskScheduler -->
     <ItemGroup>
@@ -785,7 +783,7 @@
         <PackageVersion Include="DNS" Version="7.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Stun.Net" Version="9.0.1" />
+        <PackageVersion Include="Stun.Net" Version="10.0.7" />
     </ItemGroup>
     <!-- Cryptographic Algorithms & Protocols -->
     <ItemGroup>
@@ -798,8 +796,8 @@
         <PackageVersion Include="Avalonia.HarfBuzz" Version="$(Version_Avalonia)" />
         <PackageVersion Include="Avalonia.Skia" Version="$(Version_Avalonia)" />
         <PackageVersion Include="AvaloniaUI.DiagnosticsSupport" Version="2.2.3" />
-        <PackageVersion Include="ReactiveUI.Avalonia" Version="12.0.3" />
-        <PackageVersion Include="Avalonia.Controls.DataGrid" Version="12.1.0" />
+        <PackageVersion Include="ReactiveUI.Avalonia" Version="12.1.1" />
+        <PackageVersion Include="Avalonia.Controls.DataGrid" Version="12.1.2" />
         <PackageVersion Include="Avalonia.Controls.ItemsRepeater" Version="12.0.0" />
         <PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
         <PackageVersion Include="Avalonia.Win32" Version="$(Version_Avalonia)" />
@@ -1014,13 +1012,13 @@
     </ItemGroup>
     <!-- IdentityModel -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="8.15.0" />
+        <PackageVersion Include="Microsoft.IdentityModel.Tokens" Version="8.22.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
+        <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.22.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.15.0" />
+        <PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.22.0" />
     </ItemGroup>
     <!-- SteamKit2 -->
     <ItemGroup>
@@ -1028,7 +1026,7 @@
     </ItemGroup>
     <!-- IPC -->
     <ItemGroup>
-        <PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha434" />
+        <PackageVersion Include="dotnetCampus.Ipc" Version="2.0.0-alpha436" />
     </ItemGroup>
     <!-- ValveKeyValue -->
     <ItemGroup>
@@ -1060,10 +1058,10 @@
     </ItemGroup>
     <!-- Microsoft.CodeAnalysis -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="4.14.0" />
+        <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="5.6.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="5.0.0" />
+        <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="5.6.0" />
     </ItemGroup>
     <!-- Humanizer -->
     <ItemGroup>
