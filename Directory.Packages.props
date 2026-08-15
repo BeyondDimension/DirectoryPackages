@@ -1,5 +1,10 @@
 <Project>
     <!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
+	<!-- .NET -->
+	<PropertyGroup>
+		<Version_NET>10.0.11</Version_NET>
+		<Version_NET Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">11.0.0-preview.7.26381.103</Version_NET>
+	</PropertyGroup>
     <!-- BD Common -->
     <PropertyGroup>
         <Version_BDCommon>1.25.10122.11624</Version_BDCommon>
@@ -18,7 +23,7 @@
     </PropertyGroup>
     <!-- Avalonia -->
     <PropertyGroup>
-        <Version_Avalonia>12.1.0</Version_Avalonia>
+        <Version_Avalonia>12.1.1</Version_Avalonia>
     </PropertyGroup>
     <PropertyGroup>
         <Version_Avalonia_Xaml_Behaviors>12.0.5</Version_Avalonia_Xaml_Behaviors>
@@ -47,12 +52,12 @@
     <!-- HarfBuzzSharp -->
     <PropertyGroup>
         <!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-        <Version_HarfBuzzSharp>14.2.1.1</Version_HarfBuzzSharp>
+        <Version_HarfBuzzSharp>14.2.1.2</Version_HarfBuzzSharp>
     </PropertyGroup>
     <!-- SkiaSharp -->
     <PropertyGroup>
         <!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-        <Version_SkiaSharp>4.150.1</Version_SkiaSharp>
+        <Version_SkiaSharp>4.151.1</Version_SkiaSharp>
     </PropertyGroup>
     <!-- CommandLine -->
     <PropertyGroup>
@@ -84,7 +89,7 @@
         <Version_Vanara_PInvoke>5.0.0</Version_Vanara_PInvoke>
     </PropertyGroup>
     <PropertyGroup>
-        <Version_System_Drawing_Common>10.0.3</Version_System_Drawing_Common>
+        <Version_System_Drawing_Common>$(Version_NET)</Version_System_Drawing_Common>
     </PropertyGroup>
     <!-- Reactive -->
     <PropertyGroup>
@@ -277,7 +282,7 @@
     </ItemGroup>
     <!-- Serialize MessagePack -->
     <ItemGroup>
-        <PackageVersion Include="MessagePack" Version="3.1.4" />
+        <PackageVersion Include="MessagePack" Version="3.1.8" />
     </ItemGroup>
     <!-- Serialize MemoryPack -->
     <ItemGroup>
@@ -289,7 +294,7 @@
     </ItemGroup>
     <!-- Serialize NJson & AspNetCore -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- Serialize Protobuf -->
     <ItemGroup>
@@ -413,57 +418,57 @@
     </ItemGroup>
     <!-- MicrosoftAccount -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- OpenIdConnect -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- Microsoft.Extensions.* 7.0 -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.DependencyModel" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Http" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Http" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Hosting" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Logging" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Logging.EventLog" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Logging.AzureAppServices" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Caching.SqlServer" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="StackExchange.Redis" Version="2.10.14" />
@@ -478,48 +483,48 @@
         <PackageVersion Include="MailKit" Version="4.14.1" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Primitives" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Primitives" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.FileProviders.Physical" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- AspNetCore 7.0 -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.Web" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- EFCore 7.0 -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- EFCore 7.0 PostgreSQL -->
     <ItemGroup>
@@ -537,37 +542,37 @@
         <PackageVersion Include="System.Linq.Async" Version="7.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Composition" Version="10.0.3" />
+        <PackageVersion Include="System.Composition" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.IO.Pipelines" Version="10.0.3" />
+        <PackageVersion Include="System.IO.Pipelines" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Management" Version="10.0.3" />
+        <PackageVersion Include="System.Management" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="10.0.3" />
+        <PackageVersion Include="System.Diagnostics.PerformanceCounter" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Text.Encoding.CodePages" Version="10.0.3" />
+        <PackageVersion Include="System.Text.Encoding.CodePages" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Text.Encodings.Web" Version="10.0.3" />
+        <PackageVersion Include="System.Text.Encodings.Web" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Text.Json" Version="10.0.3" />
+        <PackageVersion Include="System.Text.Json" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Net.Http.Json" Version="10.0.3" />
+        <PackageVersion Include="System.Net.Http.Json" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Net.Http.WinHttpHandler" Version="10.0.3" />
+        <PackageVersion Include="System.Net.Http.WinHttpHandler" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="10.0.3" />
+        <PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Security.Cryptography.Xml" Version="10.0.3" />
+        <PackageVersion Include="System.Security.Cryptography.Xml" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
         <PackageVersion Include="System.Drawing.Common" Version="$(Version_System_Drawing_Common)" />
@@ -597,14 +602,14 @@
         <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="System.Runtime.Caching" Version="10.0.3" />
+        <PackageVersion Include="System.Runtime.Caching" Version="$(Version_NET)" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- Edge WebView2 -->
     <ItemGroup>
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="10.0.31" />
+        <PackageVersion Include="Microsoft.AspNetCore.Components.WebView.WindowsForms" Version="$(Version_NET)1" />
     </ItemGroup>
     <!-- Edge WebView2 NativeAssets -->
     <ItemGroup>
@@ -997,7 +1002,7 @@
         <PackageVersion Include="Microsoft.Win32.Registry" Version="5.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <PackageVersion Include="Microsoft.Win32.SystemEvents" Version="10.0.3" />
+        <PackageVersion Include="Microsoft.Win32.SystemEvents" Version="$(Version_NET)" />
     </ItemGroup>
     <!-- Gtk# -->
     <ItemGroup>
