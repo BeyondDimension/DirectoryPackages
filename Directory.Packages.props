@@ -526,7 +526,7 @@
 	</ItemGroup>
 	<!-- EFCore Z Plus -->
 	<ItemGroup>
-		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="10.105.2.1" />
+		<PackageVersion Include="Z.EntityFramework.Plus.EFCore" Version="10.105.8" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Z.EntityFramework.Extensions.EFCore" Version="10.105.2.1" />
