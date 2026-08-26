@@ -858,7 +858,7 @@
 	</ItemGroup>
 	<!-- Xamarin.Android -->
 	<ItemGroup>
-		<PackageVersion Include="Xamarin.Build.Download" Version="0.11.4" />
+		<PackageVersion Include="Xamarin.Build.Download" Version="0.11.6" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="Xamarin.Google.Dagger" Version="2.57.2.1" />
