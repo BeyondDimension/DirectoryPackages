@@ -362,7 +362,7 @@
 		<PackageVersion Include="ReactiveUI.AndroidX" Version="22.3.1" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="ReactiveUI.Maui" Version="22.3.1" />
+		<PackageVersion Include="ReactiveUI.Maui" Version="25.1.1" />
 	</ItemGroup>
 	<!-- Pinyin(TinyPinyin.Net) -->
 	<ItemGroup>
