@@ -350,7 +350,7 @@
 	</ItemGroup>
 	<!-- ReactiveUI -->
 	<ItemGroup>
-		<PackageVersion Include="ReactiveUI" Version="22.3.1" />
+		<PackageVersion Include="ReactiveUI" Version="25.1.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="ReactiveUI.Fody" Version="19.5.41" />
