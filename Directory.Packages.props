@@ -158,7 +158,7 @@
 	</ItemGroup>
 	<!-- Algorithm -->
 	<ItemGroup>
-		<PackageVersion Include="Crc32.NET" Version="1.2.0" />
+		<PackageVersion Include="Crc32.NET" Version="2.0.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="gfoidl.Base64" Version="2.0.0" />
