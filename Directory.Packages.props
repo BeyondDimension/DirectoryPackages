@@ -309,6 +309,7 @@
 	<!-- QrCode -->
 	<ItemGroup>
 		<PackageVersion Include="Net.Codecrete.QrCodeGenerator" Version="3.2.1" />
+		<PackageVersion Include="ZXing.Net" Version="0.16.11" />
 	</ItemGroup>
 	<!-- Nito.* -->
 	<ItemGroup>
