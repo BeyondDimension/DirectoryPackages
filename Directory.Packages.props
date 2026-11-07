@@ -25,10 +25,10 @@
 	</PropertyGroup>
 	<!-- Avalonia -->
 	<PropertyGroup>
-		<Version_Avalonia>12.1.4</Version_Avalonia>
+		<Version_Avalonia>12.1.5</Version_Avalonia>
 	</PropertyGroup>
 	<PropertyGroup>
-		<Version_Avalonia_Xaml_Behaviors>12.0.7</Version_Avalonia_Xaml_Behaviors>
+		<Version_Avalonia_Xaml_Behaviors>12.1.5</Version_Avalonia_Xaml_Behaviors>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Edit>12.0.0</Version_Avalonia_Edit>
@@ -54,12 +54,12 @@
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
-		<Version_HarfBuzzSharp>14.2.1.301</Version_HarfBuzzSharp>
+		<Version_HarfBuzzSharp>14.4.0</Version_HarfBuzzSharp>
 	</PropertyGroup>
 	<!-- SkiaSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/SkiaSharp.props -->
-		<Version_SkiaSharp>4.153.1</Version_SkiaSharp>
+		<Version_SkiaSharp>4.155.0</Version_SkiaSharp>
 	</PropertyGroup>
 	<!-- AppCenter -->
 	<PropertyGroup>
