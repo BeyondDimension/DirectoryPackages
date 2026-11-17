@@ -529,10 +529,6 @@
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
 		<PackageReference Include="FluentAvaloniaUI" />
 	</ItemGroup>
-	<!-- Avalonia LiveChartsCore -->
-	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
-		<PackageReference Include="LiveChartsCore.SkiaSharpView.Avalonia" />
-	</ItemGroup>
 	<!-- Avalonia JumpLists -->
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">
 		<PackageReference Include="JumpLists.Win32.Avalonia" />

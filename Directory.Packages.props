@@ -48,9 +48,6 @@
 	<PropertyGroup>
 		<Version_Avalonia_FluentUI>3.1.0</Version_Avalonia_FluentUI>
 	</PropertyGroup>
-	<PropertyGroup>
-		<Version_Avalonia_LiveChartsCore_SkiaSharpView>2.1.0-dev-798</Version_Avalonia_LiveChartsCore_SkiaSharpView>
-	</PropertyGroup>
 	<!-- HarfBuzzSharp -->
 	<PropertyGroup>
 		<!-- https://github.com/AvaloniaUI/Avalonia/blob/master/build/HarfBuzzSharp.props -->
@@ -826,10 +823,6 @@
 	<!-- Avalonia FluentUI -->
 	<ItemGroup>
 		<PackageVersion Include="FluentAvaloniaUI" Version="$(Version_Avalonia_FluentUI)" />
-	</ItemGroup>
-	<!-- Avalonia LiveChartsCore -->
-	<ItemGroup>
-		<PackageVersion Include="LiveChartsCore.SkiaSharpView.Avalonia" Version="$(Version_Avalonia_LiveChartsCore_SkiaSharpView)" />
 	</ItemGroup>
 	<!-- Avalonia JumpLists -->
 	<ItemGroup>
