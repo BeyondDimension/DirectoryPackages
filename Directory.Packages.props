@@ -2,8 +2,8 @@
 	<!-- NuGet 错误 NU1011 PackageVersion 项不能包含浮动版本。 -->
 	<!-- .NET -->
 	<PropertyGroup>
-		<Version_NET>10.0.11</Version_NET>
-		<Version_NET Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">11.0.0-rc.3.26522.148</Version_NET>
+		<Version_NET>10.0.15</Version_NET>
+		<Version_NET Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">11.0.0</Version_NET>
 		<Version_SL_GITHUB>10.0.400</Version_SL_GITHUB>
 		<Version_SL_GITHUB Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net11.0'))">11.0.100-rc.3.26522.148</Version_SL_GITHUB>
 	</PropertyGroup>
@@ -25,7 +25,8 @@
 	</PropertyGroup>
 	<!-- Avalonia -->
 	<PropertyGroup>
-		<Version_Avalonia>12.1.5</Version_Avalonia>
+		<Version_Avalonia>12.1.6</Version_Avalonia>
+		<Version_SimdSkia>0.1.4</Version_SimdSkia>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version_Avalonia_Xaml_Behaviors>12.1.5</Version_Avalonia_Xaml_Behaviors>
@@ -165,7 +166,7 @@
 	</ItemGroup>
 	<!-- AutoMapper -->
 	<ItemGroup>
-		<PackageVersion Include="AutoMapper" Version="16.2.0" />
+		<PackageVersion Include="AutoMapper" Version="16.3.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="AutoMapper.Collection" Version="13.0.0" />
@@ -218,10 +219,10 @@
 		<PackageVersion Include="NLog" Version="6.2.2" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Extensions.Logging" Version="6.2.2" />
+		<PackageVersion Include="NLog.Extensions.Logging" Version="6.3.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.2.2" />
+		<PackageVersion Include="NLog.Web.AspNetCore" Version="6.3.0" />
 	</ItemGroup>
 	<!-- EFCore Extensions -->
 	<ItemGroup>
@@ -249,19 +250,19 @@
 	</ItemGroup>
 	<!-- UnitTest(MS) -->
 	<ItemGroup>
-		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.9.0" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.12.0" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit" Version="4.6.1" />
+		<PackageVersion Include="NUnit" Version="5.0.0" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit3TestAdapter) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit3TestAdapter" Version="6.2.0" />
+		<PackageVersion Include="NUnit3TestAdapter" Version="6.3.1" />
 	</ItemGroup>
 	<!-- UnitTest(NUnit Analyzers) -->
 	<ItemGroup>
-		<PackageVersion Include="NUnit.Analyzers" Version="4.14.0" />
+		<PackageVersion Include="NUnit.Analyzers" Version="4.15.0" />
 	</ItemGroup>
 	<!-- CSV / Excel -->
 	<ItemGroup>
@@ -276,8 +277,16 @@
 		<PackageVersion Include="HtmlAgilityPack" Version="1.12.4" />
 	</ItemGroup>
 	<!-- Serialize MessagePack -->
+	<PropertyGroup>
+		<Version_MessagePack>3.1.12</Version_MessagePack>
+		<!-- These projects consume the MessagePack 2.x formatters in binary Common. -->
+		<Version_MessagePack Condition="'$(MSBuildProjectName)' == 'BD.WTTS.Primitives' Or
+			'$(MSBuildProjectName)' == 'BD.WTTS.MicroServices.Primitives' Or
+			'$(MSBuildProjectName)' == 'BD.SteamClient.Models.Protobuf' Or
+			'$(MSBuildProjectName)' == 'Avalonia.Gif'">2.5.303</Version_MessagePack>
+	</PropertyGroup>
 	<ItemGroup>
-		<PackageVersion Include="MessagePack" Version="3.1.12" />
+		<PackageVersion Include="MessagePack" Version="$(Version_MessagePack)" />
 	</ItemGroup>
 	<!-- Serialize MemoryPack -->
 	<ItemGroup>
@@ -325,6 +334,7 @@
 	<!-- SQLite PCL RAW -->
 	<ItemGroup>
 		<PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.11" />
+		<PackageVersion Include="SQLitePCLRaw.lib.e_sqlite3" Version="2.1.14" />
 	</ItemGroup>
 	<!-- DBreeze(key value store embedded) -->
 	<ItemGroup>
@@ -352,10 +362,11 @@
 	<!-- ReactiveUI -->
 	<ItemGroup>
 		<PackageVersion Include="DynamicData" Version="9.5.0" />
-		<PackageVersion Include="ReactiveUI" Version="23.2.28" />
+		<PackageVersion Include="ReactiveUI" Version="28.0.0" />
+		<PackageVersion Include="ReactiveUI.Reactive" Version="28.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageVersion Include="ReactiveUI.Fody" Version="19.5.41" />
+		<PackageVersion Include="ReactiveUI.SourceGenerators" Version="7.1.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageVersion Include="ReactiveUI.XamForms" Version="19.6.12" />
@@ -685,7 +696,7 @@
 	</ItemGroup>
 	<!-- Moq -->
 	<ItemGroup>
-		<PackageVersion Include="Moq" Version="4.20.72" />
+		<PackageVersion Include="Moq" Version="4.21.0" />
 	</ItemGroup>
 	<!-- HarfBuzzSharp -->
 	<ItemGroup>
@@ -703,6 +714,9 @@
 		<!-- priority of use System.Formats.Tar -->
 		<PackageVersion Include="SharpZipLib" Version="1.4.2" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageVersion Include="System.IO.Hashing" Version="$(Version_NET)" />
+	</ItemGroup>
 	<!-- Compression 7-Zip -->
 	<ItemGroup>
 		<PackageVersion Include="Squid-Box.SevenZipSharp.Lite" Version="1.6.2.24" />
@@ -717,7 +731,7 @@
 	</ItemGroup>
 	<!-- CommandLine -->
 	<ItemGroup>
-		<PackageVersion Include="System.CommandLine" Version="2.0.11" />
+		<PackageVersion Include="System.CommandLine" Version="3.0.0" />
 		<PackageVersion Include="System.CommandLine.NamingConventionBinder" Version="2.0.0-beta5.25306.1" />
 	</ItemGroup>
 	<!-- Windows TaskScheduler -->
@@ -786,6 +800,7 @@
 	<!-- Cryptographic Algorithms & Protocols -->
 	<ItemGroup>
 		<PackageVersion Include="Portable.BouncyCastle" Version="1.9.0" />
+		<PackageVersion Include="BouncyCastle.Cryptography" Version="2.7.0" />
 	</ItemGroup>
 	<!-- Avalonia -->
 	<ItemGroup>
@@ -794,7 +809,8 @@
 		<PackageVersion Include="Avalonia.HarfBuzz" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Skia" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="AvaloniaUI.DiagnosticsSupport" Version="2.2.3" />
-		<PackageVersion Include="ReactiveUI.Avalonia" Version="12.1.6" />
+		<PackageVersion Include="ReactiveUI.Avalonia" Version="12.1.9" />
+		<PackageVersion Include="ReactiveUI.Avalonia.Reactive" Version="12.1.9" />
 		<PackageVersion Include="Avalonia.Controls.DataGrid" Version="12.1.2" />
 		<PackageVersion Include="Avalonia.Controls.ItemsRepeater" Version="12.0.0" />
 		<PackageVersion Include="Avalonia.Native" Version="$(Version_Avalonia)" />
@@ -802,10 +818,16 @@
 		<PackageVersion Include="Avalonia.X11" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Android" Version="$(Version_Avalonia)" />
 		<PackageVersion Include="Avalonia.Controls.ColorPicker" Version="$(Version_Avalonia)" />
+		<PackageVersion Include="SimdSkia" Version="$(Version_SimdSkia)" />
+		<PackageVersion Include="SimdSkia.Avalonia.Desktop" Version="$(Version_SimdSkia)" />
+		<PackageVersion Include="MicroCom.CodeGenerator.MSBuild" Version="0.11.5" />
+		<PackageVersion Include="MicroCom.Runtime" Version="0.11.6" />
 	</ItemGroup>
 	<!-- Avalonia Xaml Behaviors -->
 	<ItemGroup>
 		<PackageVersion Include="Xaml.Behaviors.Avalonia" Version="$(Version_Avalonia_Xaml_Behaviors)" />
+		<PackageVersion Include="Xaml.Behaviors.Interactions.Draggable" Version="$(Version_Avalonia_Xaml_Behaviors)" />
+		<PackageVersion Include="Xaml.Behaviors.Interactions.Responsive" Version="$(Version_Avalonia_Xaml_Behaviors)" />
 	</ItemGroup>
 	<!-- Avalonia Edit -->
 	<ItemGroup>
@@ -1036,7 +1058,7 @@
 	</ItemGroup>
 	<!-- Fusillade: An opinionated HTTP library for Mobile Development -->
 	<ItemGroup>
-		<PackageVersion Include="fusillade" Version="5.0.0" />
+		<PackageVersion Include="fusillade" Version="8.0.0" />
 		<PackageVersion Include="BD.Common.fusillade" Version="5.0.4" />
 	</ItemGroup>
 	<!-- Akavache: An Asynchronous Key-Value Store for Native Applications -->
@@ -1048,7 +1070,7 @@
 	</ItemGroup>
 	<!-- Splat.Drawing: Cross platform drawing -->
 	<ItemGroup>
-		<PackageVersion Include="Splat.Drawing" Version="19.4.1" />
+		<PackageVersion Include="Splat.Drawing" Version="22.0.1" />
 	</ItemGroup>
 	<!-- Microsoft.CodeAnalysis -->
 	<ItemGroup>
